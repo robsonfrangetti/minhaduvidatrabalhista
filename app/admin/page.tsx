@@ -4,7 +4,7 @@ import Link from 'next/link'
 import styles from './admin.module.css'
 
 // ⚠️ IMPORTANTE: ALTERE PARA SEU EMAIL!
-const ADMIN_EMAIL = 'robson.frangetti@email.com' // <<< COLOQUE SEU EMAIL AQUI!
+const ADMIN_EMAIL = 'robson.frangetti@gmail.com' // <<< COLOQUE SEU EMAIL AQUI!
 
 export default async function AdminPage() {
   const supabase = await createClient()
