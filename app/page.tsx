@@ -1,14 +1,18 @@
 import Link from 'next/link'
 import { topicsList } from '@/data/topics'
 import SearchBar from '@/components/SearchBar'
+import AuthButton from '@/components/AuthButton'
 
 export default function Home() {
   return (
     <>
       <header className="header">
         <div className="header-content">
-          <h1>Minha Dúvida Trabalhista</h1>
-          <p>Esclarecendo suas dúvidas trabalhistas de forma simples e prática</p>
+          <div>
+            <h1>Minha Dúvida Trabalhista</h1>
+            <p>Esclarecendo suas dúvidas trabalhistas de forma simples e prática</p>
+          </div>
+          <AuthButton />
         </div>
       </header>
 
