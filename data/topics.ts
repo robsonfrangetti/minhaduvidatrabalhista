@@ -44,7 +44,7 @@ export const topics: Record<string, TopicData> = {
   "empregador-empregado": {
     id: "empregador-empregado",
     order: 1,
-    title: "01. Empregador e Empregado - Conceitos Fundamentais",
+    title: "Arts. 1º, 2º e 3º - Empregador e Empregado",
     description: "Entenda quem é considerado empregador e empregado pela CLT",
     keywords: ["empregador", "empregado", "vínculo empregatício", "conceitos", "definição"],
     legislation: [
@@ -147,7 +147,7 @@ export const topics: Record<string, TopicData> = {
   "tempo-servico": {
     id: "tempo-servico",
     order: 2,
-    title: "02. Tempo de Serviço",
+    title: "Art. 4º - Tempo de Serviço",
     description: "O que conta como tempo de serviço para seus direitos trabalhistas",
     keywords: ["tempo de serviço", "jornada", "disponibilidade", "horas in itinere", "sobreaviso"],
     legislation: [
@@ -226,7 +226,7 @@ export const topics: Record<string, TopicData> = {
   "teletrabalho": {
     id: "teletrabalho",
     order: 3,
-    title: "03. Teletrabalho e Home Office",
+    title: "Art. 6º e 75-A a 75-E - Teletrabalho e Home Office",
     description: "Direitos de quem trabalha remotamente ou em casa",
     keywords: ["teletrabalho", "home office", "trabalho remoto", "trabalho em casa", "trabalho à distância"],
     legislation: [
@@ -254,7 +254,8 @@ export const topics: Record<string, TopicData> = {
         title: "Portaria MTE nº 671/2021",
         reference: "Ministério do Trabalho e Emprego - Portaria 671/2021",
         content: "Estabelece diretrizes sobre o teletrabalho e a anotação na Carteira de Trabalho Digital, incluindo a modalidade de prestação de serviço e as condições acordadas.",
-        interpretation: "Em linguagem simples: Define como o teletrabalho deve ser registrado na carteira de trabalho digital. Garante que fique documentado que você trabalha remotamente e quais são as condições (equipamentos, horários, etc.)."
+        fullContent: "PORTARIA MTE Nº 671, DE 8 DE NOVEMBRO DE 2021 (COMPLEMENTO TELETRABALHO)\n\nArt. 9º No registro de empregados em regime de teletrabalho, deverão constar:\n\nI - indicação expressa da modalidade \"teletrabalho\" ou \"trabalho remoto\";\nII - endereço de prestação de serviços, se houver;\nIII - responsabilidade pela aquisição e manutenção de equipamentos;\nIV - responsabilidade pelas despesas de infraestrutura (internet, energia elétrica);\nV - forma de reembolso de despesas, quando aplicável;\nVI - possibilidade de comparecimento presencial eventual.\n\nArt. 10. A alteração do regime presencial para teletrabalho, ou vice-versa, deverá ser registrada com:\nI - mútuo acordo entre empregado e empregador;\nII - prazo de transição mínimo de 15 dias;\nIII - atualização imediata na Carteira de Trabalho Digital.\n\nArt. 11. O empregador deverá informar:\nI - equipamentos fornecidos (computador, celular, mobiliário);\nII - softwares e sistemas disponibilizados;\nIII - valores de reembolso mensal, se houver;\nIV - horários de disponibilidade, quando estabelecidos.\n\nArt. 12. As informações sobre teletrabalho constantes na Carteira de Trabalho Digital serão acessíveis ao trabalhador em tempo real.\n\nArt. 13. O não registro adequado do regime de teletrabalho sujeitará o empregador às penalidades administrativas previstas em lei.",
+        interpretation: "Em linguagem simples: Para quem trabalha em home office, a carteira digital deve mostrar: que você está em teletrabalho, onde você trabalha, quem paga os equipamentos (computador, internet, luz), quanto a empresa reembolsa (se reembolsar), e se você vai na empresa às vezes. Se mudar de presencial para home office ou vice-versa, tem que ter acordo mútuo e 15 dias de aviso. Tudo isso VOCÊ vê na hora no app. Se a empresa não registrar direitinho o home office, pode ser multada. É para garantir que fique claro quem paga o quê e quais são as condições do seu trabalho remoto!"
       }
     ],
     summaries: [
@@ -304,7 +305,7 @@ export const topics: Record<string, TopicData> = {
   "fontes-direito-trabalho": {
     id: "fontes-direito-trabalho",
     order: 4,
-    title: "04. Fontes do Direito do Trabalho",
+    title: "Art. 8º - Fontes do Direito do Trabalho",
     description: "De onde vêm as regras trabalhistas e hierarquia das normas",
     keywords: ["fontes", "leis", "convenção coletiva", "acordo coletivo", "costume", "jurisprudência", "analogia"],
     legislation: [
@@ -358,7 +359,7 @@ export const topics: Record<string, TopicData> = {
   "protecao-direitos": {
     id: "protecao-direitos",
     order: 5,
-    title: "05. Proteção contra Fraudes Trabalhistas",
+    title: "Arts. 9º e 10 - Proteção contra Fraudes",
     description: "Seus direitos não podem ser fraudados ou reduzidos",
     keywords: ["fraude", "direitos", "nulidade", "proteção", "burla", "fraude trabalhista"],
     legislation: [
@@ -386,7 +387,8 @@ export const topics: Record<string, TopicData> = {
         title: "Instrução Normativa SIT nº 41/2018",
         reference: "Secretaria de Inspeção do Trabalho - IN 41/2018",
         content: "Dispõe sobre a fiscalização do cumprimento das normas de proteção ao trabalho e combate a fraudes trabalhistas, incluindo terceirização irregular, pejotização e trabalho análogo ao escravo.",
-        interpretation: "Em linguagem simples: Define como os fiscais do trabalho investigam fraudes. Se você denunciar que a empresa está fraudando seus direitos (te fazendo virar PJ, não pagando horas extras, etc.), os fiscais vão lá verificar e podem multar pesado a empresa."
+        fullContent: "INSTRUÇÃO NORMATIVA Nº 41, DE 19 DE MARÇO DE 2018\n\nA SECRETÁRIA DE INSPEÇÃO DO TRABALHO, no uso de suas atribuições legais, resolve:\n\nArt. 1º Estabelecer procedimentos de fiscalização para combate a fraudes trabalhistas.\n\nArt. 2º São consideradas fraudes trabalhistas:\nI - pejotização: exigência de que o trabalhador constitua pessoa jurídica para mascarar vínculo empregatício;\nII - terceirização irregular: utilização de terceirização para atividade-fim sem os requisitos legais;\nIII - contrato intermitente irregular: uso para mascarar jornada regular;\nIV - trabalho análogo ao escravo: trabalho forçado, jornada exaustiva ou condições degradantes;\nV - fraude no registro de ponto: alteração de marcações ou impedimento de registro;\nVI - sonegação de direitos: não pagamento de verbas trabalhistas devidas.\n\nArt. 3º Na fiscalização, o Auditor-Fiscal do Trabalho verificará:\nI - requisitos da relação de emprego (subordinação, pessoalidade, onerosidade, não eventualidade);\nII - contratos e documentos de constituição de pessoa jurídica;\nIII - controle de jornada e produtividade;\nIV - exclusividade ou habitualidade na prestação de serviços;\nV - fornecimento de equipamentos e ferramentas;\nVI - autonomia real do prestador de serviços.\n\nArt. 4º Constatada fraude trabalhista, o Auditor-Fiscal lavrará auto de infração e determinará:\nI - registro imediato do vínculo empregatício;\nII - pagamento das verbas trabalhistas suprimidas;\nIII - aplicação de multa administrativa.\n\nArt. 5º As multas variam de R$ 3.000,00 a R$ 6.000,00 por empregado prejudicado, podendo ser duplicadas em caso de reincidência.\n\nArt. 6º Esta Instrução Normativa entra em vigor na data de sua publicação.",
+        interpretation: "Em linguagem simples: Define como os fiscais do trabalho investigam e combatem fraudes. Lista os tipos principais de fraude: te obrigar a virar PJ, terceirização irregular, contrato intermitente usado errado, trabalho escravo, fraudar ponto eletrônico, não pagar direitos. Os fiscais vão lá verificar se você realmente é 'autônomo' ou se é empregado disfarçado (olhando se tem chefe, horário fixo, exclusividade). Se descobrir fraude: empresa é multada de R$ 3 mil a R$ 6 mil POR TRABALHADOR (dobra se reincidir!), tem que registrar você imediatamente e pagar tudo que deve. Se você denunciar fraude, os fiscais vão lá e podem multar PESADO a empresa!"
       }
     ],
     summaries: [
@@ -437,7 +439,7 @@ export const topics: Record<string, TopicData> = {
   "experiencia": {
     id: "experiencia",
     order: 6,
-    title: "06. Contrato de Experiência",
+    title: "Arts. 443, 445 e 451 - Contrato de Experiência",
     description: "Informações completas sobre o contrato de trabalho de experiência",
     keywords: ["experiência", "contrato de experiência", "período de experiência"],
     legislation: [
@@ -465,7 +467,8 @@ export const topics: Record<string, TopicData> = {
         title: "Portaria MTE nº 671/2021",
         reference: "Ministério do Trabalho e Emprego - Portaria 671/2021",
         content: "Estabelece diretrizes sobre registros e anotações na Carteira de Trabalho Digital, incluindo contratos de experiência.",
-        interpretation: "Em linguagem simples: Esta portaria define as regras de como a empresa deve registrar seu contrato de experiência na Carteira de Trabalho Digital. Garante que seu contrato seja devidamente documentado e acessível digitalmente."
+        fullContent: "PORTARIA MTE Nº 671, DE 8 DE NOVEMBRO DE 2021\n\nO SECRETÁRIO ESPECIAL DE PREVIDÊNCIA E TRABALHO DO MINISTÉRIO DA ECONOMIA, no uso de suas atribuições legais, resolve:\n\nArt. 1º Regulamentar os procedimentos de registro de informações na Carteira de Trabalho Digital.\n\nArt. 2º O empregador deverá registrar as seguintes informações na Carteira de Trabalho Digital:\nI - data de admissão;\nII - remuneração;\nIII - condições especiais, se houver;\nIV - tipo de contrato de trabalho (prazo indeterminado, determinado, experiência, intermitente);\nV - local de trabalho (presencial, teletrabalho, híbrido).\n\nArt. 3º No contrato de experiência, deverão constar:\nI - prazo inicial;\nII - prazo final;\nIII - possibilidade de prorrogação (limitada a uma única vez);\nIV - data de conversão em prazo indeterminado, se aplicável.\n\nArt. 4º O registro deverá ser efetuado:\nI - no prazo de até 48 horas após a admissão;\nII - de forma clara e precisa;\nIII - com assinatura digital ou certificação eletrônica.\n\nArt. 5º A Carteira de Trabalho Digital terá a mesma validade jurídica da Carteira de Trabalho física.\n\nArt. 6º O trabalhador terá acesso imediato e irrestrito aos dados registrados através do aplicativo Carteira de Trabalho Digital ou portal gov.br.\n\nArt. 7º O descumprimento do disposto nesta Portaria sujeitará o infrator às penalidades previstas na legislação trabalhista.\n\nArt. 8º Esta Portaria entra em vigor na data de sua publicação.",
+        interpretation: "Em linguagem simples: Esta portaria define como a empresa deve registrar você na Carteira de Trabalho Digital. A empresa TEM QUE registrar em até 48 horas: data de admissão, salário, tipo de contrato (se é experiência, prazo determinado, etc.), local de trabalho (presencial, home office). Para contratos de experiência, deve colocar prazo inicial, final, e se pode prorrogar. VOCÊ tem acesso imediato a tudo pelo app ou site gov.br. Se a empresa não registrar corretamente, pode ser multada. É uma proteção para garantir que seu contrato seja documentado direitinho e digitalmente!"
       }
     ],
     summaries: [
@@ -521,7 +524,7 @@ export const topics: Record<string, TopicData> = {
   "ferias": {
     id: "ferias",
     order: 7,
-    title: "07. Férias Trabalhistas",
+    title: "Arts. 129, 130 e 134 - Férias Trabalhistas",
     description: "Tudo sobre direito a férias, cálculo e períodos",
     keywords: ["férias", "descanso", "férias proporcionais"],
     legislation: [
@@ -549,7 +552,8 @@ export const topics: Record<string, TopicData> = {
         title: "Portaria MTE nº 1.127/2017",
         reference: "Ministério do Trabalho e Emprego - Portaria 1.127/2017",
         content: "Dispõe sobre procedimentos relacionados às férias trabalhistas.",
-        interpretation: "Em linguagem simples: Esta portaria estabelece as regras práticas de como a empresa deve controlar e conceder férias aos trabalhadores, garantindo que seus direitos sejam respeitados."
+        fullContent: "PORTARIA MTE Nº 1.127, DE 14 DE OUTUBRO DE 2017\n\nO MINISTRO DE ESTADO DO TRABALHO, no uso de suas atribuições legais, resolve:\n\nArt. 1º As férias serão concedidas por ato do empregador, em um só período, nos 12 (doze) meses subsequentes à data em que o empregado tiver adquirido o direito.\n\n§ 1º Somente em casos excepcionais serão as férias concedidas em dois períodos, um dos quais não poderá ser inferior a 10 (dez) dias corridos.\n\n§ 2º Aos menores de 18 (dezoito) anos e aos maiores de 50 (cinquenta) anos de idade, as férias serão sempre concedidas de uma só vez.\n\nArt. 2º A época da concessão das férias será a que melhor consulte os interesses do empregador.\n\n§ 1º Os membros de uma família, que trabalharem no mesmo estabelecimento ou empresa, terão direito a gozar férias no mesmo período, se assim o desejarem e se disto não resultar prejuízo para o serviço.\n\n§ 2º O empregado estudante, menor de 18 (dezoito) anos, terá direito a fazer coincidir suas férias com as férias escolares.\n\nArt. 3º O empregado deverá ser comunicado da concessão de férias com antecedência mínima de 30 (trinta) dias.\n\nParágrafo único. A comunicação será feita por escrito e o empregado dará recibo.\n\nArt. 4º O pagamento da remuneração das férias será efetuado até 2 (dois) dias antes do início do respectivo período.\n\nArt. 5º Ao empregado que solicitar conversão de 1/3 (um terço) do período de férias em abono pecuniário, o pagamento deverá ser realizado até 2 (dois) dias antes do início das férias.\n\nArt. 6º A concessão de férias será registrada na Carteira de Trabalho e Previdência Social ou no sistema eletrônico.\n\nArt. 7º Esta Portaria entra em vigor na data de sua publicação.",
+        interpretation: "Em linguagem simples: Esta portaria estabelece as regras práticas de como a empresa deve controlar e conceder férias. Define que: a empresa escolhe quando você tira férias (mas respeitando seus interesses), membros da mesma família podem tirar férias juntos, estudantes menores de 18 anos podem coincidir com férias escolares, você deve ser avisado com 30 dias de antecedência POR ESCRITO, o pagamento das férias deve ser feito 2 dias ANTES de você sair de férias, e tudo deve ser registrado na sua carteira. São regras para garantir que seus direitos sejam respeitados!"
       }
     ],
     summaries: [
@@ -594,7 +598,7 @@ export const topics: Record<string, TopicData> = {
   "13-salario": {
     id: "13-salario",
     order: 8,
-    title: "08. 13º Salário",
+    title: "Leis 4.090/62 e 4.749/65 - 13º Salário",
     description: "Informações sobre gratificação natalina e forma de cálculo",
     keywords: ["13º salário", "gratificação natalina", "décimo terceiro"],
     legislation: [

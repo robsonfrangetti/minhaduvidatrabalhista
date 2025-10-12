@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { topics } from '@/data/topics'
 import { notFound } from 'next/navigation'
+import ExpandableOrdinance from '@/components/ExpandableOrdinance'
 
 export default function ResultPage({ params }: { params: { slug: string } }) {
   const topic = topics[params.slug]
@@ -47,18 +48,14 @@ export default function ResultPage({ params }: { params: { slug: string } }) {
           <section className="section">
             <h2>📄 Portarias</h2>
             {topic.ordinances.map((ordinance, index) => (
-              <div key={index} className="item">
-                <div className="item-header">
-                  <span className="item-title">{ordinance.title}</span>
-                  <span className="item-reference">{ordinance.reference}</span>
-                </div>
-                <div className="item-content">{ordinance.content}</div>
-                {ordinance.interpretation && (
-                  <div className="item-interpretation">
-                    💡 {ordinance.interpretation}
-                  </div>
-                )}
-              </div>
+              <ExpandableOrdinance
+                key={index}
+                title={ordinance.title}
+                reference={ordinance.reference}
+                content={ordinance.content}
+                fullContent={ordinance.fullContent}
+                interpretation={ordinance.interpretation}
+              />
             ))}
           </section>
         )}
