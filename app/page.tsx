@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { topicsList } from '@/data/topics'
+import SearchBar from '@/components/SearchBar'
 
 export default function Home() {
   return (
@@ -12,11 +13,13 @@ export default function Home() {
       </header>
 
       <main className="container">
+        <SearchBar />
+        
         <h2 style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>
-          Escolha seu tema
+          Ou escolha um tema abaixo
         </h2>
         <p style={{ fontSize: '1.125rem', color: 'var(--text-secondary)', marginBottom: '2rem' }}>
-          Clique em uma das opções abaixo para obter informações detalhadas sobre o assunto
+          Clique em uma das opções para obter informações detalhadas
         </p>
 
         <div className="grid">
