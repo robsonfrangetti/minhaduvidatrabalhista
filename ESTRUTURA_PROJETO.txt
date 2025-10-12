@@ -1,0 +1,217 @@
+╔════════════════════════════════════════════════════════════════════════╗
+║                    MINHA DÚVIDA TRABALHISTA                            ║
+║                    Estrutura do Projeto                                ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+📦 minhaduvidatrabalhista/
+│
+├── 📂 app/ ................................. Páginas Next.js 14
+│   ├── 📄 layout.tsx ....................... Layout principal
+│   ├── 📄 page.tsx ......................... PÁGINA INICIAL (lista temas)
+│   ├── 📄 globals.css ...................... Estilos globais
+│   ├── 📄 not-found.tsx .................... Página 404
+│   │
+│   ├── 📂 tema/
+│   │   └── 📂 [slug]/
+│   │       └── 📄 page.tsx ................. CONFIRMAÇÃO DO TEMA
+│   │
+│   └── 📂 resultado/
+│       └── 📂 [slug]/
+│           └── 📄 page.tsx ................. RESULTADOS COMPLETOS
+│
+├── 📂 components/ .......................... Componentes React
+│   └── 📄 TopicCard.tsx .................... Card de tema (opcional)
+│
+├── 📂 data/ ................................ Dados da aplicação
+│   └── 📄 topics.ts ........................ ⭐ DADOS DOS TEMAS (PRINCIPAL!)
+│
+├── 📂 docs/ ................................ Documentação completa
+│   ├── 📄 COMO_USAR.md ..................... Guia completo de uso
+│   ├── 📄 TEMAS_SUGERIDOS.md ............... 30+ temas para adicionar
+│   ├── 📄 API_INTEGRATION.md ............... Integração com APIs
+│   └── 📄 DEPLOY.md ........................ Como fazer deploy
+│
+├── 📂 public/ .............................. Arquivos públicos
+│   └── 📄 favicon.ico ...................... Ícone do site
+│
+├── 📄 package.json ......................... Dependências npm
+├── 📄 tsconfig.json ........................ Configuração TypeScript
+├── 📄 next.config.js ....................... Configuração Next.js
+├── 📄 .gitignore ........................... Arquivos ignorados pelo Git
+│
+├── 📄 README.md ............................ ⭐ LEIA PRIMEIRO!
+├── 📄 QUICK_START.md ....................... ⚡ Início rápido
+├── 📄 CONTRIBUTING.md ...................... Como contribuir
+├── 📄 LICENSE .............................. Licença MIT
+└── 📄 ESTRUTURA_PROJETO.txt ................ Este arquivo
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                         FLUXO DA APLICAÇÃO                             ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+    USUÁRIO
+       ↓
+┌──────────────────┐
+│  PÁGINA INICIAL  │  → app/page.tsx
+│                  │
+│  [Experiência]   │  Cards com temas disponíveis
+│  [Férias]        │  (dados de data/topics.ts)
+│  [13º Salário]   │
+└──────────────────┘
+       ↓ (clique)
+┌──────────────────┐
+│  CONFIRMAÇÃO     │  → app/tema/[slug]/page.tsx
+│                  │
+│  É esse o tema?  │  Pergunta de confirmação
+│  [Sim] [Não]     │
+└──────────────────┘
+       ↓ (Sim)
+┌──────────────────┐
+│  RESULTADOS      │  → app/resultado/[slug]/page.tsx
+│                  │
+│  📋 Legislação   │  CLT, Leis
+│  📄 Portarias    │  MTE
+│  ⚖️ Súmulas     │  TST, TRTs
+│  📚 Jurisp.      │  Entendimentos
+│  🔥 Decisões     │  3 mais recentes
+└──────────────────┘
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                    ARQUIVOS MAIS IMPORTANTES                           ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+1️⃣  data/topics.ts
+    → Contém TODOS os dados dos temas
+    → EDITE AQUI para adicionar/modificar temas
+    → Estrutura: legislação, portarias, súmulas, etc.
+
+2️⃣  app/page.tsx
+    → Página inicial com cards de temas
+    → Lista todos os temas disponíveis
+
+3️⃣  app/resultado/[slug]/page.tsx
+    → Exibe resultados completos
+    → Busca informações, súmulas, decisões
+
+4️⃣  app/globals.css
+    → Todos os estilos do site
+    → Edite para personalizar cores e layout
+
+5️⃣  README.md
+    → Documentação principal
+    → Instruções de instalação e uso
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                      TEMAS DISPONÍVEIS AGORA                           ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+✅ Contrato de Experiência
+   → Legislação, súmulas, 3 decisões recentes
+   → URL: /resultado/experiencia
+
+✅ Férias Trabalhistas
+   → Direitos, cálculo, férias em dobro
+   → URL: /resultado/ferias
+
+✅ 13º Salário
+   → Gratificação natalina, forma de cálculo
+   → URL: /resultado/13-salario
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                         COMANDOS ÚTEIS                                 ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+📦 Instalar dependências:
+   npm install
+
+🚀 Iniciar servidor de desenvolvimento:
+   npm run dev
+
+🏗️  Build para produção:
+   npm run build
+
+▶️  Iniciar produção:
+   npm start
+
+🔍 Verificar código:
+   npm run lint
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                    COMO ADICIONAR NOVO TEMA                            ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+1. Abra: data/topics.ts
+
+2. Adicione um novo objeto seguindo o padrão:
+
+   "horas-extras": {
+     id: "horas-extras",
+     title: "Horas Extras",
+     description: "Informações sobre horas extras",
+     keywords: ["horas extras", "50%", "100%"],
+     legislation: [...],
+     ordinances: [...],
+     summaries: [...],
+     jurisprudence: [...],
+     recentDecisions: [...]
+   }
+
+3. Salve o arquivo
+
+4. Teste: http://localhost:3000
+
+5. Pronto! O novo tema aparecerá automaticamente!
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                         TECNOLOGIAS                                    ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+⚛️  Next.js 14 ........... Framework React
+📘 TypeScript ........... Tipagem estática
+🎨 CSS3 ................. Estilização
+🔥 React 18 ............. UI Library
+📦 npm .................. Gerenciador de pacotes
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                      PRÓXIMOS PASSOS                                   ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+1️⃣  Leia: README.md ou QUICK_START.md
+
+2️⃣  Execute: npm install && npm run dev
+
+3️⃣  Acesse: http://localhost:3000
+
+4️⃣  Explore: Teste todos os temas
+
+5️⃣  Personalize: Edite data/topics.ts
+
+6️⃣  Adicione temas: Use docs/TEMAS_SUGERIDOS.md
+
+7️⃣  Deploy: Veja docs/DEPLOY.md
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                    RECURSOS ADICIONAIS                                 ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+📚 Documentação completa em /docs
+💡 30+ sugestões de temas em docs/TEMAS_SUGERIDOS.md
+🔌 Guia de integração com APIs em docs/API_INTEGRATION.md
+🚀 Guia de deploy em docs/DEPLOY.md
+🤝 Como contribuir em CONTRIBUTING.md
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                         SUPORTE                                        ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+🐛 Problemas? Abra uma issue no GitHub
+💬 Dúvidas? Leia a documentação em /docs
+🤝 Contribua! Veja CONTRIBUTING.md
+
+════════════════════════════════════════════════════════════════════════
+
+           Desenvolvido com ❤️ para ajudar trabalhadores
+                  brasileiros a entenderem seus direitos
+
+════════════════════════════════════════════════════════════════════════
+
