@@ -10,6 +10,8 @@ export default async function AuthButton() {
   } = await supabase.auth.getUser()
 
   if (user) {
+    const isAdmin = user.email === 'robson.frangetti@gmail.com'
+    
     return (
       <div style={{
         display: 'flex',
@@ -26,6 +28,26 @@ export default async function AuthButton() {
         }}>
           👋 Olá, {user.user_metadata.full_name || user.email?.split('@')[0]}
         </span>
+        
+        {isAdmin && (
+          <Link 
+            href="/admin"
+            style={{
+              padding: '0.5rem 1rem',
+              background: 'rgba(255, 255, 255, 0.15)',
+              color: 'white',
+              border: '2px solid rgba(255, 255, 255, 0.3)',
+              borderRadius: '8px',
+              textDecoration: 'none',
+              fontWeight: 600,
+              fontSize: '0.9rem',
+              transition: 'all 0.3s ease'
+            }}
+          >
+            📊 Dashboard Admin
+          </Link>
+        )}
+        
         <LogoutButton />
       </div>
     )
