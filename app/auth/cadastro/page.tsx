@@ -1,12 +1,12 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, Suspense } from 'react'
 import { createClient } from '@/lib/supabase/client'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import styles from '../login/auth.module.css'
 
-export default function CadastroPage() {
+function CadastroForm() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
@@ -450,6 +450,14 @@ export default function CadastroPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function CadastroPage() {
+  return (
+    <Suspense fallback={<div>Carregando...</div>}>
+      <CadastroForm />
+    </Suspense>
   )
 }
 
