@@ -150,15 +150,15 @@ export const topics: Record<string, TopicData> = {
   "tempo-servico": {
     id: "tempo-servico",
     order: 2,
-    title: "Tempo de Serviço",
-    description: "O que conta como tempo de serviço para seus direitos trabalhistas",
-    keywords: ["tempo de serviço", "jornada", "disponibilidade", "horas in itinere", "sobreaviso"],
+    title: "O que é considerado tempo de trabalho efetivo?",
+    description: "Horas que contam como tempo trabalhado para cálculo de direitos trabalhistas",
+    keywords: ["tempo efetivo", "tempo de trabalho", "horas trabalhadas", "disponibilidade", "sobreaviso", "horas in itinere", "jornada efetiva"],
     legislation: [
       {
         title: "CLT - Art. 4º",
         reference: "Consolidação das Leis do Trabalho - Artigo 4º",
         content: "Considera-se como de serviço efetivo o período em que o empregado esteja à disposição do empregador, aguardando ou executando ordens, salvo disposição especial expressamente consignada. § 1º Computar-se-ão, na contagem de tempo de serviço, para efeito de indenização e estabilidade, os períodos em que o empregado estiver afastado do trabalho prestando serviço militar e por motivo de acidente do trabalho. § 2º Por não se considerar tempo à disposição do empregador, não será computado como período extraordinário o que exceder a jornada normal, ainda que ultrapasse o limite de cinco minutos previsto no § 1º do art. 58 desta Consolidação, quando o empregado, por escolha própria, buscar proteção pessoal, em caso de insegurança nas vias públicas ou más condições climáticas, bem como adentrar ou permanecer nas dependências da empresa para exercer atividades particulares, entre outras: I - práticas religiosas; II - descanso; III - lazer; IV - estudo; V - alimentação; VI - atividades de relacionamento social; VII - higiene pessoal; VIII - troca de roupa ou uniforme, quando não houver obrigatoriedade de realizar a troca na empresa.",
-        interpretation: "Em linguagem simples: Tempo de serviço é todo momento que você está à disposição do patrão, esperando ou fazendo tarefas. Se você está esperando ordens, conta como trabalho! Períodos de serviço militar obrigatório e afastamento por acidente de trabalho também contam para indenização e estabilidade. MAS: se você chega mais cedo ou sai mais tarde por vontade própria (para fugir do trânsito, rezar, comer, trocar roupa sem obrigação, etc.), esse tempo NÃO conta como hora extra. Só conta como trabalho o tempo que a empresa realmente exige que você esteja lá."
+        interpretation: "Em linguagem simples: TEMPO EFETIVO é quando você está REALMENTE trabalhando ou à disposição do patrão. CONTA como tempo efetivo: 1) Trabalhando normalmente, 2) Aguardando ordens do chefe, 3) Tempo no serviço militar, 4) Afastamento por acidente de trabalho. NÃO CONTA como tempo efetivo: 1) Almoço/refeição, 2) Descanso/coffee break, 3) Estudo na empresa, 4) Atividades religiosas, 5) Conversa com colegas, 6) Higiene pessoal, 7) Troca de roupa (se não obrigatório). ⚠️ IMPORTANTE: Se você fica na empresa por escolha própria fazendo coisas pessoais, isso NÃO conta como hora extra, mesmo passando da jornada normal. DICA: O tempo efetivo é o que realmente importa para calcular férias, 13º, FGTS e outros direitos!"
       }
     ],
     ordinances: [
@@ -167,7 +167,7 @@ export const topics: Record<string, TopicData> = {
         reference: "Ministério do Trabalho e Emprego - Portaria 1.510/2009",
         content: "Dispõe sobre o registro eletrônico de ponto. Estabelece requisitos técnicos para os sistemas de controle de jornada de trabalho, garantindo a fidedignidade dos registros de entrada e saída dos empregados.",
         fullContent: "PORTARIA Nº 1.510, DE 21 DE AGOSTO DE 2009\n\nO MINISTRO DE ESTADO DO TRABALHO E EMPREGO, no uso das atribuições que lhe confere o art. 87, parágrafo único, inciso II da Constituição Federal, resolve:\n\nArt. 1º Disciplinar o registro eletrônico de ponto (REP) previsto no art. 74, §2º da CLT.\n\nArt. 2º O Sistema de Registro Eletrônico de Ponto (SREP) deverá:\nI - não permitir restrições à marcação do ponto;\nII - não permitir a alteração ou eliminação dos dados registrados;\nIII - não permitir a marcação automática do ponto;\nIV - registrar fielmente as marcações efetuadas;\nV - estar disponível no local de trabalho;\nVI - emitir comprovante de cada marcação.\n\nArt. 3º É vedado:\nI - exigir autorização prévia para marcação de sobrejornada;\nII - alterar ou eliminar os horários registrados;\nIII - condicionar marcações de ponto.\n\nArt. 4º O descumprimento do disposto nesta Portaria acarretará a aplicação das penalidades previstas na legislação trabalhista.",
-        interpretation: "Em linguagem simples: Define as regras do ponto eletrônico para proteger você! A empresa NÃO PODE: alterar seus horários, apagar registros, fazer o ponto bater sozinho, te impedir de marcar hora extra, ou exigir autorização prévia para marcar overtime. O sistema tem que registrar exatamente quando você chegou e saiu, e te dar um comprovante. Serve para proteger você de empresas que tentam fraudar o controle de horário. Se a empresa burlar o ponto eletrônico, pode ser multada pesado!"
+        interpretation: "Em linguagem simples: O ponto eletrônico é CRUCIAL para comprovar seu tempo efetivo! A empresa NÃO PODE: alterar seus horários, apagar registros, fazer o ponto bater sozinho, te impedir de marcar hora extra, ou exigir autorização prévia. O sistema deve registrar EXATAMENTE quando você chegou e saiu, e te dar comprovante. ⚠️ IMPORTANTE: Se a empresa burla o ponto, pode estar sonegar seu tempo efetivo (e seus direitos!). O ponto é a prova de quantas horas você realmente trabalhou. DICA: Guarde sempre os comprovantes do ponto - eles provam seu tempo efetivo na Justiça!"
       }
     ],
     summaries: [
@@ -175,31 +175,31 @@ export const topics: Record<string, TopicData> = {
         number: "Súmula 90",
         court: "TST - Tribunal Superior do Trabalho",
         content: "O tempo despendido pelo empregado, em condução fornecida pelo empregador, até o local de trabalho de difícil acesso, ou não servido por transporte público regular, e para o seu retorno é computável na jornada de trabalho.",
-        interpretation: "Em linguagem simples: Se você trabalha em lugar difícil de chegar ou sem ônibus público, e a empresa fornece transporte, o tempo da viagem conta como hora trabalhada (chamado de 'horas in itinere'). Exemplo: trabalha numa fazenda longe e pega o ônibus da empresa - esse tempo no ônibus deve ser pago como trabalho!"
+        interpretation: "Em linguagem simples: TEMPO DE VIAGEM também conta como tempo efetivo! Se você trabalha em lugar difícil de chegar (fazenda, obra longe, sem ônibus público) e a empresa fornece transporte, o tempo da viagem CONTA como hora trabalhada. Exemplo: trabalha numa fazenda e pega o ônibus da empresa às 6h da manhã = esse tempo no ônibus deve ser pago como trabalho! ⚠️ IMPORTANTE: Isso é diferente do tempo normal de casa ao trabalho - só vale quando a empresa fornece transporte para local de difícil acesso. DICA: Se a empresa não pagar esse tempo de viagem, você pode cobrar na Justiça!"
       },
       {
         number: "Súmula 118",
         court: "TST - Tribunal Superior do Trabalho",
         content: "Os intervalos concedidos pelo empregador na jornada de trabalho, não previstos em lei, representam tempo à disposição da empresa, remunerados como serviço extraordinário, se acrescidos ao final da jornada.",
-        interpretation: "Em linguagem simples: Se a empresa te dá intervalos extras que não são obrigatórios por lei (além do intervalo de almoço legal), mas você tem que compensar no final do dia ficando mais tempo, essas horas extras no final devem ser pagas. A empresa não pode te fazer trabalhar mais no final do dia só porque te deu um intervalo 'de presente'."
+        interpretation: "Em linguagem simples: INTERVALOS EXTRAS da empresa também contam como tempo efetivo! Se a empresa te dá um intervalo a mais (que não é obrigatório por lei) e depois te faz trabalhar mais para compensar, esse tempo extra CONTA como hora trabalhada e deve ser pago. Exemplo: empresa dá 30 minutos de intervalo extra no almoço, mas te faz trabalhar 30 minutos a mais no final do dia = esse tempo extra deve ser pago como hora extra! ⚠️ IMPORTANTE: Não é porque a empresa 'deu' um intervalo que pode descontar depois. DICA: Qualquer tempo que você fica à disposição da empresa conta como trabalho!"
       },
       {
         number: "Súmula 366",
         court: "TST - Tribunal Superior do Trabalho",
         content: "Não serão descontadas nem computadas como jornada extraordinária as variações de horário do registro de ponto não excedentes de cinco minutos, observado o limite máximo de dez minutos diários.",
-        interpretation: "Em linguagem simples: Se você chegar até 5 minutos atrasado ou sair até 5 minutos depois, a empresa não pode descontar nem precisa pagar hora extra. O limite é 10 minutos no dia todo (5 na entrada e 5 na saída). Exemplo: chegou 3 minutos atrasado e saiu 4 minutos depois = 7 minutos, não precisa compensar nem ganha hora extra."
+        interpretation: "Em linguagem simples: PEQUENAS VARIAÇÕES no ponto NÃO afetam seu tempo efetivo! Se você chegar até 5 minutos atrasado ou sair até 5 minutos depois, a empresa não pode descontar nem precisa pagar hora extra. O limite é 10 minutos no dia todo (5 na entrada e 5 na saída). Exemplo: chegou 3 minutos atrasado e saiu 4 minutos depois = 7 minutos, não precisa compensar nem ganha hora extra. ⚠️ IMPORTANTE: Isso é uma TOLERÂNCIA legal para pequenas variações. Mas se passar de 5 minutos = conta como tempo efetivo ou falta. DICA: O importante é não abusar dessa tolerância!"
       }
     ],
     jurisprudence: [
       {
         title: "Tempo à disposição do empregador",
         content: "O tempo em que o empregado permanece nas dependências da empresa ou em local determinado por ela, ainda que não esteja executando tarefas, é considerado tempo à disposição. Isso inclui períodos de espera, plantões, sobreaviso, e deslocamentos determinados pela empresa.",
-        interpretation: "Em linguagem simples: Se você está num lugar porque a empresa mandou, mesmo sem fazer nada, esse tempo deve ser pago como trabalho. Exemplos: motorista esperando carregamento, segurança esperando próxima ronda, médico de plantão no hospital. Estar disponível já é trabalhar!"
+        interpretation: "Em linguagem simples: TEMPO À DISPOSIÇÃO também conta como tempo efetivo! Se você está num lugar porque a empresa mandou, mesmo sem fazer nada, esse tempo deve ser pago como trabalho. Exemplos: motorista esperando carregamento, segurança esperando próxima ronda, médico de plantão no hospital. ⚠️ IMPORTANTE: Estar disponível já é trabalhar! Se você não pode sair do local ou tem que ficar esperando ordem, isso conta como tempo efetivo. DICA: Não é porque você não está 'fazendo nada' que não conta como trabalho!"
       },
       {
         title: "Tempo de troca de uniforme obrigatória",
         content: "Quando a troca de uniforme é obrigatória e deve ser realizada nas dependências da empresa (por questões de higiene, segurança ou sigilo), o tempo despendido para vestir e retirar o uniforme integra a jornada de trabalho e deve ser remunerado.",
-        interpretation: "Em linguagem simples: Se você trabalha em hospital, frigorífico, laboratório ou qualquer lugar onde PRECISA trocar de roupa na empresa (por higiene, segurança ou sigilo), o tempo que você gasta trocando de roupa deve ser pago. Mas se é só uniforme comum que você pode colocar em casa, aí não precisa pagar."
+        interpretation: "Em linguagem simples: TROCA DE UNIFORME obrigatória também conta como tempo efetivo! Se você trabalha em hospital, frigorífico, laboratório ou qualquer lugar onde PRECISA trocar de roupa na empresa (por higiene, segurança ou sigilo), o tempo que você gasta trocando de roupa deve ser pago. ⚠️ IMPORTANTE: Mas se é só uniforme comum que você pode colocar em casa, aí não conta como tempo efetivo. A diferença é se é OBRIGATÓRIO trocar na empresa. DICA: Se a empresa exige troca de uniforme por questões de segurança/higiene, esse tempo conta como trabalho!"
       }
     ],
     recentDecisions: [
