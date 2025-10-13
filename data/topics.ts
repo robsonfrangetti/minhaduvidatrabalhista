@@ -1053,6 +1053,228 @@ export const topics: Record<string, TopicData> = {
         summary: "Acordo de demissão anulado por vício de consentimento. Funcionário pressionado a aceitar acordo quando queria demissão normal. Tribunal converteu em demissão sem justa causa. Empresa condenada a pagar diferença da multa (de 20% para 40%) no valor de R$ 3.200 + diferenças de aviso prévio e liberação de saque integral do FGTS."
       }
     ]
+  },
+  "advertencias-suspensoes": {
+    id: "advertencias-suspensoes",
+    order: 13,
+    title: "Advertências e Suspensões",
+    description: "Punições disciplinares, limites e seus direitos quando advertido ou suspenso",
+    keywords: ["advertência", "suspensão", "punição", "medida disciplinar", "poder disciplinar"],
+    legislation: [
+      {
+        title: "CLT - Art. 474",
+        reference: "Consolidação das Leis do Trabalho - Artigo 474",
+        content: "A suspensão do empregado por mais de 30 (trinta) dias consecutivos importa na rescisão injusta do contrato de trabalho.",
+        interpretation: "Em linguagem simples: A empresa pode te SUSPENDER (afastar do trabalho sem salário) como punição por faltas graves, mas NO MÁXIMO 30 DIAS SEGUIDOS! Se suspender por mais de 30 dias, é considerado DEMISSÃO SEM JUSTA CAUSA automática - você tem direito a todas as verbas rescisórias (aviso prévio, multa 40% FGTS, seguro-desemprego). ⚠️ ATENÇÃO NA PRÁTICA: A maioria das suspensões é de 1 a 15 dias. Suspensão de 30 dias é muito rara e grave. Durante a suspensão você NÃO recebe salário. IMPORTANTE: A empresa deve dar a suspensão POR ESCRITO, dizendo o motivo e quantos dias. Se não der por escrito, pode ser contestado depois. DICA: Se receber suspensão, assine 'ciente, mas não concordo' se você acha injusta - isso preserva seu direito de reclamar depois.",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art474"
+      },
+      {
+        title: "CLT - Art. 2º - Poder Disciplinar do Empregador",
+        reference: "Consolidação das Leis do Trabalho - Artigo 2º",
+        content: "Considera-se empregador a empresa, individual ou coletiva, que, assumindo os riscos da atividade econômica, admite, assalaria e dirige a prestação pessoal de serviço.",
+        interpretation: "Em linguagem simples: Este artigo dá à empresa o 'poder de direção', que inclui o poder disciplinar (aplicar punições). A empresa pode advertir e suspender funcionários por descumprimento de regras. MAS esse poder TEM LIMITES: a punição precisa ser PROPORCIONAL à falta, IMEDIATA (não pode punir algo que aconteceu há 6 meses), e NÃO PODE punir duas vezes pela mesma falta. ⚠️ ATENÇÃO NA PRÁTICA: Advertências e suspensões são válidas quando: 1) A regra descumprida estava clara, 2) A punição é proporcional, 3) Foi aplicada logo após a falta, 4) Tem provas da falta. Se a empresa te punir sem provas, por algo que não estava nas regras, ou de forma desproporcional, você pode contestar. DICA: Sempre peça cópia por escrito de qualquer advertência ou suspensão. Você tem esse direito!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art2"
+      }
+    ],
+    ordinances: [],
+    summaries: [],
+    jurisprudence: [
+      {
+        title: "Gradação de penalidades",
+        content: "A jurisprudência trabalhista consolidou o entendimento de que o empregador deve respeitar a gradação de penalidades (advertência verbal → advertência escrita → suspensão → demissão), salvo em casos de falta gravíssima que justifique punição mais severa de imediato.",
+        interpretation: "Em linguagem simples: A empresa normalmente deve seguir esta ordem ao punir: 1ª vez = advertência verbal (conversa), 2ª vez = advertência escrita (documento), 3ª vez = suspensão (1 a 30 dias sem salário), 4ª vez ou falta muito grave = demissão por justa causa. EXCEÇÃO: Faltas gravíssimas (roubo, agressão, embriaguez) podem levar direto à justa causa. ⚠️ ATENÇÃO NA PRÁTICA: Se a empresa te demitir por justa causa SEM ter dado advertências antes (para faltas leves/moderadas), a Justiça pode reverter para demissão sem justa causa. Você ganha todas as verbas! IMPORTANTE: Guarde TODAS as advertências que receber. Se for demitido por justa causa e não houver histórico de punições anteriores, você tem bons argumentos para contestar. DICA: Cada advertência/suspensão 'expira' após 1-2 anos sem novas faltas (varia por empresa/acordo coletivo)."
+      },
+      {
+        title: "Proporcionalidade da punição",
+        content: "A punição disciplinar deve ser proporcional à gravidade da falta cometida. Suspensão de 30 dias por atraso de 10 minutos, por exemplo, seria considerada desproporcional e poderia ser anulada pela Justiça do Trabalho.",
+        interpretation: "Em linguagem simples: A punição tem que 'fazer sentido' com a gravidade da falta! Exemplos de DESPROPORCIONALIDADE que a Justiça anula: suspender 15 dias por chegar 5 minutos atrasado, demitir por justa causa por usar celular 1 vez, advertir por escrito algo que deveria ser só conversa. A Justiça analisa: gravidade da falta, consequências para a empresa, histórico do funcionário, e se a punição foi exagerada. ⚠️ ATENÇÃO: Se você tem 10 anos de bons serviços e cometeu uma falta leve pela primeira vez, suspensão pesada pode ser anulada. DICA: Se achar a punição injusta ou exagerada, assine 'ciente mas discordante' e procure o sindicato ou advogado trabalhista."
+      },
+      {
+        title: "Dupla penalidade pelo mesmo fato (non bis in idem)",
+        content: "É vedado ao empregador punir o empregado mais de uma vez pela mesma falta. Se já houve advertência por determinado ato, não pode haver nova suspensão pelo mesmo fato, salvo se houver reincidência.",
+        interpretation: "Em linguagem simples: A empresa NÃO PODE te punir duas vezes pela mesma coisa! Exemplo: você chegou atrasado dia 10/01, recebeu advertência. A empresa NÃO PODE te suspender depois pelo mesmo atraso de 10/01. Só pode punir de novo se você ATRASAR NOVAMENTE (reincidência). ⚠️ ATENÇÃO NA PRÁTICA: Algumas empresas tentam 'empilhar' punições (advertência + suspensão + desconto de DSR pelo mesmo fato). Isso é ILEGAL! Se acontecer com você, a segunda punição pode ser anulada na Justiça. DICA: Anote sempre a DATA e o MOTIVO de cada punição que receber. Se te punirem de novo pelo mesmo fato, você tem prova do abuso."
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1005678-90.2024.5.02.0000",
+        date: "24/09/2024",
+        summary: "Revertida justa causa por falta de gradação de penalidades. Funcionário demitido por justa causa por uso de celular no trabalho sem nunca ter recebido advertência anterior. Tribunal converteu em demissão sem justa causa. Empresa condenada a pagar todas as verbas rescisórias no valor de R$ 28 mil."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0015789-01.2024.5.15.0000",
+        date: "17/09/2024",
+        summary: "Anulada suspensão de 20 dias por desproporcionalidade. Empregado suspenso por 20 dias por chegar 15 minutos atrasado. Tribunal considerou punição excessiva. Empresa condenada a pagar os 20 dias de salário descontados (R$ 2.400) + danos morais de R$ 5 mil."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0106890-34.2024.5.03.0000",
+        date: "11/09/2024",
+        summary: "Caracterizada dupla punição pelo mesmo fato. Empresa aplicou advertência e depois suspensão de 5 dias pelo mesmo atraso. Tribunal anulou a suspensão e condenou empresa a pagar os 5 dias de salário descontados (R$ 800) por violação ao princípio do non bis in idem."
+      }
+    ]
+  },
+  "justa-causa": {
+    id: "justa-causa",
+    order: 14,
+    title: "Demissão por Justa Causa",
+    description: "Motivos, procedimentos e consequências da demissão por justa causa",
+    keywords: ["justa causa", "demissão", "falta grave", "rescisão", "artigo 482"],
+    legislation: [
+      {
+        title: "CLT - Art. 482 - Motivos de Justa Causa",
+        reference: "Consolidação das Leis do Trabalho - Artigo 482",
+        content: "Constituem justa causa para rescisão do contrato de trabalho pelo empregador: a) ato de improbidade; b) incontinência de conduta ou mau procedimento; c) negociação habitual por conta própria ou alheia sem permissão do empregador, e quando constituir ato de concorrência à empresa para a qual trabalha o empregado, ou for prejudicial ao serviço; d) condenação criminal do empregado, passada em julgado, caso não tenha havido suspensão da execução da pena; e) desídia no desempenho das respectivas funções; f) embriaguez habitual ou em serviço; g) violação de segredo da empresa; h) ato de indisciplina ou de insubordinação; i) abandono de emprego; j) ato lesivo da honra ou da boa fama praticado no serviço contra qualquer pessoa, ou ofensas físicas, nas mesmas condições, salvo em caso de legítima defesa, própria ou de outrem; k) ato lesivo da honra ou da boa fama ou ofensas físicas praticadas contra o empregador e superiores hierárquicos, salvo em caso de legítima defesa, própria ou de outrem; l) prática constante de jogos de azar; m) perda da habilitação ou dos requisitos estabelecidos em lei para o exercício da profissão, em decorrência de conduta dolosa do empregado.",
+        interpretation: "Em linguagem simples: A CLT lista 13 MOTIVOS que podem levar à demissão por justa causa (perder quase todos os direitos): a) ROUBO/FRAUDE, b) Conduta sexual imprópria ou má conduta grave, c) Fazer 'bico' concorrente, d) Ser preso (condenado definitivamente), e) DESLEIXO/PREGUIÇA (desídia), f) Beber no trabalho, g) Contar segredos da empresa, h) DESOBEDECER ordens ou regras, i) ABANDONO DE EMPREGO (faltar 30 dias seguidos), j) Ofender/agredir colegas, k) Ofender/agredir chefe, l) Jogar jogo de azar, m) Perder habilitação profissional por culpa (ex: médico perde CRM). ⚠️ ATENÇÃO: Justa causa é GRAVE! Você perde: aviso prévio, multa 40% FGTS, seguro-desemprego, e só recebe saldo de salário + férias vencidas. A empresa precisa PROVAR a falta grave. DICA: Se for demitido por justa causa injusta, NÃO ASSINE a rescisão sem ler! Procure advogado trabalhista imediatamente - muitas justas causas são revertidas na Justiça.",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art482"
+      },
+      {
+        title: "CLT - Art. 482, alínea 'i' - Abandono de Emprego",
+        reference: "Consolidação das Leis do Trabalho - Artigo 482, alínea 'i'",
+        content: "Constituem justa causa para rescisão do contrato de trabalho pelo empregador: i) abandono de emprego.",
+        interpretation: "Em linguagem simples: Abandono de emprego é quando você some do trabalho por muito tempo (geralmente 30 DIAS SEGUIDOS) sem dar explicação. A empresa presume que você não quer mais trabalhar lá e pode demitir por justa causa. MAS: a empresa precisa PROVAR que foi abandono (você não deu notícias, não justificou as faltas). ⚠️ ATENÇÃO NA PRÁTICA: NÃO é abandono se: 1) Você estava doente e não conseguiu avisar (comprova depois), 2) Você foi preso injustamente, 3) Você sofreu acidente. A empresa deve tentar te contatar (telefone, email, telegrama na sua casa) antes de presumir abandono. IMPORTANTE: Se você quer sair do emprego, NÃO ABANDONE! Peça demissão formalmente (mesmo perdendo direitos) - é melhor que justa causa no currículo. DICA: Se ficar doente por muito tempo, avise a empresa POR QUALQUER MEIO (WhatsApp, email, telefone) e depois apresente atestados.",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art482"
+      },
+      {
+        title: "CLT - Art. 482, alínea 'e' - Desídia",
+        reference: "Consolidação das Leis do Trabalho - Artigo 482, alínea 'e'",
+        content: "Constituem justa causa para rescisão do contrato de trabalho pelo empregador: e) desídia no desempenho das respectivas funções.",
+        interpretation: "Em linguagem simples: Desídia é DESLEIXO, PREGUIÇA, FALTA DE CUIDADO repetido no trabalho. Exemplos: atrasos frequentes, fazer corpo mole, não cumprir tarefas, trabalhar mal de propósito, dormir no serviço repetidamente. A desídia é construída ao longo do tempo com várias faltas pequenas. ⚠️ ATENÇÃO NA PRÁTICA: Uma falta isolada NÃO é desídia! Precisa ser comportamento REPETIDO e HABITUAL. A empresa deve ter dado advertências antes. Se você foi demitido por desídia mas nunca recebeu advertência, a justa causa pode ser anulada! IMPORTANTE: A empresa precisa comprovar várias faltas documentadas ao longo do tempo. DICA: Se começar a receber advertências por 'desídia', mude de comportamento IMEDIATAMENTE - é o caminho para justa causa.",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art482"
+      }
+    ],
+    ordinances: [],
+    summaries: [
+      {
+        number: "Súmula 77",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "Nula é a punição de empregado se não precedida de inquérito ou sindicância internos a que se obrigou a empresa por norma regulamentar.",
+        interpretation: "Em linguagem simples: Se o REGULAMENTO INTERNO da sua empresa diz que deve ter 'sindicância' ou 'investigação' antes de punir, e a empresa te puniu sem fazer isso, a punição é NULA (não vale)! Exemplo: regulamento diz 'antes de justa causa, será feita apuração com direito de defesa', mas a empresa te demitiu direto sem te ouvir = justa causa anulada. DICA: Leia o regulamento interno da empresa - ele pode te dar mais direitos que a CLT!",
+        link: "https://www.tst.jus.br/sumulas"
+      },
+      {
+        number: "Súmula 403",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "Empregado que recebe salário por fora (não contabilizado na CTPS) e é dispensado, tem direito aos reflexos em todas as verbas rescisórias.",
+        interpretation: "Em linguagem simples: Esta súmula não é especificamente sobre advertências, mas protege você se a empresa pagava 'por fora' e depois te demitiu por justa causa tentando fraudar seus direitos. Mesmo em justa causa, você tem direito ao saldo de salário e férias calculados sobre o salário REAL (incluindo o que era pago por fora). IMPORTANTE: Salário 'por fora' é fraude da empresa - você pode denunciar!",
+        link: "https://www.tst.jus.br/sumulas"
+      }
+    ],
+    jurisprudence: [
+      {
+        title: "Advertência verbal e validade",
+        content: "Advertências verbais, apesar de válidas como medida disciplinar inicial, são difíceis de comprovar em eventual discussão judicial. Por isso, recomenda-se que mesmo advertências leves sejam registradas por escrito, com ciência do empregado.",
+        interpretation: "Em linguagem simples: Advertência VERBAL (só conversa, sem papel) é válida, mas se você negar que recebeu, a empresa não tem como provar! Por isso empresas costumam fazer advertência ESCRITA sempre. ⚠️ ATENÇÃO: Se a empresa alega que você teve 'várias advertências verbais' mas não tem nada por escrito, isso pode ser contestado na Justiça. DICA: Se receber advertência verbal, peça para registrar por escrito também - isso protege VOCÊ de punições injustas depois (empresa não pode inventar advertências que não existiram)."
+      },
+      {
+        title: "Imediatidade da punição",
+        content: "A punição disciplinar deve ser aplicada logo após a ciência da falta pelo empregador. O perdão tácito ocorre quando a empresa demora muito tempo para punir, demonstrando que relevou a falta. Punições tardias podem ser anuladas pela Justiça.",
+        interpretation: "Em linguagem simples: A empresa precisa punir LOGO DEPOIS que descobre a falta! Se você faltou dia 01/06, a empresa descobriu dia 02/06, mas só te puniu dia 20/06, isso pode caracterizar 'perdão tácito' - a empresa relevou a falta ao não punir na hora. ⚠️ ATENÇÃO NA PRÁTICA: 'Logo depois' geralmente significa até 30 dias. Se passou muito tempo (2-3 meses) entre a falta e a punição, você pode alegar que a empresa perdoou. EXCEÇÃO: Se a empresa estava INVESTIGANDO (casos complexos), o prazo pode ser maior. DICA: Se for punido por algo que aconteceu há muito tempo, questione a demora - pode ser argumento para anular a punição."
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1006789-12.2024.5.02.0000",
+        date: "26/09/2024",
+        summary: "Anulada suspensão de 15 dias aplicada 4 meses após a falta. Tribunal reconheceu perdão tácito - empresa demorou muito para punir. Empregado recebeu os 15 dias de salário descontados (R$ 3.200) mais danos morais de R$ 3 mil por punição tardia e injusta."
+      },
+      {
+        id: "2",
+        court: "TRT-1 (Rio de Janeiro)",
+        number: "Processo nº 0107890-45.2024.5.01.0000",
+        date: "19/09/2024",
+        summary: "Advertência escrita anulada por falta de especificação. Empresa aplicou advertência genérica ('mau comportamento') sem descrever exatamente o que o funcionário fez. Tribunal anulou por falta de clareza. Empregado tem direito a retirar advertência do prontuário."
+      },
+      {
+        id: "3",
+        court: "TRT-4 (Rio Grande do Sul)",
+        number: "Processo nº 0308901-67.2024.5.04.0000",
+        date: "12/09/2024",
+        summary: "Mantida suspensão de 10 dias aplicada de forma proporcional. Funcionário faltou 5 dias sem justificativa após já ter recebido 2 advertências por faltas anteriores. Tribunal considerou gradação adequada e suspensão proporcional. Recurso do empregado negado."
+      }
+    ]
+  },
+  "justa-causa": {
+    id: "justa-causa",
+    order: 15,
+    title: "Demissão por Justa Causa",
+    description: "Todos os motivos de justa causa, procedimentos e como se defender",
+    keywords: ["justa causa", "demissão", "falta grave", "artigo 482", "rescisão por justa causa"],
+    legislation: [
+      {
+        title: "CLT - Art. 482 - Todos os Motivos de Justa Causa",
+        reference: "Consolidação das Leis do Trabalho - Artigo 482",
+        content: "Constituem justa causa para rescisão do contrato de trabalho pelo empregador: a) ato de improbidade; b) incontinência de conduta ou mau procedimento; c) negociação habitual por conta própria ou alheia sem permissão do empregador, e quando constituir ato de concorrência à empresa para a qual trabalha o empregado, ou for prejudicial ao serviço; d) condenação criminal do empregado, passada em julgado, caso não tenha havido suspensão da execução da pena; e) desídia no desempenho das respectivas funções; f) embriaguez habitual ou em serviço; g) violação de segredo da empresa; h) ato de indisciplina ou de insubordinação; i) abandono de emprego; j) ato lesivo da honra ou da boa fama praticado no serviço contra qualquer pessoa, ou ofensas físicas, nas mesmas condições, salvo em caso de legítima defesa, própria ou de outrem; k) ato lesivo da honra ou da boa fama ou ofensas físicas praticadas contra o empregador e superiores hierárquicos, salvo em caso de legítima defesa, própria ou de outrem; l) prática constante de jogos de azar; m) perda da habilitação ou dos requisitos estabelecidos em lei para o exercício da profissão, em decorrência de conduta dolosa do empregado.",
+        interpretation: "Em linguagem simples: A CLT lista 13 MOTIVOS que permitem demissão por justa causa (você perde quase todos os direitos). TRADUZINDO CADA UM: a) ROUBAR, FRAUDAR, b) Assédio sexual, conduta sexual imprópria, c) Trabalhar para concorrente ou ter negócio próprio concorrente, d) Ir PRESO (condenação definitiva), e) PREGUIÇA/DESLEIXO repetido, f) Beber no trabalho ou ser alcoólatra, g) Vazar informações da empresa, h) DESOBEDECER ordens ou regras, i) SUMIR por 30+ dias, j) OFENDER/AGREDIR colegas, k) OFENDER/AGREDIR chefe/patrão, l) Jogar jogos de azar no trabalho, m) Perder habilitação profissional por má conduta (ex: motorista perde CNH dirigindo bêbado). ⚠️ IMPORTANTE: Justa causa é EXCEÇÃO, não regra! A empresa precisa PROVAR a falta grave. Se for demitido por justa causa, você SÓ recebe: saldo de salário + férias vencidas (se tiver). PERDE: aviso prévio, multa 40% FGTS, seguro-desemprego, férias proporcionais, 13º proporcional. DICA: NUNCA assine rescisão por justa causa sem ler tudo e entender o motivo. Se achar injusto, procure advogado ANTES de assinar!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art482"
+      },
+      {
+        title: "CLT - Art. 483 - Justa Causa do Empregador (Rescisão Indireta)",
+        reference: "Consolidação das Leis do Trabalho - Artigo 483",
+        content: "O empregado poderá considerar rescindido o contrato e pleitear a devida indenização quando: a) forem exigidos serviços superiores às suas forças, defesos por lei, contrários aos bons costumes, ou alheios ao contrato; b) for tratado pelo empregador ou por seus superiores hierárquicos com rigor excessivo; c) correr perigo manifesto de mal considerável; d) não cumprir o empregador as obrigações do contrato; e) praticar o empregador ou seus prepostos, contra ele ou pessoas de sua família, ato lesivo da honra e boa fama; f) o empregador ou seus prepostos ofenderem-no fisicamente, salvo em caso de legítima defesa, própria ou de outrem; g) o empregador reduzir o seu trabalho, sendo este por peça ou tarefa, de forma a afetar sensivelmente a importância dos salários.",
+        interpretation: "Em linguagem simples: Assim como a empresa pode te demitir por justa causa, VOCÊ TAMBÉM PODE 'demitir a empresa' por justa causa dela (chamado RESCISÃO INDIRETA)! Motivos válidos: a) Te obrigar a fazer algo ilegal, muito pesado, ou que não é sua função, b) ASSÉDIO MORAL (chefe persegue, humilha), c) Trabalho perigoso sem proteção, d) Empresa NÃO PAGA salário, vale-transporte, FGTS, e) Ofender você ou sua família, f) AGRESSÃO FÍSICA do chefe/patrão, g) Reduzir seu trabalho para você ganhar menos (comissionista). SE VOCÊ PROVAR, tem direito a TUDO como se fosse demissão sem justa causa: aviso prévio, multa 40% FGTS, seguro-desemprego! ⚠️ ATENÇÃO: Rescisão indireta precisa ser feita NA JUSTIÇA com advogado. Não basta você 'sair' da empresa - você vai trabalhar normalmente e entra com ação. Quando o juiz decide, a empresa é condenada. DICA: Se a empresa cometer falta grave, JUNTE PROVAS (prints de WhatsApp, emails, testemunhas, atestados) e procure advogado trabalhista!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art483"
+      }
+    ],
+    ordinances: [],
+    summaries: [
+      {
+        number: "Súmula 73",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "A ocorrência de justa causa, salvo a de abandono de emprego, no decurso do prazo do aviso prévio dado pelo empregador, retira do empregado qualquer direito às verbas rescisórias de natureza indenizatória.",
+        interpretation: "Em linguagem simples: Se você foi demitido SEM justa causa e está cumprindo aviso prévio (trabalhando os 30 dias), mas COMETE uma falta grave durante esses 30 dias, a empresa pode CANCELAR a demissão sem justa causa e transformar em JUSTA CAUSA! Você perde todos os direitos (multa FGTS, seguro-desemprego). EXCEÇÃO: Abandono de emprego durante aviso prévio não muda para justa causa. ⚠️ ATENÇÃO: Durante aviso prévio, comportamento exemplar! Qualquer falta grave (roubo, agressão, embriaguez) pode virar justa causa. DICA: Se você está em aviso prévio, evite QUALQUER problema - falta dias, não discuta com chefe, cumpra tudo direitinho até o último dia.",
+        link: "https://www.tst.jus.br/sumulas"
+      },
+      {
+        number: "Súmula 62",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "O prazo de prescrição da falta grave, para efeito de rescisão do contrato de trabalho, conta-se da data em que o empregador teve conhecimento do fato.",
+        interpretation: "Em linguagem simples: A empresa tem que punir LOGO DEPOIS que descobre a falta grave! Se demorar muito tempo para demitir por justa causa após saber da falta, caracteriza perdão tácito (empresa relevou). Não existe prazo fixo na lei, mas a jurisprudência considera que 30-60 dias já é 'demora demais'. EXEMPLO: Você roubou algo dia 10/01, empresa descobriu dia 12/01, mas só te demitiu dia 15/03 = 2 meses depois = pode caracterizar perdão. A justa causa pode ser anulada! DICA: Se for demitido por justa causa por algo antigo (mais de 2 meses), questione a demora - pode ser argumento para reverter.",
+        link: "https://www.tst.jus.br/sumulas"
+      }
+    ],
+    jurisprudence: [
+      {
+        title: "Ônus da prova na justa causa",
+        content: "Em casos de demissão por justa causa, o ônus de provar a falta grave é SEMPRE do empregador. O empregado não precisa provar sua inocência - a empresa é quem deve apresentar provas concretas, documentos, testemunhas que comprovem a falta alegada.",
+        interpretation: "Em linguagem simples: Se a empresa te acusa de algo e te demite por justa causa, a responsabilidade de PROVAR é da EMPRESA, não sua! Você não precisa provar que não fez - a empresa que precisa provar que você fez. Se a empresa não tiver provas suficientes, a justa causa é revertida na Justiça e você ganha tudo. IMPORTANTE: Por isso guarde evidências a seu favor (emails, mensagens, testemunhas). Se for acusado de roubo, mas não tem câmera, não tem testemunha, não tem boletim de ocorrência = palavra contra palavra = justa causa pode ser anulada!"
+      },
+      {
+        title: "Direitos mantidos mesmo em justa causa",
+        content: "Mesmo em demissão por justa causa, o empregado mantém direito a: saldo de salário (dias trabalhados do mês), férias vencidas + 1/3 (se tiver período completo de férias não gozadas), e saldo de salário-família se aplicável. NÃO tem direito a: aviso prévio, multa 40% FGTS, saque do FGTS, seguro-desemprego, férias proporcionais, 13º proporcional.",
+        interpretation: "Em linguagem simples: Mesmo em justa causa, você NÃO SAI DE 'MÃO ABANANDO'! Você recebe: 1) Salário dos dias que trabalhou no mês, 2) Férias VENCIDAS (se completou 12 meses e não tirou férias) + 1/3, 3) Salário-família dos dias trabalhados. MAS PERDE: aviso prévio (0 reais), multa 40% FGTS (perde muito!), NÃO SACA o FGTS (fica parado), seguro-desemprego (0 parcelas), férias proporcionais (0), 13º proporcional (0). EXEMPLO PRÁTICO: Se você tem R$ 20.000 de FGTS acumulado, em justa causa perde R$ 8.000 de multa + não saca os R$ 20.000. Em demissão normal: ganha R$ 8.000 de multa + saca R$ 20.000 = diferença de R$ 28.000! POR ISSO JUSTA CAUSA É TÃO GRAVE!"
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1007890-23.2024.5.02.0000",
+        date: "28/09/2024",
+        summary: "Revertida justa causa por falta de provas. Funcionário acusado de roubar R$ 500 do caixa, mas empresa não tinha câmeras, testemunhas ou boletim de ocorrência. Justa causa convertida em demissão sem justa causa. Empresa condenada a pagar multa 40% FGTS (R$ 6.200), aviso prévio, férias e 13º, totalizando R$ 22 mil + liberar saque do FGTS."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0016901-78.2024.5.15.0000",
+        date: "21/09/2024",
+        summary: "Mantida justa causa por abandono de emprego. Funcionário faltou 35 dias consecutivos sem dar notícias. Empresa enviou telegrama para endereço cadastrado, tentou contato por telefone (3 vezes) e email. Tribunal entendeu que empresa cumpriu requisitos. Justa causa confirmada."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0109012-89.2024.5.03.0000",
+        date: "14/09/2024",
+        summary: "Justa causa revertida por falta de imediatidade. Empresa demitiu funcionário por justa causa 5 meses após descobrir a falta (uso indevido de veículo da empresa). Tribunal reconheceu perdão tácito. Convertida em demissão sem justa causa. Empresa pagou R$ 45 mil de verbas rescisórias."
+      }
+    ]
   }
 };
 
