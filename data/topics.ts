@@ -229,27 +229,27 @@ export const topics: Record<string, TopicData> = {
   "teletrabalho": {
     id: "teletrabalho",
     order: 3,
-    title: "Teletrabalho e Home Office",
-    description: "Direitos de quem trabalha remotamente ou em casa",
-    keywords: ["teletrabalho", "home office", "trabalho remoto", "trabalho em casa", "trabalho à distância"],
+    title: "Como funciona o trabalho em casa (home office)?",
+    description: "Direitos, regras e funcionamento do trabalho remoto",
+    keywords: ["home office", "trabalho em casa", "teletrabalho", "trabalho remoto", "jornada flexível", "direitos home office", "regras trabalho remoto"],
     legislation: [
       {
         title: "CLT - Art. 6º",
         reference: "Consolidação das Leis do Trabalho - Artigo 6º",
         content: "Não se distingue entre o trabalho realizado no estabelecimento do empregador, o executado no domicílio do empregado e o realizado a distância, desde que estejam caracterizados os pressupostos da relação de emprego. Parágrafo único. Os meios telemáticos e informatizados de comando, controle e supervisão se equiparam, para fins de subordinação jurídica, aos meios pessoais e diretos de comando, controle e supervisão do trabalho alheio.",
-        interpretation: "Em linguagem simples: Trabalhar em casa, no escritório ou em qualquer outro lugar dá os MESMOS direitos! Se você é empregado, não importa onde trabalha. Supervisão por WhatsApp, email, sistema de monitoramento ou videochamada vale tanto quanto chefe presencial olhando seu trabalho. Home office tem os mesmos direitos que trabalho presencial!"
+        interpretation: "Em linguagem simples: HOME OFFICE funciona IGUAL ao trabalho presencial! Se você é empregado, não importa se trabalha em casa, no escritório ou em qualquer lugar - você tem os MESMOS direitos trabalhistas. Supervisão por WhatsApp, email, sistema de monitoramento ou videochamada vale tanto quanto chefe presencial. ⚠️ IMPORTANTE: Home office NÃO é trabalho diferente - é a mesma relação de emprego, só muda o local. DICA: Se a empresa tentar dizer que home office tem direitos diferentes, está errado!"
       },
       {
         title: "CLT - Art. 75-A",
         reference: "Consolidação das Leis do Trabalho - Artigo 75-A",
         content: "A prestação de serviços pelo empregado em regime de teletrabalho observará o disposto neste Capítulo. Considera-se teletrabalho a prestação de serviços preponderantemente fora das dependências do empregador, com a utilização de tecnologias de informação e de comunicação que, por sua natureza, não se constituam como trabalho externo. Parágrafo único. O comparecimento às dependências do empregador para a realização de atividades específicas que exijam a presença do empregado no estabelecimento não descaracteriza o regime de teletrabalho.",
-        interpretation: "Em linguagem simples: Teletrabalho é quando você trabalha principalmente fora da empresa, usando computador, internet, celular, etc. Se você vai na empresa às vezes para reunião ou buscar material, continua sendo teletrabalho. É diferente de trabalho externo (como vendedor que visita clientes na rua)."
+        interpretation: "Em linguagem simples: TELETRABALHO é quando você trabalha PRINCIPALMENTE em casa, usando computador, internet, celular, etc. Se você vai na empresa às vezes para reunião ou buscar material, continua sendo teletrabalho. ⚠️ IMPORTANTE: É diferente de trabalho externo (como vendedor que visita clientes na rua). No teletrabalho você fica num lugar fixo (sua casa) usando tecnologia. DICA: Se você trabalha mais de 50% do tempo em casa, já é considerado teletrabalho!"
       },
       {
         title: "CLT - Art. 75-D",
         reference: "Consolidação das Leis do Trabalho - Artigo 75-D",
         content: "As disposições relativas à responsabilidade pela aquisição, manutenção ou fornecimento dos equipamentos tecnológicos e da infraestrutura necessária e adequada à prestação do trabalho remoto, bem como ao reembolso de despesas arcadas pelo empregado, serão previstas em contrato escrito. Parágrafo único. As utilidades mencionadas no caput deste artigo não integram a remuneração do empregado.",
-        interpretation: "Em linguagem simples: A empresa deve combinar com você POR ESCRITO quem paga internet, computador, cadeira, luz, etc. do home office. Se a empresa pagar ou reembolsar essas despesas, esse valor NÃO conta como salário (então não entra no cálculo de férias, 13º, FGTS). Mas tem que estar tudo escrito no contrato!"
+        interpretation: "Em linguagem simples: HOME OFFICE precisa de ACORDO ESCRITO sobre quem paga o quê! A empresa deve combinar POR ESCRITO quem paga internet, computador, cadeira, luz, etc. Se a empresa pagar ou reembolsar essas despesas, esse valor NÃO conta como salário (então não entra no cálculo de férias, 13º, FGTS). ⚠️ IMPORTANTE: Tudo tem que estar escrito no contrato! Se não estiver, pode dar problema depois. DICA: Guarde todos os comprovantes de despesas do home office - você pode pedir reembolso!"
       }
     ],
     ordinances: [
@@ -258,7 +258,7 @@ export const topics: Record<string, TopicData> = {
         reference: "Ministério do Trabalho e Emprego - Portaria 671/2021",
         content: "Estabelece diretrizes sobre o teletrabalho e a anotação na Carteira de Trabalho Digital, incluindo a modalidade de prestação de serviço e as condições acordadas.",
         fullContent: "PORTARIA MTE Nº 671, DE 8 DE NOVEMBRO DE 2021 (COMPLEMENTO TELETRABALHO)\n\nArt. 9º No registro de empregados em regime de teletrabalho, deverão constar:\n\nI - indicação expressa da modalidade \"teletrabalho\" ou \"trabalho remoto\";\nII - endereço de prestação de serviços, se houver;\nIII - responsabilidade pela aquisição e manutenção de equipamentos;\nIV - responsabilidade pelas despesas de infraestrutura (internet, energia elétrica);\nV - forma de reembolso de despesas, quando aplicável;\nVI - possibilidade de comparecimento presencial eventual.\n\nArt. 10. A alteração do regime presencial para teletrabalho, ou vice-versa, deverá ser registrada com:\nI - mútuo acordo entre empregado e empregador;\nII - prazo de transição mínimo de 15 dias;\nIII - atualização imediata na Carteira de Trabalho Digital.\n\nArt. 11. O empregador deverá informar:\nI - equipamentos fornecidos (computador, celular, mobiliário);\nII - softwares e sistemas disponibilizados;\nIII - valores de reembolso mensal, se houver;\nIV - horários de disponibilidade, quando estabelecidos.\n\nArt. 12. As informações sobre teletrabalho constantes na Carteira de Trabalho Digital serão acessíveis ao trabalhador em tempo real.\n\nArt. 13. O não registro adequado do regime de teletrabalho sujeitará o empregador às penalidades administrativas previstas em lei.",
-        interpretation: "Em linguagem simples: Para quem trabalha em home office, a carteira digital deve mostrar: que você está em teletrabalho, onde você trabalha, quem paga os equipamentos (computador, internet, luz), quanto a empresa reembolsa (se reembolsar), e se você vai na empresa às vezes. Se mudar de presencial para home office ou vice-versa, tem que ter acordo mútuo e 15 dias de aviso. Tudo isso VOCÊ vê na hora no app. Se a empresa não registrar direitinho o home office, pode ser multada. É para garantir que fique claro quem paga o quê e quais são as condições do seu trabalho remoto!"
+        interpretation: "Em linguagem simples: HOME OFFICE deve ser REGISTRADO na carteira digital! A carteira deve mostrar: que você está em teletrabalho, onde você trabalha, quem paga os equipamentos (computador, internet, luz), quanto a empresa reembolsa (se reembolsar), e se você vai na empresa às vezes. ⚠️ IMPORTANTE: Se mudar de presencial para home office ou vice-versa, tem que ter acordo mútuo e 15 dias de aviso. Tudo isso VOCÊ vê na hora no app. DICA: Se a empresa não registrar direitinho o home office, pode ser multada. É para garantir que fique claro quem paga o quê!"
       }
     ],
     summaries: [
@@ -266,19 +266,19 @@ export const topics: Record<string, TopicData> = {
         number: "Súmula 428",
         court: "TST - Tribunal Superior do Trabalho",
         content: "Sobreaviso. Aplicação analógica do art. 244, § 2º da CLT. O uso de instrumentos telemáticos ou informatizados fornecidos pela empresa ao empregado, por si só, não caracteriza o regime de sobreaviso.",
-        interpretation: "Em linguagem simples: Só porque a empresa te deu celular ou notebook não significa que você está de sobreaviso (disponível 24h). Sobreaviso só existe se você REALMENTE precisa ficar disponível para ser chamado a qualquer momento. Ter WhatsApp da empresa no celular não é sobreaviso automático."
+        interpretation: "Em linguagem simples: TER EQUIPAMENTOS da empresa NÃO é sobreaviso automático! Só porque a empresa te deu celular ou notebook não significa que você está de sobreaviso (disponível 24h). Sobreaviso só existe se você REALMENTE precisa ficar disponível para ser chamado a qualquer momento. ⚠️ IMPORTANTE: Ter WhatsApp da empresa no celular não é sobreaviso automático. DICA: Sobreaviso tem que ser combinado expressamente e você tem que receber por isso!"
       }
     ],
     jurisprudence: [
       {
         title: "Direito à desconexão no teletrabalho",
         content: "O trabalhador em regime de teletrabalho tem direito à desconexão, não podendo ser exigido que permaneça disponível fora do horário de trabalho. A cobrança excessiva de respostas imediatas em aplicativos de mensagens ou e-mails fora do expediente pode caracterizar horas extras.",
-        interpretation: "Em linguagem simples: Mesmo em home office, você NÃO é obrigado a responder mensagens, emails ou chamadas fora do seu horário de trabalho. Se o chefe te cobra resposta imediata no WhatsApp às 23h ou no domingo, isso pode ser considerado hora extra! Você tem direito de 'desligar' do trabalho no final do expediente."
+        interpretation: "Em linguagem simples: HOME OFFICE tem DIREITO À DESCONEXÃO! Mesmo em casa, você NÃO é obrigado a responder mensagens, emails ou chamadas fora do seu horário de trabalho. Se o chefe te cobra resposta imediata no WhatsApp às 23h ou no domingo, isso pode ser considerado hora extra! ⚠️ IMPORTANTE: Você tem direito de 'desligar' do trabalho no final do expediente. DICA: Se a empresa exigir disponibilidade 24h, isso é sobreaviso e tem que ser pago!"
       },
       {
         title: "Equipamentos e despesas do teletrabalho",
         content: "A empresa deve fornecer ou reembolsar as despesas com equipamentos e infraestrutura necessários ao teletrabalho, salvo acordo expresso em contrário. O não fornecimento pode gerar direito a indenização ou reembolso das despesas comprovadas.",
-        interpretation: "Em linguagem simples: Se você trabalha de casa, a empresa deveria te dar computador, internet, cadeira adequada, ou pagar essas despesas. Se não der e não combinou nada por escrito, você pode cobrar esse reembolso! Guarde notas fiscais de tudo que você comprou para trabalhar."
+        interpretation: "Em linguagem simples: HOME OFFICE tem direito a EQUIPAMENTOS e REEMBOLSO! Se você trabalha de casa, a empresa deveria te dar computador, internet, cadeira adequada, ou pagar essas despesas. Se não der e não combinou nada por escrito, você pode cobrar esse reembolso! ⚠️ IMPORTANTE: Guarde notas fiscais de tudo que você comprou para trabalhar. DICA: Se a empresa não fornecer equipamentos, você pode processar para receber o reembolso!"
       }
     ],
     recentDecisions: [
