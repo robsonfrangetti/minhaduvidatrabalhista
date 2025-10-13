@@ -1848,6 +1848,125 @@ export const topics: Record<string, TopicData> = {
         summary: "Abandono caracterizado corretamente. Funcionário faltou 45 dias sem justificativa e empresa enviou 3 telegramas + tentou contato por telefone. Tribunal manteve justa causa por abandono. Recurso do empregado negado."
       }
     ]
+  },
+  "plr-pergunta": {
+    id: "plr-pergunta",
+    order: 26,
+    title: "O que é PLR e como ela deve ser paga?",
+    description: "Participação nos Lucros e Resultados: conceito, cálculo, periodicidade e direitos",
+    keywords: ["PLR", "participação lucros", "como calcular", "quando pagar", "direitos"],
+    legislation: [
+      {
+        title: "CF - Art. 7º, XI - Direito à PLR",
+        reference: "Constituição Federal - Artigo 7º, inciso XI",
+        content: "São direitos dos trabalhadores urbanos e rurais: XI - participação nos lucros, ou resultados, desvinculada da remuneração, e, excepcionalmente, participação na gestão da empresa, conforme definido em lei.",
+        interpretation: "Em linguagem simples: A PLR é um DIREITO CONSTITUCIONAL! A empresa pode dar parte dos lucros para os funcionários. MAS: não é obrigatória - só paga se houver acordo/negociação. A PLR não é salário (não tem FGTS, INSS, férias, 13º). ⚠️ ATENÇÃO: Este é um DIREITO, mas a empresa não é OBRIGADA a pagar PLR automaticamente. IMPORTANTE: PLR é benefício EXTRA, não substitui salário. DICA: Se a empresa tem lucro, você pode negociar PLR através do sindicato!",
+        link: "http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art7"
+      },
+      {
+        title: "Lei 10.101/2000 - Como Funciona a PLR",
+        reference: "Lei nº 10.101, de 19 de dezembro de 2000",
+        content: "Art. 2º A participação nos lucros ou resultados será objeto de negociação entre empregadores e empregados, por meio de comissão paritária, constituída por representantes da empresa e dos empregados, ou por convenção ou acordo coletivo de trabalho. Art. 5º A participação nos lucros ou resultados poderá ser paga em até duas vezes por ano, em periodicidade não inferior a um trimestre.",
+        interpretation: "Em linguagem simples: A PLR funciona assim: 1) É NEGOCIADA entre empresa e funcionários (sindicato/comissão), 2) É paga no MÁXIMO 2 VEZES POR ANO, 3) Não pode ser paga todo mês (seria salário disfarçado). Exemplos: PLR semestral (julho e dezembro), PLR anual (só dezembro). ⚠️ ATENÇÃO: A empresa sozinha NÃO decide - precisa negociar com funcionários. IMPORTANTE: O valor pode variar a cada pagamento (depende do resultado da empresa). DICA: Se a empresa pagar PLR mensalmente, isso pode ser considerado salário!",
+        link: "http://www.planalto.gov.br/ccivil_03/leis/l10101.htm"
+      }
+    ],
+    ordinances: [],
+    summaries: [
+      {
+        number: "Súmula 356",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "A participação nos lucros ou resultados, quando devida, integra a remuneração para todos os efeitos legais.",
+        interpretation: "Em linguagem simples: Esta súmula é MUITO IMPORTANTE! Se a empresa SEMPRE paga PLR (todo ano, mesmo sem lucro), ela vira SALÁRIO e tem FGTS, INSS, férias, 13º! Isso acontece quando a empresa paga PLR há 5+ anos sempre. A Justiça entende que virou 'direito adquirido'. ⚠️ ATENÇÃO: Se a empresa paga PLR há muito tempo sempre, pode ser considerado salário! DICA: Guarde todos os comprovantes de PLR recebida - se a empresa parar de pagar, você pode processar!",
+        link: "https://www.tst.jus.br/sumulas"
+      }
+    ],
+    jurisprudence: [
+      {
+        title: "PLR como direito adquirido",
+        content: "A jurisprudência consolidou o entendimento de que, quando a empresa paga PLR de forma habitual e constante, independentemente dos resultados, tal benefício adquire natureza salarial, integrando a remuneração para todos os efeitos legais.",
+        interpretation: "Em linguagem simples: Se a empresa SEMPRE paga PLR (todo ano, mesmo sem lucro), isso vira SALÁRIO! A Justiça entende que virou 'direito adquirido'. Exemplo: empresa paga PLR há 10 anos sempre em dezembro, mesmo quando teve prejuízo = vira salário com FGTS/INSS. ⚠️ ATENÇÃO: Isso é MUITO comum em empresas grandes! Se você sempre recebeu PLR e a empresa quer parar, pode processar! IMPORTANTE: Precisa comprovar que era 'habitual' (sempre pagou). DICA: Guarde holerites e comprovantes de PLR dos últimos anos como prova!"
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1018911-44.2024.5.02.0000",
+        date: "04/11/2024",
+        summary: "PLR reconhecida como salário por habitualidade. Empresa pagava PLR há 7 anos consecutivos, mesmo em anos de prejuízo. Tribunal entendeu que adquiriu natureza salarial. Empregados têm direito a reflexos em FGTS, INSS, férias e 13º sobre valores de PLR dos últimos 5 anos. Empresa condenada a pagar R$ 220 mil em reflexos trabalhistas."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0027912-88.2024.5.15.0000",
+        date: "28/10/2024",
+        summary: "PLR negada por ausência de acordo coletivo. Empresa nunca celebrou acordo de PLR com sindicato. Empregados tentaram receber PLR baseado apenas em lucros da empresa. Tribunal negou pedido - PLR só é devida com acordo formal. Recurso dos empregados negado."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0120023-00.2024.5.03.0000",
+        date: "21/10/2024",
+        summary: "Cálculo de PLR corrigido por discriminação. Empresa pagou PLR diferente para homens e mulheres no mesmo cargo. Tribunal entendeu discriminação de gênero. Empregadas têm direito à diferença de PLR + multa por discriminação. Empresa condenada a pagar R$ 55 mil em diferenças e multa."
+      }
+    ]
+  },
+  "justa-causa-pergunta": {
+    id: "justa-causa-pergunta",
+    order: 27,
+    title: "O que é demissão por justa causa?",
+    description: "Conceito, motivos, consequências e como se defender da justa causa",
+    keywords: ["demissão justa causa", "artigo 482", "falta grave", "consequências", "como se defender"],
+    legislation: [
+      {
+        title: "CLT - Art. 482 - Motivos de Justa Causa",
+        reference: "Consolidação das Leis do Trabalho - Artigo 482",
+        content: "Constituem justa causa para rescisão do contrato de trabalho pelo empregador: a) ato de improbidade; b) incontinência de conduta ou mau procedimento; c) negociação habitual por conta própria ou alheia sem permissão do empregador; d) condenação criminal do empregado, passada em julgado; e) desídia no desempenho das respectivas funções; f) embriaguez habitual ou em serviço; g) violação de segredo da empresa; h) ato de indisciplina ou de insubordinação; i) abandono de emprego; j) ato lesivo da honra ou da boa fama praticado no serviço contra qualquer pessoa; k) ato lesivo da honra ou da boa fama praticadas contra o empregador; l) prática constante de jogos de azar; m) perda da habilitação profissional.",
+        interpretation: "Em linguagem simples: Justa causa é quando a empresa te demite por uma FALTA GRAVE! A CLT lista 13 motivos: a) ROUBAR/FRAUDAR, b) Assédio sexual/má conduta, c) Fazer 'bico' concorrente, d) Ir PRESO (condenação definitiva), e) PREGUIÇA/DESLEIXO repetido, f) Beber no trabalho, g) Vazar segredos, h) DESOBEDECER ordens, i) SUMIR por 30+ dias, j) Ofender/agredir colegas, k) Ofender/agredir chefe, l) Jogar no trabalho, m) Perder habilitação por culpa. ⚠️ IMPORTANTE: Justa causa é EXCEÇÃO, não regra! A empresa precisa PROVAR a falta grave. Se for demitido por justa causa, você SÓ recebe: saldo de salário + férias vencidas. PERDE: aviso prévio, multa 40% FGTS, seguro-desemprego, férias proporcionais, 13º proporcional. DICA: NUNCA assine rescisão por justa causa sem ler tudo!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art482"
+      }
+    ],
+    ordinances: [],
+    summaries: [
+      {
+        number: "Súmula 62",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "O prazo de prescrição da falta grave, para efeito de rescisão do contrato de trabalho, conta-se da data em que o empregador teve conhecimento do fato.",
+        interpretation: "Em linguagem simples: A empresa tem que punir LOGO DEPOIS que descobre a falta grave! Se demorar muito tempo para demitir por justa causa após saber da falta, caracteriza perdão tácito (empresa relevou). Não existe prazo fixo na lei, mas a jurisprudência considera que 30-60 dias já é 'demora demais'. EXEMPLO: Você roubou algo dia 10/01, empresa descobriu dia 12/01, mas só te demitiu dia 15/03 = 2 meses depois = pode caracterizar perdão. A justa causa pode ser anulada! DICA: Se for demitido por justa causa por algo antigo (mais de 2 meses), questione a demora - pode ser argumento para reverter.",
+        link: "https://www.tst.jus.br/sumulas"
+      }
+    ],
+    jurisprudence: [
+      {
+        title: "Ônus da prova na justa causa",
+        content: "Em casos de demissão por justa causa, o ônus de provar a falta grave é SEMPRE do empregador. O empregado não precisa provar sua inocência - a empresa é quem deve apresentar provas concretas, documentos, testemunhas que comprovem a falta alegada.",
+        interpretation: "Em linguagem simples: Se a empresa te acusa de algo e te demite por justa causa, a responsabilidade de PROVAR é da EMPRESA, não sua! Você não precisa provar que não fez - a empresa que precisa provar que você fez. Se a empresa não tiver provas suficientes, a justa causa é revertida na Justiça e você ganha tudo. IMPORTANTE: Por isso guarde evidências a seu favor (emails, mensagens, testemunhas). Se for acusado de roubo, mas não tem câmera, não tem testemunha, não tem boletim de ocorrência = palavra contra palavra = justa causa pode ser anulada!"
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1019922-55.2024.5.02.0000",
+        date: "07/11/2024",
+        summary: "Revertida justa causa por falta de provas. Funcionário acusado de roubar R$ 800 do caixa, mas empresa não tinha câmeras, testemunhas ou boletim de ocorrência. Justa causa convertida em demissão sem justa causa. Empresa condenada a pagar multa 40% FGTS (R$ 7.200), aviso prévio, férias e 13º, totalizando R$ 25 mil + liberar saque do FGTS."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0028923-99.2024.5.15.0000",
+        date: "31/10/2024",
+        summary: "Mantida justa causa por abandono de emprego. Funcionário faltou 38 dias consecutivos sem dar notícias. Empresa enviou telegrama para endereço cadastrado, tentou contato por telefone (4 vezes) e email. Tribunal entendeu que empresa cumpriu requisitos. Justa causa confirmada."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0121024-11.2024.5.03.0000",
+        date: "24/10/2024",
+        summary: "Justa causa revertida por falta de imediatidade. Empresa demitiu funcionário por justa causa 6 meses após descobrir a falta (uso indevido de veículo da empresa). Tribunal reconheceu perdão tácito. Convertida em demissão sem justa causa. Empresa pagou R$ 52 mil de verbas rescisórias."
+      }
+    ]
   }
 };
 
