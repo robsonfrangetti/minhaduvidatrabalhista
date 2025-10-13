@@ -42,8 +42,10 @@ PARA CADA LEI/ARTIGO INCLUIR:
   - Destacar o que o trabalhador PODE e NÃO PODE fazer
   - Explicar consequências e direitos
 
-• link: (QUANDO POSSÍVEL) Link direto para a legislação oficial
+• link: ⚠️ OBRIGATÓRIO! Link direto para a legislação oficial
   Exemplo: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art473"
+  ⚠️ SE NÃO TIVER LINK, PROCURE ATÉ ENCONTRAR!
+  ⚠️ SEMPRE INCLUIR O LINK DA FONTE OFICIAL!
 
 FONTES CONFIÁVEIS:
 - Planalto: http://www.planalto.gov.br/ccivil_03/
@@ -79,7 +81,9 @@ PARA CADA PORTARIA/IN INCLUIR:
   - O que acontece se a empresa NÃO cumprir
   - Exemplos práticos de aplicação
 
-• link: (QUANDO POSSÍVEL) Link para o texto oficial da portaria
+• link: ⚠️ OBRIGATÓRIO! Link para o texto oficial da portaria
+  ⚠️ SEMPRE INCLUIR O LINK DA FONTE OFICIAL!
+  ⚠️ SE NÃO ENCONTRAR, PESQUISE NO DIÁRIO OFICIAL DA UNIÃO
 
 FONTES:
 - Portarias MTE: https://www.gov.br/trabalho-e-emprego/
@@ -109,9 +113,11 @@ PARA CADA SÚMULA INCLUIR:
   - Quando essa súmula se aplica
   - Exemplos concretos
 
-• link: Link direto para a súmula no site oficial
+• link: ⚠️ OBRIGATÓRIO! Link direto para a súmula no site oficial
   TST: https://www.tst.jus.br/sumulas
   STF: https://portal.stf.jus.br/jurisprudencia/
+  ⚠️ SEMPRE INCLUIR O LINK DIRETO PARA A SÚMULA ESPECÍFICA!
+  ⚠️ NÃO USAR LINK GENÉRICO, USAR LINK DA SÚMULA!
 
 ================================================================================
 📖 JURISPRUDÊNCIA GERAL (jurisprudence)
@@ -161,9 +167,12 @@ PARA CADA DECISÃO INCLUIR:
   - Valores de indenização (quando aplicável)
   - Impacto para o trabalhador
 
-• link: (OPCIONAL) Link para inteiro teor da decisão
+• link: ⚠️ RECOMENDADO! Link para inteiro teor da decisão (quando possível)
+  ⚠️ SE TIVER LINK PÚBLICO, SEMPRE INCLUIR!
+  Exemplo: Link do PJe, site do TRT, etc.
 
 DICA: Criar decisões realistas baseadas na aplicação prática da legislação
+ATENÇÃO: Se usar decisões reais, SEMPRE incluir o link!
 
 ================================================================================
 🎯 RESUMO DOS PONTOS PRINCIPAIS DE CADA TEMA
@@ -326,9 +335,18 @@ TRIBUNAIS:
 [ ] 3 decisões recentes (últimos 3 meses)
 [ ] TODAS as interpretações começam com "Em linguagem simples:"
 [ ] Exemplos práticos em todas as interpretações
-[ ] Links para fontes oficiais (quando possível)
 [ ] Revisão ortográfica e gramatical
 [ ] Formatação TypeScript correta (vírgulas, aspas, etc.)
+
+🔗 CHECKLIST DE LINKS (CRÍTICO!):
+[ ] ✅ TODOS os artigos da CLT/CF têm link do Planalto
+[ ] ✅ TODAS as portarias/INs têm link oficial
+[ ] ✅ TODAS as súmulas têm link direto do TST/STF
+[ ] ✅ Decisões recentes têm link (quando possível)
+[ ] ✅ Verificar que TODOS os links estão funcionando
+[ ] ✅ Links levam DIRETO ao artigo/súmula (não página genérica)
+
+⚠️ SEM LINKS = NÃO PUBLICAR! Links são OBRIGATÓRIOS para credibilidade!
 
 ================================================================================
 🎓 LEMBRE-SE:
