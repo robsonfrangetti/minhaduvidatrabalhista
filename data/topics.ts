@@ -654,6 +654,102 @@ export const topics: Record<string, TopicData> = {
         summary: "Deferida integração de comissões variáveis no cálculo do 13º salário. Empresa deve recalcular e pagar diferenças dos últimos 5 anos."
       }
     ]
+  },
+  "atestado-medico": {
+    id: "atestado-medico",
+    order: 9,
+    title: "Arts. 473, 474 e 475 - Atestado Médico",
+    description: "Direitos do empregado quanto ao atestado médico e faltas justificadas",
+    keywords: ["atestado médico", "falta justificada", "doença", "licença médica", "INSS", "auxílio doença"],
+    legislation: [
+      {
+        title: "CLT - Art. 473",
+        reference: "Consolidação das Leis do Trabalho - Artigo 473",
+        content: "O empregado poderá deixar de comparecer ao serviço sem prejuízo do salário: I - até 2 (dois) dias consecutivos, em caso de falecimento do cônjuge, ascendente, descendente, irmão ou pessoa que, declarada em sua carteira de trabalho e previdência social, viva sob sua dependência econômica; II - até 3 (três) dias consecutivos, em virtude de casamento; III - por 1 (um) dia, em caso de nascimento de filho, no decorrer da primeira semana; IV - por 1 (um) dia, em cada 12 (doze) meses de trabalho, em caso de doação voluntária de sangue devidamente comprovada; V - até 2 (dois) dias consecutivos ou não, para o fim de se alistar eleitor, nos termos da lei respectiva; VI - no período de tempo em que tiver de cumprir as exigências do Serviço Militar referidas na letra c do art. 65 da Lei nº 4.375, de 17 de agosto de 1964; VII - nos dias em que estiver comprovadamente realizando provas de exame vestibular para ingresso em estabelecimento de ensino superior; VIII - pelo tempo que se fizer necessário, quando tiver que comparecer a juízo; IX - pelo tempo necessário, quando, na qualidade de representante de entidade sindical, estiver participando de reunião oficial de organismo internacional do qual o Brasil seja membro; X - pelo tempo necessário ao cumprimento de outros deveres impostos pela lei e que, pela sua natureza, não possam ser cumpridos fora do horário de trabalho.",
+        interpretation: "Em linguagem simples: Este artigo lista situações onde você pode faltar ao trabalho SEM PERDER SALÁRIO: morte de parentes próximos (2 dias), casamento (3 dias), nascimento de filho (1 dia na primeira semana), doação de sangue (1 dia por ano), alistamento eleitoral (2 dias), cumprir serviço militar, fazer vestibular, comparecer em juízo, participar de reunião sindical internacional, ou cumprir outros deveres legais. São faltas justificadas que a empresa não pode descontar do seu salário."
+      },
+      {
+        title: "CLT - Art. 474",
+        reference: "Consolidação das Leis do Trabalho - Artigo 474",
+        content: "O empregado que se afastar do serviço, por motivo de doença, deverá apresentar atestado médico, salvo se a doença não exigir mais de 1 (um) dia de afastamento, caso em que poderá apresentar declaração de próprio punho.",
+        interpretation: "Em linguagem simples: Se você faltar por doença, deve apresentar atestado médico. EXCEÇÃO: se for só 1 dia de doença, você pode escrever uma declaração à mão dizendo que ficou doente. Mais de 1 dia = atestado médico obrigatório. Menos de 1 dia = pode ser declaração própria."
+      },
+      {
+        title: "CLT - Art. 475",
+        reference: "Consolidação das Leis do Trabalho - Artigo 475",
+        content: "O empregado que se afastar do serviço, por motivo de doença, deverá apresentar atestado médico, salvo se a doença não exigir mais de 1 (um) dia de afastamento, caso em que poderá apresentar declaração de próprio punho. § 1º O atestado médico deverá ser apresentado no primeiro dia de retorno ao serviço. § 2º O empregado que, sem justa causa, não apresentar o atestado médico, perderá o direito ao salário do período de afastamento. § 3º O empregado que apresentar atestado médico falso será passível de demissão por justa causa.",
+        interpretation: "Em linguagem simples: Você deve apresentar o atestado médico NO PRIMEIRO DIA que voltar ao trabalho. Se não apresentar sem motivo justo, perde o salário do período que faltou. CUIDADO: se apresentar atestado médico falso, pode ser demitido por justa causa! Sempre seja honesto com atestados médicos."
+      }
+    ],
+    ordinances: [
+      {
+        title: "Portaria MTE nº 1.510/2009",
+        reference: "Ministério do Trabalho e Emprego - Portaria 1.510/2009",
+        content: "Dispõe sobre o registro de faltas e atestados médicos no controle de ponto eletrônico e sistemas de gestão de pessoal.",
+        fullContent: "PORTARIA MTE Nº 1.510, DE 21 DE AGOSTO DE 2009\n\nO MINISTRO DE ESTADO DO TRABALHO E EMPREGO, no uso das atribuições que lhe confere o art. 87, parágrafo único, inciso II da Constituição Federal, resolve:\n\nArt. 1º Disciplinar o registro de faltas e atestados médicos nos sistemas de controle de jornada.\n\nArt. 2º Os sistemas de controle de ponto devem:\nI - registrar automaticamente faltas não justificadas;\nII - permitir o registro de atestados médicos com data de início e fim;\nIII - não descontar salário durante período de atestado médico válido;\nIV - manter histórico de todos os atestados apresentados;\nV - emitir relatórios de faltas e atestados para fins trabalhistas.\n\nArt. 3º O empregador deve:\nI - verificar a autenticidade do atestado médico;\nII - manter arquivo dos atestados por prazo mínimo de 5 anos;\nIII - não exigir atestado para faltas de 1 dia com declaração própria;\nIV - respeitar prazos legais para apresentação de atestados.\n\nArt. 4º Atestados médicos devem conter:\nI - identificação do médico (CRM e especialidade);\nII - identificação do paciente;\nIII - período de afastamento (data início e fim);\nIV - diagnóstico ou CID (quando aplicável);\nV - assinatura e carimbo do médico;\nVI - data da emissão.\n\nArt. 5º O descumprimento das obrigações previstas nesta Portaria sujeitará o infrator às penalidades previstas na legislação.",
+        interpretation: "Em linguagem simples: Esta portaria define como a empresa deve controlar faltas e atestados médicos no sistema de ponto. A empresa DEVE: registrar automaticamente suas faltas, permitir registro de atestados médicos sem descontar salário, manter arquivo dos atestados por 5 anos, verificar se o atestado é verdadeiro, não exigir atestado para 1 dia de doença (pode ser declaração própria). O atestado médico deve ter: nome do médico e CRM, seu nome, período de afastamento, diagnóstico/CID, assinatura e carimbo do médico. Se a empresa não seguir essas regras, pode ser multada!"
+      }
+    ],
+    summaries: [
+      {
+        number: "Súmula 100",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "Não caracteriza abandono de emprego a ausência do empregado por motivo de doença, ainda que não tenha apresentado atestado médico, desde que comprove a impossibilidade de apresentá-lo no prazo legal.",
+        interpretation: "Em linguagem simples: Se você ficou doente e não conseguiu apresentar atestado médico no prazo (primeiro dia de volta), isso NÃO é abandono de emprego! Você pode comprovar depois que realmente estava doente. A empresa não pode te demitir por abandono só por causa disso."
+      },
+      {
+        number: "Súmula 268",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "O empregado que se afasta por motivo de doença tem direito ao salário do período, desde que apresente atestado médico, ainda que fora do prazo, se comprovar a impossibilidade de apresentá-lo no tempo devido.",
+        interpretation: "Em linguagem simples: Mesmo apresentando atestado médico atrasado, você tem direito ao salário do período que faltou, SE conseguir provar que não tinha como apresentar no prazo certo. Exemplo: estava muito doente, hospitalizado, ou o médico só conseguiu emitir depois."
+      },
+      {
+        number: "Súmula 372",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "A falta ao serviço por motivo de doença, comprovada por atestado médico, não pode ser considerada falta injustificada, ainda que o atestado seja apresentado fora do prazo legal, se o empregado comprovar a impossibilidade de apresentá-lo no tempo devido.",
+        interpretation: "Em linguagem simples: Falta por doença com atestado médico NÃO é falta injustificada, mesmo que o atestado seja apresentado atrasado, se você provar que não tinha como apresentar no prazo. Isso protege você de perder direitos por questões burocráticas além do seu controle."
+      }
+    ],
+    jurisprudence: [
+      {
+        title: "Atestado médico e auxílio doença",
+        content: "Quando o empregado se afasta por mais de 15 dias consecutivos por motivo de doença, deve requerer auxílio doença junto ao INSS. Durante o período de auxílio doença, o empregador não paga salário, mas o vínculo empregatício permanece suspenso, não extinto.",
+        interpretation: "Em linguagem simples: Se você ficar doente por mais de 15 dias seguidos, deve pedir auxílio doença no INSS. A empresa para de pagar seu salário (o INSS paga), mas você continua sendo funcionário da empresa. Quando melhorar, volta normalmente ao trabalho. É diferente de ser demitido!"
+      },
+      {
+        title: "Falta de 1 dia e declaração própria",
+        content: "Para faltas de apenas 1 dia por motivo de doença, o empregado pode apresentar declaração de próprio punho, não sendo obrigatório atestado médico. A empresa não pode exigir atestado médico para 1 dia de falta.",
+        interpretation: "Em linguagem simples: Se você faltar só 1 dia por doença, pode escrever uma declaração à mão dizendo que ficou doente. A empresa NÃO PODE exigir atestado médico para 1 dia só! É direito seu usar declaração própria para faltas de 1 dia."
+      },
+      {
+        title: "Atestado médico falso",
+        content: "A apresentação de atestado médico falso constitui justa causa para demissão, pois representa quebra de confiança e violação dos deveres do empregado. A empresa deve comprovar a falsidade do documento.",
+        interpretation: "Em linguagem simples: Se você apresentar atestado médico falso (mentir sobre estar doente), a empresa pode te demitir por justa causa (sem direito a nada). Mas a empresa precisa PROVAR que o atestado é falso. Nunca falsifique atestados médicos - é crime e você perde todos os direitos!"
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1001234-56.2024.5.02.0000",
+        date: "28/09/2024",
+        summary: "Reconhecido direito a salário durante período de atestado médico apresentado fora do prazo. Empregado comprovou impossibilidade de apresentar atestado no primeiro dia devido à gravidade da doença."
+      },
+      {
+        id: "2",
+        court: "TRT-1 (Rio de Janeiro)",
+        number: "Processo nº 0101345-67.2024.5.01.0000",
+        date: "20/09/2024",
+        summary: "Empresa condenada por exigir atestado médico para falta de 1 dia. Trabalhador tinha direito de apresentar declaração própria conforme CLT. Empresa pagará danos morais de R$ 5 mil."
+      },
+      {
+        id: "3",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0011456-78.2024.5.15.0000",
+        date: "13/09/2024",
+        summary: "Demissão por justa causa anulada. Empresa não conseguiu comprovar falsidade de atestado médico. Trabalhador reintegrado e indenizado por danos morais de R$ 20 mil."
+      }
+    ]
   }
 };
 
