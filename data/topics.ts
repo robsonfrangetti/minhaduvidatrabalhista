@@ -308,15 +308,15 @@ export const topics: Record<string, TopicData> = {
   "fontes-direito-trabalho": {
     id: "fontes-direito-trabalho",
     order: 4,
-    title: "Fontes do Direito do Trabalho",
-    description: "De onde vêm as regras trabalhistas e hierarquia das normas",
-    keywords: ["fontes", "leis", "convenção coletiva", "acordo coletivo", "costume", "jurisprudência", "analogia"],
+    title: "De onde vêm as leis trabalhistas?",
+    description: "Origens e fundamentos das leis que protegem os trabalhadores",
+    keywords: ["leis trabalhistas", "fontes direito", "constituição", "CLT", "convenção coletiva", "súmulas", "origem leis", "fundamentos direito"],
     legislation: [
       {
         title: "CLT - Art. 8º",
         reference: "Consolidação das Leis do Trabalho - Artigo 8º",
         content: "As autoridades administrativas e a Justiça do Trabalho, na falta de disposições legais ou contratuais, decidirão, conforme o caso, pela jurisprudência, por analogia, por equidade e outros princípios e normas gerais de direito, principalmente do direito do trabalho, e, ainda, de acordo com os usos e costumes, o direito comparado, mas sempre de maneira que nenhum interesse de classe ou particular prevaleça sobre o interesse público. § 1º O direito comum será fonte subsidiária do direito do trabalho. § 2º Súmulas e outros enunciados de jurisprudência editados pelo Tribunal Superior do Trabalho e pelos Tribunais Regionais do Trabalho deverão ser observados pelas turmas e juízos na aplicação das normas. § 3º No exame de convenção coletiva ou acordo coletivo de trabalho, a Justiça do Trabalho analisará exclusivamente a conformidade dos elementos essenciais do negócio jurídico, respeitado o disposto no art. 104 da Lei no 10.406, de 10 de janeiro de 2002 (Código Civil), e balizará sua atuação pelo princípio da intervenção mínima na autonomia da vontade coletiva.",
-        interpretation: "Em linguagem simples: Quando não tem uma lei específica sobre um assunto trabalhista, o juiz usa: jurisprudência (decisões anteriores), analogia (regras parecidas), equidade (justiça), costumes do trabalho, e princípios gerais. Basicamente, o juiz busca a solução mais justa para o trabalhador. Súmulas do TST são importantes e devem ser seguidas. Acordos e convenções coletivas são respeitados desde que não violem direitos básicos."
+        interpretation: "Em linguagem simples: AS LEIS TRABALHISTAS vêm de várias fontes! Quando não tem lei específica, o juiz usa: 1) JURISPRUDÊNCIA (decisões anteriores), 2) ANALOGIA (regras parecidas), 3) EQUIDADE (justiça), 4) COSTUMES do trabalho, 5) PRINCÍPIOS gerais. ⚠️ IMPORTANTE: O juiz sempre busca a solução mais justa para o trabalhador. Súmulas do TST são OBRIGATÓRIAS e devem ser seguidas. Acordos e convenções coletivas são respeitados desde que não violem direitos básicos. DICA: As leis trabalhistas sempre protegem mais o trabalhador!"
       }
     ],
     ordinances: [],
@@ -325,14 +325,14 @@ export const topics: Record<string, TopicData> = {
         number: "Súmula 277",
         court: "TST - Tribunal Superior do Trabalho",
         content: "As cláusulas normativas dos acordos coletivos ou convenções coletivas integram os contratos individuais de trabalho e somente poderão ser modificadas ou suprimidas mediante negociação coletiva de trabalho.",
-        interpretation: "Em linguagem simples: O que foi combinado no acordo ou convenção coletiva (entre sindicato e empresa) vira parte do seu contrato de trabalho. A empresa não pode tirar esse benefício sozinha, só se negociar novamente com o sindicato. Exemplo: se a convenção deu vale-alimentação de R$ 500, a empresa não pode reduzir para R$ 300 sem nova negociação com sindicato."
+        interpretation: "Em linguagem simples: CONVENÇÕES COLETIVAS são uma FONTE IMPORTANTE das leis trabalhistas! O que foi combinado no acordo ou convenção coletiva (entre sindicato e empresa) vira parte do seu contrato de trabalho. A empresa não pode tirar esse benefício sozinha, só se negociar novamente com o sindicato. ⚠️ IMPORTANTE: Exemplo: se a convenção deu vale-alimentação de R$ 500, a empresa não pode reduzir para R$ 300 sem nova negociação com sindicato. DICA: Convenções coletivas podem dar benefícios AINDA MELHORES que a CLT!"
       }
     ],
     jurisprudence: [
       {
         title: "Hierarquia das normas trabalhistas",
         content: "No direito do trabalho, aplica-se o princípio da norma mais favorável ao trabalhador. Mesmo que a CLT diga uma coisa, se uma convenção coletiva, acordo individual ou regulamento interno for melhor para o trabalhador, prevalece a norma mais benéfica.",
-        interpretation: "Em linguagem simples: Entre várias regras (CLT, convenção coletiva, acordo individual, regulamento da empresa), vale sempre a MELHOR para você! Se a CLT dá 30 dias de férias mas a convenção dá 35 dias, você tem direito a 35 dias. Se o regulamento interno dá plano de saúde e a CLT não obriga, você tem direito ao plano. Sempre prevalece a regra melhor."
+        interpretation: "Em linguagem simples: AS LEIS TRABALHISTAS seguem a REGRA DO MAIS FAVORÁVEL! Entre várias regras (CLT, convenção coletiva, acordo individual, regulamento da empresa), vale sempre a MELHOR para você! Se a CLT dá 30 dias de férias mas a convenção dá 35 dias, você tem direito a 35 dias. ⚠️ IMPORTANTE: Se o regulamento interno dá plano de saúde e a CLT não obriga, você tem direito ao plano. DICA: Sempre prevalece a regra melhor - essa é uma das bases das leis trabalhistas!"
       }
     ],
     recentDecisions: [
