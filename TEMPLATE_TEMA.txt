@@ -322,10 +322,57 @@ TRIBUNAIS:
 • TRT-15 (Campinas): https://www.trt15.jus.br/
 
 ================================================================================
+✅ CHECKLIST DE PESQUISA COMPLETA (ANTES DE COMEÇAR A CRIAR)
+================================================================================
+
+ETAPA 1 - PESQUISA DE LEGISLAÇÃO:
+[ ] Pesquisar no Planalto TODOS os artigos da CLT sobre o tema
+[ ] Pesquisar artigos da Constituição Federal relacionados
+[ ] Pesquisar leis específicas (ex: Lei 8.213 para INSS, Lei 11.770 para licença)
+[ ] Pesquisar decretos regulamentadores
+[ ] Ler COMENTÁRIOS dos artigos para não perder detalhes importantes
+
+ETAPA 2 - PESQUISA DE PORTARIAS/NORMAS:
+[ ] Pesquisar portarias do MTE sobre o tema
+[ ] Pesquisar instruções normativas da SIT
+[ ] Pesquisar NRs (Normas Regulamentadoras) relacionadas
+[ ] Pesquisar resoluções do CSJT
+[ ] Verificar se há atos do MPT
+
+ETAPA 3 - PESQUISA DE JURISPRUDÊNCIA:
+[ ] Pesquisar TODAS as súmulas do TST relacionadas (site oficial)
+[ ] Pesquisar OJs (Orientações Jurisprudenciais) do TST
+[ ] Pesquisar súmulas vinculantes do STF (se aplicável)
+[ ] Ler precedentes normativos
+[ ] Verificar teses repetitivas
+
+ETAPA 4 - PESQUISA DE CASOS PRÁTICOS:
+[ ] Pesquisar decisões recentes nos sites dos TRTs
+[ ] Pesquisar decisões do TST sobre o tema
+[ ] Verificar notícias de casos relevantes
+[ ] Buscar exemplos reais com valores de indenização
+
+ETAPA 5 - VERIFICAÇÃO DE DETALHES IMPORTANTES:
+[ ] Pesquisar "obrigações do empregador" sobre o tema
+[ ] Pesquisar "direitos do empregado" sobre o tema
+[ ] Pesquisar "exceções" às regras gerais
+[ ] Pesquisar "penalidades" para descumprimento
+[ ] Pesquisar "como funciona na prática" (fóruns, consultorias)
+
+ETAPA 6 - VALIDAÇÃO CRUZADA:
+[ ] Comparar com pelo menos 3 fontes diferentes
+[ ] Verificar se há contradições entre fontes
+[ ] Buscar "perguntas frequentes" sobre o tema
+[ ] Ler comentários em artigos especializados
+[ ] Verificar se há atualizações recentes (reformas, novas leis)
+
+⚠️ SÓ COMECE A CRIAR O TEMA DEPOIS DE COMPLETAR TODAS AS ETAPAS!
+
+================================================================================
 ✅ CHECKLIST ANTES DE PUBLICAR UM TEMA
 ================================================================================
 
-[ ] Título segue o padrão "Arts. X, Y, Z - Nome do Tema"
+[ ] Título no padrão sem artigos (ex: "Direitos da Gestante")
 [ ] Descrição clara e objetiva
 [ ] 5-7 palavras-chave relevantes
 [ ] Pelo menos 2-3 artigos de legislação com texto completo
