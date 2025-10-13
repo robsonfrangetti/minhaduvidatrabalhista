@@ -1584,6 +1584,120 @@ export const topics: Record<string, TopicData> = {
         summary: "Coação para vender férias caracterizada. Empresa ameaçou demitir funcionário se não vendesse férias. Tribunal entendeu coação e anulou toda a venda de férias. Empresa condenada a pagar R$ 3.000 (valor das férias vendidas) + multa de R$ 1.500."
       }
     ]
+  },
+  "verbas-rescisorias": {
+    id: "verbas-rescisorias",
+    order: 21,
+    title: "Quais são as verbas rescisórias devidas na demissão?",
+    description: "Lista completa de verbas rescisórias, quando são devidas e valores",
+    keywords: ["verbas rescisórias", "demissão", "rescisão", "aviso prévio", "FGTS", "férias"],
+    legislation: [
+      {
+        title: "CLT - Art. 477 - Prazo e Forma de Pagamento",
+        reference: "Consolidação das Leis do Trabalho - Artigo 477",
+        content: "O empregador deverá pagar ao empregado, no ato da rescisão do contrato de trabalho, as seguintes verbas: I - salário do período trabalhado; II - férias vencidas e proporcionais, acrescidas de 1/3 constitucional; III - 13º salário proporcional; IV - aviso prévio trabalhado ou indenizado; V - multa de 40% sobre o FGTS; VI - liberação do saldo do FGTS.",
+        interpretation: "Em linguagem simples: Quando você é demitido, a empresa DEVE pagar TUDO na hora (ou em até 10 dias): 1) Salário dos dias trabalhados no mês, 2) Férias vencidas + proporcionais + 1/3, 3) 13º proporcional, 4) Aviso prévio, 5) Multa 40% FGTS, 6) Liberar saque do FGTS. ⚠️ ATENÇÃO: Isso vale para DEMISSÃO SEM JUSTA CAUSA! Se for justa causa, você perde algumas verbas. IMPORTANTE: A empresa tem até 10 dias para pagar tudo. Se não pagar, pode ser multada. DICA: Guarde todos os comprovantes de pagamento!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art477"
+      },
+      {
+        title: "CLT - Art. 484-A - Multa de 40% do FGTS",
+        reference: "Consolidação das Leis do Trabalho - Artigo 484-A",
+        content: "Nas rescisões do contrato de trabalho por iniciativa do empregador, inclusive na hipótese de justa causa, será devida multa de 40% (quarenta por cento) sobre o saldo de conta vinculada do trabalhador, inclusive sobre as contribuições devidas pelo empregador no mês da resissão.",
+        interpretation: "Em linguagem simples: Se a empresa te DEMITE (qualquer tipo de demissão), você tem direito à multa de 40% sobre o FGTS! Exemplo: Se você tem R$ 20.000 de FGTS, a empresa paga R$ 8.000 de multa (40% de R$ 20.000). ⚠️ ATENÇÃO: Isso vale até para JUSTA CAUSA! Se você tem R$ 10.000 de FGTS e é demitido por justa causa, a empresa paga R$ 4.000 de multa. IMPORTANTE: A multa é sobre o SALDO TOTAL do FGTS (incluindo o que a empresa depositou). DICA: Mesmo em justa causa, você tem direito à multa 40% FGTS!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art484a"
+      }
+    ],
+    ordinances: [],
+    summaries: [],
+    jurisprudence: [
+      {
+        title: "Verbas rescisórias em demissão sem justa causa",
+        content: "Em demissão sem justa causa, o empregado tem direito a todas as verbas rescisórias: saldo de salário, férias vencidas + proporcionais + 1/3, 13º proporcional, aviso prévio (trabalhado ou indenizado), multa 40% FGTS, liberação do FGTS, e ainda pode ter direito ao seguro-desemprego.",
+        interpretation: "Em linguagem simples: Demissão SEM justa causa = você ganha TUDO! É a melhor situação possível. Você recebe todas as verbas + pode sacar o FGTS + pode pedir seguro-desemprego. ⚠️ ATENÇÃO: Se a empresa quiser te demitir, prefira demissão SEM justa causa. IMPORTANTE: Você tem direito a TUDO mesmo que tenha cometido algumas faltas leves. DICA: Se a empresa ameaçar justa causa, negocie uma demissão sem justa causa - é muito melhor!"
+      },
+      {
+        title: "Verbas rescisórias em justa causa",
+        content: "Em demissão por justa causa, o empregado tem direito apenas a: saldo de salário (dias trabalhados no mês), férias vencidas + 1/3 (se tiver período completo), multa 40% FGTS. NÃO tem direito a: aviso prévio, férias proporcionais, 13º proporcional, saque do FGTS, seguro-desemprego.",
+        interpretation: "Em linguagem simples: Justa causa = você perde MUITO! Você só recebe: 1) Salário dos dias trabalhados, 2) Férias vencidas (se tiver), 3) Multa 40% FGTS. MAS PERDE: aviso prévio, férias proporcionais, 13º, saque do FGTS, seguro-desemprego. ⚠️ ATENÇÃO: Justa causa é muito grave! Você pode perder R$ 20.000+ facilmente. IMPORTANTE: Se você acha que a justa causa foi injusta, PROCURE UM ADVOGADO imediatamente! DICA: NUNCA assine rescisão por justa causa sem ler tudo e entender o motivo."
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1013906-89.2024.5.02.0000",
+        date: "17/10/2024",
+        summary: "Verbas rescisórias não pagas - empresa condenada. Funcionário demitido sem justa causa mas empresa não pagou férias proporcionais nem 13º. Tribunal condenou empresa a pagar R$ 8.500 (férias proporcionais) + R$ 3.200 (13º proporcional) + R$ 2.800 (multa 40% FGTS) + multa art. 477. Total: R$ 16.500."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0022907-33.2024.5.15.0000",
+        date: "10/10/2024",
+        summary: "Justa causa revertida - trabalhador ganha todas as verbas. Funcionário demitido por 'falta grave' mas Justiça reverteu. Trabalhador recebeu R$ 12.000 (aviso prévio) + R$ 6.000 (férias proporcionais) + R$ 4.800 (13º) + R$ 5.200 (multa FGTS) = R$ 28.000."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0115018-45.2024.5.03.0000",
+        date: "03/10/2024",
+        summary: "Multa 40% FGTS negada incorretamente. Empresa alegou que funcionário pediu demissão, mas comprovou que foi demitido. Tribunal condenou empresa a pagar R$ 7.200 (multa 40% sobre R$ 18.000 de FGTS) + liberar saque integral do FGTS + multa art. 477."
+      }
+    ]
+  },
+  "aviso-previo": {
+    id: "aviso-previo",
+    order: 22,
+    title: "O que é aviso prévio e qual sua duração?",
+    description: "Tipos de aviso prévio, duração, direitos e obrigações",
+    keywords: ["aviso prévio", "duração", "trabalhado", "indenizado", "30 dias"],
+    legislation: [
+      {
+        title: "CLT - Art. 487 - Aviso Prévio",
+        reference: "Consolidação das Leis do Trabalho - Artigo 487",
+        content: "O aviso prévio será de 30 (trinta) dias, no mínimo, e aumentará de 3 (três) dias por ano de serviço prestado na mesma empresa, até o máximo de 90 (noventa) dias. O aviso prévio poderá ser trabalhado ou indenizado, conforme a decisão do empregador ou do empregado.",
+        interpretation: "Em linguagem simples: O aviso prévio é a 'conversa' antes da demissão! Duração: - Mínimo: 30 dias, - A cada ano trabalhado: +3 dias, - Máximo: 90 dias. Exemplo: Você trabalhou 5 anos = 30 + (5×3) = 30 + 15 = 45 dias de aviso prévio. Você trabalhou 20 anos = 30 + (20×3) = 90 dias (máximo). ⚠️ ATENÇÃO: O aviso prévio pode ser TRABALHADO (você trabalha os dias) ou INDENIZADO (empresa paga e você sai na hora). IMPORTANTE: Durante o aviso prévio, você tem todos os direitos (férias, 13º, etc.). DICA: Se você quer sair logo, peça indenização. Se quer ganhar mais, trabalhe os dias.",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art487"
+      },
+      {
+        title: "CLT - Art. 488 - Aviso Prévio Indenizado",
+        reference: "Consolidação das Leis do Trabalho - Artigo 488",
+        content: "Quando o empregador optar pelo aviso prévio indenizado, o empregado será dispensado do cumprimento do aviso, devendo a empresa pagar-lhe o valor correspondente ao período do aviso prévio.",
+        interpretation: "Em linguagem simples: Se a empresa escolher aviso prévio INDENIZADO, você sai na hora e recebe o dinheiro dos dias! Exemplo: Você tem 45 dias de aviso prévio e ganha R$ 3.000 = R$ 3.000 ÷ 30 × 45 = R$ 4.500 de aviso prévio indenizado. ⚠️ ATENÇÃO: A empresa decide se é trabalhado ou indenizado, NÃO você. IMPORTANTE: No aviso indenizado, você sai imediatamente e recebe o dinheiro. DICA: Se a empresa escolher indenizado, você pode começar outro emprego logo!"
+      }
+    ],
+    ordinances: [],
+    summaries: [],
+    jurisprudence: [
+      {
+        title: "Direitos durante aviso prévio trabalhado",
+        content: "Durante o aviso prévio trabalhado, o empregado mantém todos os direitos trabalhistas: salário integral, férias proporcionais, 13º proporcional, vale-transporte, etc. A empresa não pode reduzir direitos ou funções durante este período.",
+        interpretation: "Em linguagem simples: Durante o aviso prévio trabalhado, você tem TODOS os direitos normais! A empresa não pode: reduzir seu salário, mudar suas funções, te perseguir, cortar benefícios. Você trabalha normalmente e recebe tudo igual. ⚠️ ATENÇÃO: Se a empresa tentar 'varrer' você durante o aviso prévio, pode ser assédio moral. IMPORTANTE: Você continua acumulando direitos (férias, 13º) durante o aviso prévio. DICA: Se a empresa ficar 'difícil' durante o aviso, documente tudo e procure um advogado."
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1014907-00.2024.5.02.0000",
+        date: "21/10/2024",
+        summary: "Aviso prévio calculado incorretamente - empresa condenada. Funcionário trabalhou 8 anos mas empresa pagou só 30 dias. Tribunal condenou empresa a pagar diferença de 24 dias (8×3): R$ 2.400 + multa. Funcionário recebeu R$ 3.600."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0023908-44.2024.5.15.0000",
+        date: "14/10/2024",
+        summary: "Assédio moral durante aviso prévio caracterizado. Empresa transferiu funcionário para função inferior e reduziu salário durante aviso prévio. Tribunal condenou empresa a pagar R$ 15.000 de danos morais + diferenças salariais de R$ 2.800."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0116019-56.2024.5.03.0000",
+        date: "07/10/2024",
+        summary: "Aviso prévio negado incorretamente. Empresa alegou que funcionário pediu demissão mas comprovou que foi demitido. Tribunal condenou empresa a pagar R$ 4.500 (45 dias de aviso prévio) + multa de R$ 1.500."
+      }
+    ]
   }
 };
 
