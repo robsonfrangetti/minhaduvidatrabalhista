@@ -47,27 +47,27 @@ export const topics: Record<string, TopicData> = {
   "empregador-empregado": {
     id: "empregador-empregado",
     order: 1,
-    title: "Empregador e Empregado",
-    description: "Entenda quem é considerado empregador e empregado pela CLT",
-    keywords: ["empregador", "empregado", "vínculo empregatício", "conceitos", "definição"],
+    title: "O que caracteriza uma relação de emprego?",
+    description: "Elementos essenciais para identificar se existe vínculo empregatício",
+    keywords: ["relação de emprego", "vínculo empregatício", "empregado", "empregador", "subordinação", "pessoalidade", "não eventualidade", "onerosidade"],
     legislation: [
       {
         title: "CLT - Art. 2º",
         reference: "Consolidação das Leis do Trabalho - Artigo 2º",
         content: "Considera-se empregador a empresa, individual ou coletiva, que, assumindo os riscos da atividade econômica, admite, assalaria e dirige a prestação pessoal de serviço. § 1º Equiparam-se ao empregador, para os efeitos exclusivos da relação de emprego, os profissionais liberais, as instituições de beneficência, as associações recreativas ou outras instituições sem fins lucrativos, que admitirem trabalhadores como empregados. § 2º Sempre que uma ou mais empresas, tendo, embora, cada uma delas, personalidade jurídica própria, estiverem sob a direção, controle ou administração de outra, ou ainda quando, mesmo guardando cada uma sua autonomia, integrem grupo econômico, serão responsáveis solidariamente pelas obrigações decorrentes da relação de emprego.",
-        interpretation: "Em linguagem simples: Empregador é qualquer empresa ou pessoa que contrata trabalhadores, paga salários e organiza o trabalho, assumindo os riscos do negócio. Isso inclui empresas comuns, profissionais liberais (médicos, advogados), ONGs e até clubes recreativos. Se várias empresas são do mesmo grupo (como uma rede de lojas), todas são responsáveis juntas pelos direitos dos funcionários."
+        interpretation: "Em linguagem simples: Para caracterizar uma relação de emprego, precisa ter EMPREGADOR. Empregador é quem: 1) TEM uma empresa/negócio, 2) ASSUME os riscos (se der prejuízo, é problema dele), 3) CONTRATA funcionários, 4) PAGA salário, 5) COMANDAR o trabalho. Inclui empresas, profissionais liberais (médicos, advogados), ONGs e clubes. Se várias empresas são do mesmo grupo, todas respondem juntas pelos direitos. ⚠️ IMPORTANTE: Se quem te paga não tem empresa registrada, ainda pode ser empregador (trabalho doméstico, por exemplo). O empregador é quem está 'no comando' - decide o que, como e quando fazer."
       },
       {
         title: "CLT - Art. 3º",
         reference: "Consolidação das Leis do Trabalho - Artigo 3º",
         content: "Considera-se empregado toda pessoa física que prestar serviços de natureza não eventual a empregador, sob a dependência deste e mediante salário. Parágrafo único - Não haverá distinções relativas à espécie de emprego e à condição de trabalhador, nem entre o trabalho intelectual, técnico e manual.",
-        interpretation: "Em linguagem simples: Você é empregado se trabalha regularmente (não é só um bico), recebe ordens do patrão, trabalha pessoalmente (não pode mandar outra pessoa no seu lugar) e ganha salário. Não importa se seu trabalho é físico (pedreiro), técnico (técnico de informática) ou intelectual (professor) - todos têm os mesmos direitos trabalhistas."
+        interpretation: "Em linguagem simples: Para caracterizar uma relação de emprego, você precisa ser EMPREGADO. Você é empregado se tem os 4 ELEMENTOS ESSENCIAIS: 1) PESSOA FÍSICA (você mesmo, não uma empresa), 2) NÃO EVENTUAL (trabalho regular, não é só um bico), 3) DEPENDÊNCIA (recebe ordens do patrão), 4) SALÁRIO (recebe pagamento). TODOS os 4 são obrigatórios! Se falta qualquer um = não é empregado. Exemplos: vendedor de loja ✓, prestador de serviço ✗ (não tem dependência), estagiário sem salário ✗ (falta salário). ⚠️ IMPORTANTE: Não importa se é trabalho físico, técnico ou intelectual - todos têm os mesmos direitos se caracterizarem relação de emprego!"
       },
       {
         title: "CLT - Art. 1º",
         reference: "Consolidação das Leis do Trabalho - Artigo 1º",  
         content: "Esta Consolidação estatui as normas que regulam as relações individuais e coletivas de trabalho, nela previstas. Parágrafo único. No tocante às relações de trabalho rural, são aplicáveis ao empregado e ao empregador rural, sempre que for compatível, as disposições desta Lei.",
-        interpretation: "Em linguagem simples: A CLT é a lei que define as regras entre empregado e patrão. Ela vale tanto para trabalhadores da cidade quanto do campo (quando as regras se aplicarem), protegendo os direitos de todos os trabalhadores brasileiros."
+        interpretation: "Em linguagem simples: A CLT é a LEI PRINCIPAL que define o que é uma relação de emprego e quais são os direitos trabalhistas. Ela vale para todos os trabalhadores brasileiros - tanto da cidade quanto do campo. Se você tem uma relação de emprego (com os 4 elementos: pessoa física + não eventual + dependência + salário), a CLT te protege com todos os direitos trabalhistas. ⚠️ IMPORTANTE: A CLT só se aplica quando existe relação de emprego. Se você é autônomo, prestador de serviço, ou tem outro tipo de vínculo, outras leis podem se aplicar."
       }
     ],
     ordinances: [
