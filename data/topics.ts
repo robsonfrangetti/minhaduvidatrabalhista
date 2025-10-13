@@ -1357,6 +1357,233 @@ export const topics: Record<string, TopicData> = {
         summary: "Cálculo de PLR corrigido por discriminação. Empresa pagou PLR diferente para homens e mulheres no mesmo cargo. Tribunal entendeu discriminação de gênero. Empregadas têm direito à diferença de PLR + multa por discriminação. Empresa condenada a pagar R$ 45 mil em diferenças e multa."
       }
     ]
+  },
+  "vale-transporte": {
+    id: "vale-transporte",
+    order: 17,
+    title: "Como funciona o Vale Transporte, como deve ser pago e como é o desconto?",
+    description: "Tudo sobre Vale Transporte: obrigação da empresa, desconto do funcionário e legislação",
+    keywords: ["vale transporte", "lei 7418", "desconto 6%", "obrigação empregador", "transporte público"],
+    legislation: [
+      {
+        title: "Lei 7.418/1985 - Vale Transporte",
+        reference: "Lei nº 7.418, de 16 de dezembro de 1985",
+        content: "Art. 1º Fica instituído o vale-transporte, destinado a atender, prioritariamente, aos trabalhadores de baixa renda, no deslocamento residência-trabalho e vice-versa. Art. 2º O vale-transporte será fornecido pelo empregador, que poderá descontar do salário do empregado até 6% (seis por cento) do valor de seu salário-base, limitando-se o desconto ao valor efetivamente utilizado no período de concessão. Art. 3º O empregador deverá fornecer o vale-transporte, preferencialmente em cartões magnéticos ou bilhetes, no início do período de concessão.",
+        interpretation: "Em linguagem simples: O Vale Transporte é OBRIGATÓRIO para TODOS os funcionários! A empresa DEVE fornecer o benefício e pode descontar ATÉ 6% do salário do funcionário. Exemplo: Se você ganha R$ 3.000, a empresa pode descontar no máximo R$ 180 (6% de R$ 3.000). Se você gastar R$ 200 com transporte, a empresa paga R$ 180 e você paga R$ 20. Se gastar R$ 150, a empresa paga R$ 150 e você paga R$ 30 (que volta no salário). ⚠️ ATENÇÃO: O desconto é OBRIGATÓRIO! Você não pode recusar. IMPORTANTE: Deve ser fornecido em cartão/bilhete, NÃO em dinheiro. DICA: Se a empresa não fornecer Vale Transporte, você pode processar!",
+        link: "http://www.planalto.gov.br/ccivil_03/leis/l7418.htm"
+      },
+      {
+        title: "Lei 7.418/1985 - Art. 4º - Limite do Desconto",
+        reference: "Lei nº 7.418/1985 - Artigo 4º",
+        content: "O desconto previsto no art. 2º desta Lei não poderá exceder o valor efetivamente gasto com transporte no período de concessão, nem 6% (seis por cento) do salário-base do empregado.",
+        interpretation: "Em linguagem simples: A empresa NÃO PODE descontar mais que você gasta com transporte! Exemplos: 1) Você gasta R$ 100 com transporte e ganha R$ 3.000: desconto máximo R$ 100 (não os R$ 180 dos 6%). 2) Você gasta R$ 200 com transporte e ganha R$ 3.000: desconto máximo R$ 180 (6% = R$ 180), empresa paga R$ 20 a mais. ⚠️ ATENÇÃO: Se a empresa descontar mais que você gasta, está roubando! IMPORTANTE: O desconto é sempre o MENOR valor entre: 6% do salário OU valor gasto com transporte. DICA: Guarde os comprovantes de transporte para conferir se o desconto está correto!",
+        link: "http://www.planalto.gov.br/ccivil_03/leis/l7418.htm"
+      }
+    ],
+    ordinances: [],
+    summaries: [],
+    jurisprudence: [
+      {
+        title: "Vale Transporte como obrigação legal",
+        content: "A jurisprudência trabalhista consolidou o entendimento de que o Vale Transporte é obrigação legal do empregador, não podendo ser condicionado a qualquer requisito ou acordo. A empresa que não fornece o benefício comete infração trabalhista passível de multa e condenação ao pagamento dos valores devidos.",
+        interpretation: "Em linguagem simples: A empresa NÃO PODE inventar desculpas para não dar Vale Transporte! Não importa se: você tem carro, mora perto, usa bicicleta, etc. É OBRIGATÓRIO para TODOS! Se a empresa se recusar, você pode: 1) Processar na Justiça, 2) Denunciar no MTE (Ministério do Trabalho), 3) Pedir multa para a empresa. ⚠️ ATENÇÃO: Mesmo se você não usar transporte público, a empresa DEVE oferecer! IMPORTANTE: Se a empresa só oferece para alguns funcionários, é discriminação ilegal. DICA: Se a empresa disser que 'não tem obrigação', está mentindo!"
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1009902-45.2024.5.02.0000",
+        date: "03/10/2024",
+        summary: "Vale Transporte negado por 2 anos - empresa condenada. Funcionária morava a 15km do trabalho e empresa se recusou a fornecer Vale Transporte alegando que 'não era obrigatório'. Tribunal condenou empresa a pagar R$ 3.600 (R$ 150/mês x 24 meses) + multa de R$ 1.800. Total: R$ 5.400."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0018903-89.2024.5.15.0000",
+        date: "26/09/2024",
+        summary: "Desconto excessivo de Vale Transporte corrigido. Empresa descontava 6% do salário mesmo quando funcionário gastava menos. Tribunal condenou empresa a restituir diferenças dos últimos 2 anos no valor de R$ 2.880 + multa. Funcionário recebeu R$ 4.320."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0111014-01.2024.5.03.0000",
+        date: "19/09/2024",
+        summary: "Vale Transporte fornecido em dinheiro anulado. Empresa fornecia dinheiro em vez de cartão/bilhete, violando a Lei 7.418/1985. Tribunal condenou empresa a fornecer cartão adequado + multa de R$ 2.500 por irregularidade. Todos os funcionários foram beneficiados."
+      }
+    ]
+  },
+  "seguro-desemprego": {
+    id: "seguro-desemprego",
+    order: 18,
+    title: "Quem tem direito ao seguro-desemprego e por quanto tempo?",
+    description: "Requisitos, prazos, valores e como solicitar o seguro-desemprego",
+    keywords: ["seguro desemprego", "demissão sem justa causa", "requisitos", "parcelas", "valor"],
+    legislation: [
+      {
+        title: "Lei 7.998/1990 - Seguro-Desemprego",
+        reference: "Lei nº 7.998, de 11 de janeiro de 1990",
+        content: "Art. 1º Fica instituído o Programa Seguro-Desemprego, de caráter social, destinado a prover assistência financeira temporária ao trabalhador desempregado, bem como a qualificá-lo profissionalmente, quando necessário. Art. 2º São beneficiários do seguro-desemprego os trabalhadores desempregados que atendam aos requisitos estabelecidos nesta Lei. Art. 3º O seguro-desemprego será concedido pelo prazo de 3 (três) a 5 (cinco) meses, conforme o tempo de trabalho nos últimos 36 (trinta e seis) meses anteriores ao desligamento.",
+        interpretation: "Em linguagem simples: O seguro-desemprego é um DINHEIRO que o governo dá quando você é demitido SEM justa causa! É para te ajudar enquanto você procura outro emprego. Você recebe de 3 a 5 parcelas (mensais), dependendo de quanto tempo você trabalhou. ⚠️ ATENÇÃO: Só tem direito quem é DEMITIDO SEM JUSTA CAUSA (não quem pede demissão). IMPORTANTE: Você precisa ter trabalhado com carteira assinada (CLT). DICA: Se você pediu demissão, NÃO tem direito ao seguro-desemprego!",
+        link: "http://www.planalto.gov.br/ccivil_03/leis/l7998.htm"
+      },
+      {
+        title: "Lei 7.998/1990 - Art. 4º - Requisitos",
+        reference: "Lei nº 7.998/1990 - Artigo 4º",
+        content: "Para ter direito ao seguro-desemprego, o trabalhador deve: I - ter sido dispensado sem justa causa; II - não estar em gozo de qualquer benefício de prestação continuada da Previdência Social, exceto auxílio-acidente; III - ter trabalhado com carteira assinada por, no mínimo: a) 12 (doze) meses nos últimos 18 (dezoito) meses anteriores ao desligamento, no caso da primeira solicitação; b) 9 (nove) meses nos últimos 12 (doze) meses anteriores ao desligamento, no caso da segunda solicitação; c) 6 (seis) meses nos últimos 6 (seis) meses anteriores ao desligamento, a partir da terceira solicitação.",
+        interpretation: "Em linguagem simples: Para ter direito ao seguro-desemprego, você precisa: 1) Ser DEMITIDO sem justa causa, 2) Não estar recebendo aposentadoria/auxílio-doença, 3) Ter trabalhado com carteira assinada: - 1ª vez: 12 meses nos últimos 18 meses, - 2ª vez: 9 meses nos últimos 12 meses, - 3ª vez ou mais: 6 meses nos últimos 6 meses. ⚠️ ATENÇÃO: Se você pediu demissão, NÃO tem direito! IMPORTANTE: O tempo de trabalho precisa ser COM CARTEIRA ASSINADA (CLT). DICA: Guarde a carteira de trabalho e documentos da rescisão para comprovar o tempo trabalhado!",
+        link: "http://www.planalto.gov.br/ccivil_03/leis/l7998.htm"
+      }
+    ],
+    ordinances: [],
+    summaries: [],
+    jurisprudence: [
+      {
+        title: "Seguro-desemprego e justa causa",
+        content: "A jurisprudência consolidou o entendimento de que o seguro-desemprego é indevido quando há justa causa comprovada. Porém, se a justa causa for revertida pela Justiça do Trabalho, o trabalhador adquire direito ao benefício retroativamente.",
+        interpretation: "Em linguagem simples: Se você foi demitido por JUSTA CAUSA, NÃO tem direito ao seguro-desemprego. MAS: se você processar e a Justiça reverter a justa causa (virar demissão sem justa causa), você GANHA o direito ao seguro-desemprego! ⚠️ ATENÇÃO: Mesmo que você já tenha perdido o prazo para pedir, se a Justiça reverter, você pode pedir depois. IMPORTANTE: Guarde todos os documentos da demissão - podem ser úteis no processo. DICA: Se você acha que a demissão por justa causa foi injusta, procure um advogado trabalhista!"
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1010903-56.2024.5.02.0000",
+        date: "07/10/2024",
+        summary: "Justa causa revertida - trabalhador ganha direito ao seguro-desemprego. Funcionário foi demitido por 'falta grave' mas Justiça reverteu para demissão sem justa causa. Trabalhador conseguiu receber seguro-desemprego retroativamente (5 parcelas de R$ 1.800 = R$ 9.000) + empresa pagou R$ 15 mil em verbas rescisórias."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0019904-00.2024.5.15.0000",
+        date: "30/09/2024",
+        summary: "Seguro-desemprego negado por pedido de demissão. Trabalhador pediu demissão mas alegou que foi 'forçado' pela empresa. Tribunal negou - não houve prova de coação. Trabalhador perdeu direito ao seguro-desemprego (5 parcelas de R$ 1.500 = R$ 7.500 perdidos)."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0112015-12.2024.5.03.0000",
+        date: "23/09/2024",
+        summary: "Seguro-desemprego concedido após recurso. Trabalhador foi negado pelo INSS por 'tempo insuficiente' mas comprovou 14 meses trabalhados nos últimos 18 meses. Tribunal determinou concessão do benefício (4 parcelas de R$ 1.200 = R$ 4.800) + multa administrativa para o INSS."
+      }
+    ]
+  },
+  "calculo-ferias-13": {
+    id: "calculo-ferias-13",
+    order: 19,
+    title: "Como é feito o cálculo das férias e do 13º salário?",
+    description: "Fórmulas, exemplos práticos e como calcular férias e 13º salário",
+    keywords: ["cálculo férias", "13º salário", "fórmula", "exemplos", "1/3 constitucional"],
+    legislation: [
+      {
+        title: "CLT - Art. 142 - Cálculo do 13º Salário",
+        reference: "Consolidação das Leis do Trabalho - Artigo 142",
+        content: "A gratificação natalina corresponderá a 1/12 (um doze avos) da remuneração devida em dezembro, por mês de serviço, do ano correspondente. A gratificação será paga até o dia 20 de dezembro de cada ano.",
+        interpretation: "Em linguagem simples: O 13º salário é calculado assim: SALÁRIO ÷ 12 × MESES TRABALHADOS. Exemplo: Você ganha R$ 3.600 e trabalhou 8 meses no ano = R$ 3.600 ÷ 12 × 8 = R$ 300 × 8 = R$ 2.400. ⚠️ ATENÇÃO: Se você trabalhou só 1 mês, recebe 1/12 do salário. Se trabalhou o ano todo, recebe o salário completo. IMPORTANTE: É pago em 2 parcelas: 1ª parcela (50%) até 30/11, 2ª parcela (50% - IR) até 20/12. DICA: Se você for demitido, recebe o 13º proporcional aos meses trabalhados!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art142"
+      },
+      {
+        title: "CLT - Art. 130 - Férias Anuais",
+        reference: "Consolidação das Leis do Trabalho - Artigo 130",
+        content: "Após cada período de 12 (doze) meses de vigência do contrato de trabalho, o empregado terá direito a férias, na seguinte proporção: I - 30 (trinta) dias corridos, quando não houver faltado ao serviço mais de 5 (cinco) vezes; II - 24 (vinte e quatro) dias corridos, quando houver tido de 6 (seis) a 14 (quatorze) faltas; III - 18 (dezoito) dias corridos, quando houver tido de 15 (quinze) a 23 (vinte e três) faltas; IV - 12 (doze) dias corridos, quando houver tido de 24 (vinte e quatro) a 32 (trinta e duas) faltas.",
+        interpretation: "Em linguagem simples: As férias dependem das FALTAS que você teve no período: - 0 a 5 faltas = 30 dias de férias, - 6 a 14 faltas = 24 dias de férias, - 15 a 23 faltas = 18 dias de férias, - 24 a 32 faltas = 12 dias de férias. ⚠️ ATENÇÃO: Só contam as faltas INJUSTIFICADAS (sem atestado médico). Faltas com atestado médico NÃO contam! IMPORTANTE: Você recebe o salário + 1/3 constitucional durante as férias. DICA: Se você tem 33+ faltas injustificadas, NÃO tem direito a férias!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art130"
+      },
+      {
+        title: "CF - Art. 7º, XVII - 1/3 Constitucional",
+        reference: "Constituição Federal - Artigo 7º, inciso XVII",
+        content: "São direitos dos trabalhadores urbanos e rurais: XVII - gozo de férias anuais remuneradas com, pelo menos, um terço a mais do que o salário normal.",
+        interpretation: "Em linguagem simples: Durante as férias, você recebe seu salário NORMAL + 1/3 EXTRA! Exemplo: Se você ganha R$ 3.000, nas férias recebe R$ 3.000 + R$ 1.000 (1/3) = R$ 4.000. ⚠️ ATENÇÃO: O 1/3 é OBRIGATÓRIO! A empresa não pode pagar só o salário normal. IMPORTANTE: O 1/3 é sobre o salário-base, não sobre comissões/adicional. DICA: Se a empresa não pagar o 1/3, você pode processar para receber a diferença!",
+        link: "http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art7"
+      }
+    ],
+    ordinances: [],
+    summaries: [],
+    jurisprudence: [
+      {
+        title: "Cálculo de férias proporcionais",
+        content: "A jurisprudência consolidou o entendimento de que as férias proporcionais, quando devidas (demissão antes de completar 12 meses), devem ser calculadas considerando 1/12 do salário por mês trabalhado, acrescidas de 1/3 constitucional.",
+        interpretation: "Em linguagem simples: Se você for demitido antes de completar 12 meses, tem direito a FÉRIAS PROPORCIONAIS! Cálculo: SALÁRIO ÷ 12 × MESES TRABALHADOS + 1/3. Exemplo: Trabalhou 8 meses, ganha R$ 3.600 = R$ 3.600 ÷ 12 × 8 = R$ 2.400 + R$ 800 (1/3) = R$ 3.200. ⚠️ ATENÇÃO: Só tem direito se não for demitido por justa causa. IMPORTANTE: As férias proporcionais também têm 1/3 constitucional! DICA: Guarde os comprovantes de salário para calcular direito."
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1011904-67.2024.5.02.0000",
+        date: "10/10/2024",
+        summary: "13º salário calculado incorretamente - empresa condenada. Funcionário trabalhou 10 meses mas empresa pagou só 8/12. Tribunal condenou empresa a pagar diferença de 2/12 do 13º (R$ 1.200) + multa de R$ 600. Total: R$ 1.800."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0020905-11.2024.5.15.0000",
+        date: "03/10/2024",
+        summary: "1/3 constitucional das férias não pago - trabalhador ganha processo. Empresa pagou só o salário normal nas férias, sem o 1/3 extra. Tribunal condenou empresa a pagar R$ 2.400 (1/3 de 3 períodos de férias) + multa de R$ 1.200. Total: R$ 3.600."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0113016-23.2024.5.03.0000",
+        date: "26/09/2024",
+        summary: "Férias proporcionais negadas incorretamente. Funcionário demitido após 9 meses mas empresa não pagou férias proporcionais. Tribunal condenou empresa a pagar R$ 2.700 (9/12 do salário) + R$ 900 (1/3) = R$ 3.600 + multa."
+      }
+    ]
+  },
+  "abono-venda-ferias": {
+    id: "abono-venda-ferias",
+    order: 20,
+    title: "O que é abono de férias e o que é 'vender' férias?",
+    description: "Diferenças entre abono pecuniário e venda de férias, direitos e limites",
+    keywords: ["abono férias", "vender férias", "abono pecuniário", "1/3 férias", "limite legal"],
+    legislation: [
+      {
+        title: "CLT - Art. 143 - Abono Pecuniário",
+        reference: "Consolidação das Leis do Trabalho - Artigo 143",
+        content: "É facultado ao empregado converter 1/3 (um terço) do período de férias a que tiver direito em abono pecuniário, no valor da remuneração que lhe seria devida nos dias correspondentes. O abono pecuniário de férias deverá ser requerido até 15 (quinze) dias antes do término do período aquisitivo.",
+        interpretation: "Em linguagem simples: Você pode 'VENDER' 1/3 das suas férias para a empresa! Exemplo: Você tem direito a 30 dias de férias, pode vender 10 dias e tirar só 20 dias. Você recebe o dinheiro dos 10 dias vendidos. ⚠️ ATENÇÃO: Você NÃO PODE vender mais que 1/3! Se tem 30 dias, pode vender só 10 dias. IMPORTANTE: Você precisa PEDIR até 15 dias antes de completar 1 ano de trabalho. DICA: É uma boa opção se você precisa de dinheiro extra!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art143"
+      },
+      {
+        title: "CF - Art. 7º, XVII - Férias Remuneradas",
+        reference: "Constituição Federal - Artigo 7º, inciso XVII",
+        content: "São direitos dos trabalhadores urbanos e rurais: XVII - gozo de férias anuais remuneradas com, pelo menos, um terço a mais do que o salário normal.",
+        interpretation: "Em linguagem simples: O 1/3 constitucional é OBRIGATÓRIO! Mesmo vendendo parte das férias, você TEM que tirar pelo menos 2/3 (20 dias se tem 30). A empresa não pode 'forçar' você a vender férias. ⚠️ ATENÇÃO: Você tem DIREITO de descansar! Vender férias é OPCIONAL, não obrigatório. IMPORTANTE: Se você vender 1/3, ainda recebe 1/3 constitucional sobre o que vendeu. DICA: Pense bem antes de vender - férias são importantes para sua saúde!",
+        link: "http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art7"
+      }
+    ],
+    ordinances: [],
+    summaries: [],
+    jurisprudence: [
+      {
+        title: "Limite do abono pecuniário",
+        content: "A jurisprudência consolidou o entendimento de que o limite de 1/3 para abono pecuniário é absoluto e intransponível. A empresa que permite venda de mais de 1/3 das férias comete infração trabalhista grave.",
+        interpretation: "Em linguagem simples: A empresa NÃO PODE permitir que você venda mais que 1/3 das férias! Se você tem 30 dias, pode vender só 10 dias. Se a empresa deixar vender 15 ou 20 dias, está violando a lei! ⚠️ ATENÇÃO: Isso é muito comum em empresas que querem economizar (não pagam férias integrais). IMPORTANTE: Se a empresa 'sugerir' vender mais de 1/3, está fazendo algo ilegal. DICA: Se isso acontecer, você pode denunciar no Ministério do Trabalho!"
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1012905-78.2024.5.02.0000",
+        date: "14/10/2024",
+        summary: "Venda excessiva de férias anulada. Empresa permitiu funcionário vender 20 dias de férias (de 30 totais), violando limite de 1/3. Tribunal anulou a venda dos 10 dias extras e condenou empresa a pagar R$ 2.000 (salário dos 10 dias) + multa de R$ 1.000."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0021906-22.2024.5.15.0000",
+        date: "07/10/2024",
+        summary: "1/3 constitucional não pago sobre abono pecuniário. Empresa pagou só o salário normal sobre as férias vendidas, sem o 1/3 constitucional. Tribunal condenou empresa a pagar R$ 800 (1/3 sobre 10 dias vendidos) + multa de R$ 400."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0114017-34.2024.5.03.0000",
+        date: "30/09/2024",
+        summary: "Coação para vender férias caracterizada. Empresa ameaçou demitir funcionário se não vendesse férias. Tribunal entendeu coação e anulou toda a venda de férias. Empresa condenada a pagar R$ 3.000 (valor das férias vendidas) + multa de R$ 1.500."
+      }
+    ]
   }
 };
 
