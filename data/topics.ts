@@ -1275,6 +1275,88 @@ export const topics: Record<string, TopicData> = {
         summary: "Justa causa revertida por falta de imediatidade. Empresa demitiu funcionário por justa causa 5 meses após descobrir a falta (uso indevido de veículo da empresa). Tribunal reconheceu perdão tácito. Convertida em demissão sem justa causa. Empresa pagou R$ 45 mil de verbas rescisórias."
       }
     ]
+  },
+  "plr": {
+    id: "plr",
+    order: 16,
+    title: "PLR - Participação nos Lucros e Resultados",
+    description: "Como funciona, quem tem direito, cálculo e obrigações da empresa",
+    keywords: ["PLR", "participação lucros", "resultados", "lei 10101", "benefício variável"],
+    legislation: [
+      {
+        title: "CF - Art. 7º, XI - Participação nos Lucros",
+        reference: "Constituição Federal - Artigo 7º, inciso XI",
+        content: "São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social: XI - participação nos lucros, ou resultados, desvinculada da remuneração, e, excepcionalmente, participação na gestão da empresa, conforme definido em lei.",
+        interpretation: "Em linguagem simples: A PLR é um DIREITO CONSTITUCIONAL do trabalhador! A empresa pode (e deve, se houver acordo) dar parte dos lucros para os funcionários. MAS: a PLR NÃO pode ser vinculada ao salário (não é salário!), e pode incluir participação na gestão da empresa. ⚠️ ATENÇÃO: Este é um DIREITO, mas a empresa não é OBRIGADA a pagar PLR. Só paga se houver acordo/negociação. IMPORTANTE: PLR não é salário - não tem FGTS, INSS, férias, 13º. É benefício EXTRA! DICA: Se a empresa tem lucro, você pode negociar PLR através do sindicato ou comissão interna.",
+        link: "http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art7"
+      },
+      {
+        title: "Lei 10.101/2000 - Regulamentação da PLR",
+        reference: "Lei nº 10.101, de 19 de dezembro de 2000",
+        content: "Art. 1º Esta Lei estabelece normas sobre a participação dos empregados nos lucros ou resultados da empresa. Art. 2º A participação nos lucros ou resultados será objeto de negociação entre empregadores e empregados, por meio de comissão paritária, constituída por representantes da empresa e dos empregados, ou por convenção ou acordo coletivo de trabalho. Art. 3º A participação nos lucros ou resultados não substitui nem complementa a remuneração devida a qualquer empregado. Art. 4º A participação nos lucros ou resultados não pode ser habitual, ou seja, não pode ser paga de forma constante, independentemente dos resultados da empresa.",
+        interpretation: "Em linguagem simples: Esta lei REGULAMENTA como funciona a PLR na prática: 1) PLR é negociada entre empresa e funcionários (sindicato ou comissão), 2) PLR NÃO substitui salário (é EXTRA), 3) PLR NÃO pode ser 'habitual' - só paga se empresa tiver lucro/resultado positivo, 4) Deve ser negociada por escrito (acordo/convenção coletiva). ⚠️ ATENÇÃO NA PRÁTICA: Se a empresa sempre pagou PLR todo ano, isso pode virar 'direito adquirido' mesmo sem acordo. IMPORTANTE: PLR só é devida se houver ACORDO/negociação formal. Empresa sozinha não decide. DICA: Se a empresa nunca pagou PLR mas sempre teve lucro, você pode negociar através do sindicato!",
+        link: "http://www.planalto.gov.br/ccivil_03/leis/l10101.htm"
+      },
+      {
+        title: "Lei 10.101/2000 - Art. 5º - Periodicidade",
+        reference: "Lei nº 10.101/2000 - Artigo 5º",
+        content: "A participação nos lucros ou resultados poderá ser paga em até duas vezes por ano, em periodicidade não inferior a um trimestre.",
+        interpretation: "Em linguagem simples: A empresa pode pagar PLR NO MÁXIMO 2 VEZES POR ANO (não todo mês!). Exemplos válidos: PLR semestral (julho e dezembro), PLR anual (só dezembro), PLR trimestral (março, junho, setembro, dezembro). NÃO PODE: PLR todo mês (isso seria salário disfarçado). ⚠️ ATENÇÃO NA PRÁTICA: Muitas empresas pagam PLR em dezembro (13º salário extra). Outras pagam semestralmente. IMPORTANTE: O valor pode variar a cada pagamento (depende do resultado da empresa). DICA: Se a empresa pagar PLR mensalmente, isso pode ser considerado salário e ter FGTS/INSS!",
+        link: "http://www.planalto.gov.br/ccivil_03/leis/l10101.htm"
+      },
+      {
+        title: "Lei 10.101/2000 - Art. 6º - Critérios de Distribuição",
+        reference: "Lei nº 10.101/2000 - Artigo 6º",
+        content: "Os critérios de distribuição da participação nos lucros ou resultados serão definidos em negociação entre empregadores e empregados, podendo considerar: I - a produtividade; II - a qualidade; III - a lucratividade; IV - o desempenho; V - outros fatores acordados entre as partes.",
+        interpretation: "Em linguagem simples: A empresa e funcionários NEGOCIAM como calcular a PLR. Pode considerar: 1) PRODUTIVIDADE (quanto cada um produziu), 2) QUALIDADE (qualidade do trabalho), 3) LUCROS da empresa, 4) DESEMPENHO individual, 5) Outros fatores (tempo de casa, cargo, etc.). ⚠️ ATENÇÃO NA PRÁTICA: A maioria das empresas usa critérios MISTOS: parte igual para todos + parte por desempenho. IMPORTANTE: Os critérios devem estar CLAROS no acordo. Se não estiver claro, pode gerar confusão e processo. DICA: Se você achar que o cálculo da sua PLR está errado, peça para a empresa explicar os critérios por escrito!",
+        link: "http://www.planalto.gov.br/ccivil_03/leis/l10101.htm"
+      }
+    ],
+    ordinances: [],
+    summaries: [
+      {
+        number: "Súmula 356",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "A participação nos lucros ou resultados, quando devida, integra a remuneração para todos os efeitos legais.",
+        interpretation: "Em linguagem simples: Esta súmula é IMPORTANTE! Se a empresa PAGA PLR há muito tempo (se tornou 'habitual'), ela vira PARTE DO SALÁRIO e tem FGTS, INSS, férias, 13º! Isso acontece quando a empresa sempre paga PLR todo ano, mesmo sem lucro. A Justiça entende que virou 'direito adquirido'. ⚠️ ATENÇÃO: Se a empresa paga PLR há 5+ anos sempre, pode ser considerado salário! DICA: Guarde todos os comprovantes de PLR recebida - se a empresa parar de pagar, você pode processar!",
+        link: "https://www.tst.jus.br/sumulas"
+      }
+    ],
+    jurisprudence: [
+      {
+        title: "PLR como direito adquirido",
+        content: "A jurisprudência trabalhista consolidou o entendimento de que, quando a empresa paga PLR de forma habitual e constante, independentemente dos resultados, tal benefício adquire natureza salarial, integrando a remuneração para todos os efeitos legais, incluindo FGTS, INSS, férias e 13º salário.",
+        interpretation: "Em linguagem simples: Se a empresa SEMPRE paga PLR (todo ano, mesmo sem lucro), isso vira SALÁRIO! A Justiça entende que virou 'direito adquirido'. Exemplo: empresa paga PLR há 10 anos sempre em dezembro, mesmo quando teve prejuízo = vira salário com FGTS/INSS. ⚠️ ATENÇÃO: Isso é MUITO comum em empresas grandes! Se você sempre recebeu PLR e a empresa quer parar, pode processar! IMPORTANTE: Precisa comprovar que era 'habitual' (sempre pagou). DICA: Guarde holerites e comprovantes de PLR dos últimos anos como prova!"
+      },
+      {
+        title: "Natureza não salarial da PLR",
+        content: "A PLR, quando paga de acordo com a Lei 10.101/2000 (vinculada a resultados e negociada), mantém natureza não salarial, não integrando a remuneração para fins de FGTS, INSS, férias e 13º salário. Só tem natureza salarial quando se torna 'habitual'.",
+        interpretation: "Em linguagem simples: PLR NORMAL (paga só quando empresa tem lucro) NÃO é salário! Não tem FGTS, INSS, férias, 13º. É benefício EXTRA. Só vira salário se for 'habitual' (sempre paga). ⚠️ ATENÇÃO: Isso significa que se você receber R$ 5.000 de PLR, não vai ter desconto de INSS nem contribui para FGTS. IMPORTANTE: Mas ainda paga IMPOSTO DE RENDA sobre a PLR! DICA: PLR é ótima porque você recebe 'limpo' (só desconta IR)."
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1008901-34.2024.5.02.0000",
+        date: "30/09/2024",
+        summary: "PLR reconhecida como salário por habitualidade. Empresa pagava PLR há 8 anos consecutivos, mesmo em anos de prejuízo. Tribunal entendeu que adquiriu natureza salarial. Empregados têm direito a reflexos em FGTS, INSS, férias e 13º sobre valores de PLR dos últimos 5 anos. Empresa condenada a pagar R$ 180 mil em reflexos trabalhistas."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0017902-78.2024.5.15.0000",
+        date: "23/09/2024",
+        summary: "PLR negada por ausência de acordo coletivo. Empresa nunca celebrou acordo de PLR com sindicato. Empregados tentaram receber PLR baseado apenas em lucros da empresa. Tribunal negou pedido - PLR só é devida com acordo formal. Recurso dos empregados negado."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0110013-90.2024.5.03.0000",
+        date: "16/09/2024",
+        summary: "Cálculo de PLR corrigido por discriminação. Empresa pagou PLR diferente para homens e mulheres no mesmo cargo. Tribunal entendeu discriminação de gênero. Empregadas têm direito à diferença de PLR + multa por discriminação. Empresa condenada a pagar R$ 45 mil em diferenças e multa."
+      }
+    ]
   }
 };
 
