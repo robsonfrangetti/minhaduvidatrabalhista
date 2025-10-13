@@ -18,6 +18,7 @@ export interface TopicData {
     reference: string;
     content: string;
     interpretation: string;
+    link?: string;
   }[];
   ordinances: {
     title: string;
@@ -25,12 +26,14 @@ export interface TopicData {
     content: string;
     fullContent?: string;
     interpretation: string;
+    link?: string;
   }[];
   summaries: {
     number: string;
     court: string;
     content: string;
     interpretation: string;
+    link?: string;
   }[];
   jurisprudence: {
     title: string;
@@ -762,19 +765,22 @@ export const topics: Record<string, TopicData> = {
         title: "CLT - Art. 58, § 1º",
         reference: "Consolidação das Leis do Trabalho - Artigo 58, Parágrafo 1º",
         content: "§ 1º Não serão descontadas nem computadas como jornada extraordinária as variações de horário no registro de ponto não excedentes de cinco minutos, observado o limite máximo de dez minutos diários.",
-        interpretation: "Em linguagem simples: A LEI permite uma TOLERÂNCIA de até 5 minutos de atraso (ou saída antecipada) por marcação de ponto, com LIMITE MÁXIMO de 10 minutos por dia. Exemplo: chegou 3 minutos atrasado de manhã e saiu 4 minutos depois à noite = 7 minutos no total, está dentro da tolerância. ⚠️ ATENÇÃO NA PRÁTICA: Se você ultrapassar os 10 minutos diários, a empresa pode descontar TODO o tempo de atraso, não só o que passou dos 10 minutos. IMPORTANTE: Essa tolerância NÃO é um direito de chegar atrasado, é apenas uma margem para pequenas variações inevitáveis. DICA: Não conte com essa tolerância como 'tempo livre' - use apenas para imprevistos reais."
+        interpretation: "Em linguagem simples: A LEI permite uma TOLERÂNCIA de até 5 minutos de atraso (ou saída antecipada) por marcação de ponto, com LIMITE MÁXIMO de 10 minutos por dia. Exemplo: chegou 3 minutos atrasado de manhã e saiu 4 minutos depois à noite = 7 minutos no total, está dentro da tolerância. ⚠️ ATENÇÃO NA PRÁTICA: Se você ultrapassar os 10 minutos diários, a empresa pode descontar TODO o tempo de atraso, não só o que passou dos 10 minutos. IMPORTANTE: Essa tolerância NÃO é um direito de chegar atrasado, é apenas uma margem para pequenas variações inevitáveis. DICA: Não conte com essa tolerância como 'tempo livre' - use apenas para imprevistos reais.",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art58"
       },
       {
         title: "CLT - Art. 482, alínea 'e'",
         reference: "Consolidação das Leis do Trabalho - Artigo 482, alínea 'e'",
         content: "Constituem justa causa para rescisão do contrato de trabalho pelo empregador: e) desídia no desempenho das respectivas funções;",
-        interpretation: "Em linguagem simples: Desídia significa 'desleixo', 'preguiça', 'falta de cuidado' no trabalho. Atrasos FREQUENTES e INJUSTIFICADOS podem ser considerados desídia e levar à demissão por justa causa! Isso significa perder: aviso prévio, multa de 40% do FGTS, seguro-desemprego, e receber só saldo de salário e férias vencidas. ⚠️ ATENÇÃO NA PRÁTICA: Não existe um número exato de atrasos que caracteriza justa causa - depende da frequência, gravidade, e se houve advertências antes. A empresa geralmente segue: 1ª vez = advertência verbal, 2ª vez = advertência escrita, 3ª vez = suspensão, reincidência = justa causa. DICA: Se você receber advertência por atraso, leve MUITO a sério! É o caminho para a demissão por justa causa."
+        interpretation: "Em linguagem simples: Desídia significa 'desleixo', 'preguiça', 'falta de cuidado' no trabalho. Atrasos FREQUENTES e INJUSTIFICADOS podem ser considerados desídia e levar à demissão por justa causa! Isso significa perder: aviso prévio, multa de 40% do FGTS, seguro-desemprego, e receber só saldo de salário e férias vencidas. ⚠️ ATENÇÃO NA PRÁTICA: Não existe um número exato de atrasos que caracteriza justa causa - depende da frequência, gravidade, e se houve advertências antes. A empresa geralmente segue: 1ª vez = advertência verbal, 2ª vez = advertência escrita, 3ª vez = suspensão, reincidência = justa causa. DICA: Se você receber advertência por atraso, leve MUITO a sério! É o caminho para a demissão por justa causa.",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art482"
       },
       {
         title: "CLT - Art. 474",
         reference: "Consolidação das Leis do Trabalho - Artigo 474",
         content: "A suspensão do empregado por mais de 30 (trinta) dias consecutivos importa na rescisão injusta do contrato de trabalho.",
-        interpretation: "Em linguagem simples: Se a empresa te suspender por mais de 30 dias seguidos como punição por atrasos (ou qualquer outro motivo), isso é considerado demissão sem justa causa! Você tem direito a todas as verbas rescisórias: aviso prévio, multa de 40% do FGTS, seguro-desemprego, férias e 13º proporcionais. É uma proteção contra empresas que tentam 'forçar' você a pedir demissão através de suspensões excessivas."
+        interpretation: "Em linguagem simples: Se a empresa te suspender por mais de 30 dias seguidos como punição por atrasos (ou qualquer outro motivo), isso é considerado demissão sem justa causa! Você tem direito a todas as verbas rescisórias: aviso prévio, multa de 40% do FGTS, seguro-desemprego, férias e 13º proporcionais. É uma proteção contra empresas que tentam 'forçar' você a pedir demissão através de suspensões excessivas.",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art474"
       }
     ],
     ordinances: [
@@ -783,7 +789,8 @@ export const topics: Record<string, TopicData> = {
         reference: "Ministério do Trabalho e Emprego - Portaria 671/2021",
         content: "Regulamenta o registro de ponto eletrônico e manual, incluindo regras sobre tolerância de atrasos e descontos.",
         fullContent: "PORTARIA MTE Nº 671, DE 8 DE NOVEMBRO DE 2021\n\nO SECRETÁRIO ESPECIAL DE PREVIDÊNCIA E TRABALHO DO MINISTÉRIO DA ECONOMIA, no uso de suas atribuições legais, resolve:\n\nArt. 1º Esta Portaria estabelece regras sobre o registro de ponto e controle de jornada de trabalho.\n\nArt. 2º O registro de ponto deve:\nI - registrar fielmente os horários de entrada e saída;\nII - não permitir alterações fraudulentas;\nIII - garantir a privacidade do trabalhador;\nIV - estar disponível para consulta do empregado.\n\nArt. 3º Variações de horário:\nI - até 5 minutos por marcação (máximo 10 minutos diários) não são descontadas nem pagas como extra;\nII - acima de 10 minutos diários: TODO o tempo é computado (incluindo os 10 minutos iniciais);\nIII - empresa pode descontar atrasos do salário;\nIV - NÃO é permitido compensar atraso com banco de horas sem acordo formal;\nV - desconto não pode ultrapassar o valor do tempo não trabalhado.\n\nArt. 4º Descontos por atrasos:\nI - devem ser proporcionais ao tempo não trabalhado;\nII - devem estar discriminados no holerite;\nIII - empregado tem direito a consultar registros de ponto;\nIV - empresa deve manter registros por 5 anos.\n\nArt. 5º Medidas disciplinares:\nI - atrasos injustificados podem gerar: advertência → suspensão → justa causa;\nII - empresa deve seguir gradação de penalidades;\nIII - empregado deve ser notificado formalmente;\nIV - demissão por justa causa exige documentação comprobatória.\n\nArt. 6º Atrasos justificados:\nI - problemas de saúde (com atestado);\nII - caso fortuito ou força maior (acidente, enchente, pane em transporte público);\nIII - comparecimento a juízo ou outros deveres legais;\nIV - empregado deve comunicar e comprovar motivo quando possível.\n\nArt. 7º Esta Portaria entra em vigor na data de sua publicação.",
-        interpretation: "Em linguagem simples: Esta portaria define como funciona o controle de ponto e os atrasos. PONTOS PRINCIPAIS: 1) Até 10 minutos de atraso por dia não são descontados, MAS se passar disso, TODO o tempo é descontado (não só o que passou). 2) A empresa PODE descontar atrasos do seu salário, e isso deve aparecer no holerite. 3) Você tem direito de ver seus registros de ponto. 4) Atrasos geram punições progressivas: advertência → suspensão → demissão por justa causa. 5) Atrasos por motivos de saúde, força maior ou dever legal são justificados (mas você precisa comprovar). DICA PRÁTICA: Sempre que houver um imprevisto que vai te atrasar (trânsito, problema de saúde, etc.), avise o chefe IMEDIATAMENTE por WhatsApp ou telefone. Isso mostra boa-fé e pode evitar desconto ou advertência!"
+        interpretation: "Em linguagem simples: Esta portaria define como funciona o controle de ponto e os atrasos. PONTOS PRINCIPAIS: 1) Até 10 minutos de atraso por dia não são descontados, MAS se passar disso, TODO o tempo é descontado (não só o que passou). 2) A empresa PODE descontar atrasos do seu salário, e isso deve aparecer no holerite. 3) Você tem direito de ver seus registros de ponto. 4) Atrasos geram punições progressivas: advertência → suspensão → demissão por justa causa. 5) Atrasos por motivos de saúde, força maior ou dever legal são justificados (mas você precisa comprovar). DICA PRÁTICA: Sempre que houver um imprevisto que vai te atrasar (trânsito, problema de saúde, etc.), avise o chefe IMEDIATAMENTE por WhatsApp ou telefone. Isso mostra boa-fé e pode evitar desconto ou advertência!",
+        link: "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/ctpp/arquivos/normas-regulamentadoras/portaria-mte-no-671-de-8-de-novembro-de-2021.pdf"
       }
     ],
     summaries: [
@@ -791,13 +798,15 @@ export const topics: Record<string, TopicData> = {
         number: "Súmula 366",
         court: "TST - Tribunal Superior do Trabalho",
         content: "Não serão descontadas nem computadas como jornada extraordinária as variações de horário do registro de ponto não excedentes de cinco minutos, observado o limite máximo de dez minutos diários. Se ultrapassado esse limite, será considerada como extra a totalidade do tempo que exceder a jornada normal.",
-        interpretation: "Em linguagem simples: Esta súmula confirma a regra do artigo 58 da CLT. Você tem tolerância de até 10 minutos de variação por dia (chegando atrasado ou saindo mais tarde). MAS ATENÇÃO: se você atrasar 11 minutos, por exemplo, a empresa pode descontar ou pagar como extra OS 11 MINUTOS COMPLETOS, não só 1 minuto que passou da tolerância. Exemplo: chegou 12 minutos atrasado = pode descontar os 12 minutos, não só 2."
+        interpretation: "Em linguagem simples: Esta súmula confirma a regra do artigo 58 da CLT. Você tem tolerância de até 10 minutos de variação por dia (chegando atrasado ou saindo mais tarde). MAS ATENÇÃO: se você atrasar 11 minutos, por exemplo, a empresa pode descontar ou pagar como extra OS 11 MINUTOS COMPLETOS, não só 1 minuto que passou da tolerância. Exemplo: chegou 12 minutos atrasado = pode descontar os 12 minutos, não só 2.",
+        link: "https://www.tst.jus.br/sumulas"
       },
       {
         number: "Súmula 346",
         court: "TST - Tribunal Superior do Trabalho",
         content: "São válidos os descontos salariais referentes a danos causados pelo empregado, desde que esta possibilidade tenha sido acordada ou na ocorrência de dolo do empregado.",
-        interpretation: "Em linguagem simples: A empresa pode descontar do seu salário prejuízos que você causou intencionalmente (dolo) ou se isso estiver no contrato. Isso se aplica a atrasos: se você atrasa de propósito (dolo), ou se o contrato/regulamento prevê desconto por atraso, o desconto é válido. A maioria das empresas inclui essa cláusula no contrato ou regulamento interno."
+        interpretation: "Em linguagem simples: A empresa pode descontar do seu salário prejuízos que você causou intencionalmente (dolo) ou se isso estiver no contrato. Isso se aplica a atrasos: se você atrasa de propósito (dolo), ou se o contrato/regulamento prevê desconto por atraso, o desconto é válido. A maioria das empresas inclui essa cláusula no contrato ou regulamento interno.",
+        link: "https://www.tst.jus.br/sumulas"
       }
     ],
     jurisprudence: [
