@@ -362,27 +362,27 @@ export const topics: Record<string, TopicData> = {
   "protecao-direitos": {
     id: "protecao-direitos",
     order: 5,
-    title: "Proteção contra Fraudes",
-    description: "Seus direitos não podem ser fraudados ou reduzidos",
-    keywords: ["fraude", "direitos", "nulidade", "proteção", "burla", "fraude trabalhista"],
+    title: "Como identificar fraudes trabalhistas?",
+    description: "Como reconhecer e se proteger de fraudes e burlas trabalhistas",
+    keywords: ["fraudes trabalhistas", "identificar fraudes", "burla direitos", "nulidade", "proteção trabalhista", "denunciar fraudes", "empresa fraudadora"],
     legislation: [
       {
         title: "CLT - Art. 9º",
         reference: "Consolidação das Leis do Trabalho - Artigo 9º",
         content: "Serão nulos de pleno direito os atos praticados com o objetivo de desvirtuar, impedir ou fraudar a aplicação dos preceitos contidos na presente Consolidação.",
-        interpretation: "Em linguagem simples: Qualquer 'acordo' ou contrato que tente tirar ou diminuir seus direitos trabalhistas é NULO, não vale nada! Exemplos: te obrigar a assinar recibo de férias que não tirou, te fazer abrir PJ para não ter carteira assinada, pagar 'por fora' para não aparecer no salário oficial. Tudo isso é fraude e a Justiça anula!"
+        interpretation: "Em linguagem simples: FRAUDES TRABALHISTAS são NULAS! Qualquer 'acordo' ou contrato que tente tirar ou diminuir seus direitos trabalhistas é NULO, não vale nada! EXEMPLOS de fraudes: 1) Te obrigar a assinar recibo de férias que não tirou, 2) Te fazer abrir PJ para não ter carteira assinada, 3) Pagar 'por fora' para não aparecer no salário oficial, 4) Assinar papel renunciando direitos. ⚠️ IMPORTANTE: Tudo isso é fraude e a Justiça anula! DICA: Se a empresa te obrigar a assinar algo suspeito, procure um advogado trabalhista!"
       },
       {
         title: "CLT - Art. 10",
         reference: "Consolidação das Leis do Trabalho - Artigo 10",
         content: "Qualquer alteração na estrutura jurídica da empresa não afetará os direitos adquiridos por seus empregados.",
-        interpretation: "Em linguagem simples: Se a empresa muda de dono, muda de nome, vira outra empresa, fecha e abre de novo com outro CNPJ, NADA disso afeta seus direitos! Você não perde tempo de casa, não perde estabilidade, não perde nada. A 'nova' empresa tem que honrar tudo que a antiga devia."
+        interpretation: "Em linguagem simples: MUDANÇA DE EMPRESA NÃO é fraude contra você! Se a empresa muda de dono, muda de nome, vira outra empresa, fecha e abre de novo com outro CNPJ, NADA disso afeta seus direitos! Você não perde tempo de casa, não perde estabilidade, não perde nada. ⚠️ IMPORTANTE: A 'nova' empresa tem que honrar tudo que a antiga devia. DICA: Se a empresa tentar usar mudança de CNPJ para te prejudicar, isso é fraude!"
       },
       {
         title: "CLT - Art. 468",
         reference: "Consolidação das Leis do Trabalho - Artigo 468",
         content: "Nos contratos individuais de trabalho só é lícita a alteração das respectivas condições por mútuo consentimento, e ainda assim desde que não resultem, direta ou indiretamente, prejuízos ao empregado, sob pena de nulidade da cláusula infringente desta garantia.",
-        interpretation: "Em linguagem simples: A empresa só pode mudar alguma coisa no seu contrato se VOCÊ concordar E se não te prejudicar. Mesmo que você aceite uma mudança que te prejudica (tipo ganhar menos, perder benefício), essa mudança não vale! A Justiça anula e você pode cobrar o que perdeu."
+        interpretation: "Em linguagem simples: MUDANÇA DE CONTRATO só vale se NÃO te prejudicar! A empresa só pode mudar alguma coisa no seu contrato se VOCÊ concordar E se não te prejudicar. Mesmo que você aceite uma mudança que te prejudica (tipo ganhar menos, perder benefício), essa mudança não vale! ⚠️ IMPORTANTE: A Justiça anula e você pode cobrar o que perdeu. DICA: Se a empresa tentar te obrigar a aceitar mudança que te prejudica, isso é fraude!"
       }
     ],
     ordinances: [
@@ -391,7 +391,7 @@ export const topics: Record<string, TopicData> = {
         reference: "Secretaria de Inspeção do Trabalho - IN 41/2018",
         content: "Dispõe sobre a fiscalização do cumprimento das normas de proteção ao trabalho e combate a fraudes trabalhistas, incluindo terceirização irregular, pejotização e trabalho análogo ao escravo.",
         fullContent: "INSTRUÇÃO NORMATIVA Nº 41, DE 19 DE MARÇO DE 2018\n\nA SECRETÁRIA DE INSPEÇÃO DO TRABALHO, no uso de suas atribuições legais, resolve:\n\nArt. 1º Estabelecer procedimentos de fiscalização para combate a fraudes trabalhistas.\n\nArt. 2º São consideradas fraudes trabalhistas:\nI - pejotização: exigência de que o trabalhador constitua pessoa jurídica para mascarar vínculo empregatício;\nII - terceirização irregular: utilização de terceirização para atividade-fim sem os requisitos legais;\nIII - contrato intermitente irregular: uso para mascarar jornada regular;\nIV - trabalho análogo ao escravo: trabalho forçado, jornada exaustiva ou condições degradantes;\nV - fraude no registro de ponto: alteração de marcações ou impedimento de registro;\nVI - sonegação de direitos: não pagamento de verbas trabalhistas devidas.\n\nArt. 3º Na fiscalização, o Auditor-Fiscal do Trabalho verificará:\nI - requisitos da relação de emprego (subordinação, pessoalidade, onerosidade, não eventualidade);\nII - contratos e documentos de constituição de pessoa jurídica;\nIII - controle de jornada e produtividade;\nIV - exclusividade ou habitualidade na prestação de serviços;\nV - fornecimento de equipamentos e ferramentas;\nVI - autonomia real do prestador de serviços.\n\nArt. 4º Constatada fraude trabalhista, o Auditor-Fiscal lavrará auto de infração e determinará:\nI - registro imediato do vínculo empregatício;\nII - pagamento das verbas trabalhistas suprimidas;\nIII - aplicação de multa administrativa.\n\nArt. 5º As multas variam de R$ 3.000,00 a R$ 6.000,00 por empregado prejudicado, podendo ser duplicadas em caso de reincidência.\n\nArt. 6º Esta Instrução Normativa entra em vigor na data de sua publicação.",
-        interpretation: "Em linguagem simples: Define como os fiscais do trabalho investigam e combatem fraudes. Lista os tipos principais de fraude: te obrigar a virar PJ, terceirização irregular, contrato intermitente usado errado, trabalho escravo, fraudar ponto eletrônico, não pagar direitos. Os fiscais vão lá verificar se você realmente é 'autônomo' ou se é empregado disfarçado (olhando se tem chefe, horário fixo, exclusividade). Se descobrir fraude: empresa é multada de R$ 3 mil a R$ 6 mil POR TRABALHADOR (dobra se reincidir!), tem que registrar você imediatamente e pagar tudo que deve. Se você denunciar fraude, os fiscais vão lá e podem multar PESADO a empresa!"
+        interpretation: "Em linguagem simples: COMO IDENTIFICAR FRAUDES TRABALHISTAS! Os fiscais do trabalho listam os tipos principais: 1) PEJOTIZAÇÃO (te obrigar a virar PJ), 2) TERCEIRIZAÇÃO IRREGULAR, 3) CONTRATO INTERMITENTE usado errado, 4) TRABALHO ESCRAVO, 5) FRAUDAR PONTO eletrônico, 6) NÃO PAGAR direitos. ⚠️ IMPORTANTE: Os fiscais verificam se você realmente é 'autônomo' ou empregado disfarçado (chefe, horário fixo, exclusividade). DICA: Se descobrir fraude, empresa é multada de R$ 3-6 mil POR TRABALHADOR (dobra se reincidir!). Você pode DENUNCIAR fraudes!"
       }
     ],
     summaries: [
@@ -399,20 +399,20 @@ export const topics: Record<string, TopicData> = {
         number: "Súmula 51",
         court: "TST - Tribunal Superior do Trabalho",
         content: "As cláusulas regulamentares, que revoguem ou alterem vantagens deferidas anteriormente, só atingirão os trabalhadores admitidos após a revogação ou alteração do regulamento.",
-        interpretation: "Em linguagem simples: Se você já tinha um benefício (tipo plano de saúde, vale-alimentação) e a empresa tira esse benefício, você continua tendo direito! A mudança só vale para quem entrar depois. Quem já estava não perde."
+        interpretation: "Em linguagem simples: EMPRESA NÃO pode tirar seus benefícios! Se você já tinha um benefício (tipo plano de saúde, vale-alimentação) e a empresa tira esse benefício, você continua tendo direito! A mudança só vale para quem entrar depois. ⚠️ IMPORTANTE: Quem já estava não perde. DICA: Se a empresa tentar tirar seus benefícios antigos, isso é fraude!"
       },
       {
         number: "Súmula 276",
         court: "TST - Tribunal Superior do Trabalho",
         content: "O direito de ação quanto a créditos resultantes das relações de trabalho prescreve em cinco anos até o limite de dois anos após a extinção do contrato de trabalho.",
-        interpretation: "Em linguagem simples: Você tem 2 anos DEPOIS de sair da empresa para entrar na Justiça cobrando seus direitos. E pode cobrar os últimos 5 anos que trabalhou. Exemplo: saiu em 2024, pode processar até 2026, cobrando de 2019 a 2024. Não deixe prescrever seus direitos!"
+        interpretation: "Em linguagem simples: PRAZO para COBRAR FRAUDES! Você tem 2 anos DEPOIS de sair da empresa para entrar na Justiça cobrando seus direitos. E pode cobrar os últimos 5 anos que trabalhou. Exemplo: saiu em 2024, pode processar até 2026, cobrando de 2019 a 2024. ⚠️ IMPORTANTE: Não deixe prescrever seus direitos! DICA: Se descobrir fraude depois que saiu, ainda pode processar!"
       }
     ],
     jurisprudence: [
       {
         title: "Fraude na terceirização",
         content: "A terceirização utilizada para mascarar vínculo empregatício direto é considerada fraude. Quando caracterizada a pessoalidade e subordinação direta com o tomador de serviços, a Justiça reconhece o vínculo empregatício diretamente com a empresa onde o trabalho era efetivamente prestado.",
-        interpretation: "Em linguagem simples: Se você trabalha direto para uma empresa grande, mas eles te contratam através de uma 'empresinha' só para não registrar você, isso é fraude! A Justiça pode reconhecer que seu vínculo é direto com a empresa grande, não com a terceirizada. Você ganha todos os benefícios que os funcionários diretos têm."
+        interpretation: "Em linguagem simples: TERCEIRIZAÇÃO FRAUDULENTA é comum! Se você trabalha direto para uma empresa grande, mas eles te contratam através de uma 'empresinha' só para não registrar você, isso é fraude! A Justiça pode reconhecer que seu vínculo é direto com a empresa grande, não com a terceirizada. ⚠️ IMPORTANTE: Você ganha todos os benefícios que os funcionários diretos têm. DICA: Se você tem chefe direto da empresa grande, pode ser terceirização fraudulenta!"
       }
     ],
     recentDecisions: [
