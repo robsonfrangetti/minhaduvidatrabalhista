@@ -222,6 +222,73 @@ DICA: Criar decisões realistas baseadas na aplicação prática da legislação
    - Parágrafos curtos
 
 ================================================================================
+⚠️ ALERTAS PRÁTICOS - DIFERENÇA ENTRE LEI E PRÁTICA
+================================================================================
+
+🎯 MUITO IMPORTANTE: Sempre diferenciar "O QUE A LEI DIZ" vs "O QUE ACONTECE NA PRÁTICA"
+
+ESTRUTURA RECOMENDADA PARA INTERPRETAÇÕES:
+
+1️⃣ O QUE A LEI DIZ:
+   "A LEI diz que [explicação do artigo]..."
+   "A CLT permite que [direito previsto]..."
+
+2️⃣ ALERTA PRÁTICO (quando aplicável):
+   "⚠️ ATENÇÃO NA PRÁTICA: [realidade do mercado de trabalho]"
+   "PORÉM, NA PRÁTICA, [como as empresas realmente fazem]"
+
+3️⃣ EXPLICAÇÃO DO CONFLITO:
+   - Por que existe diferença entre lei e prática
+   - Quando regulamentos internos podem ser mais rígidos
+   - Papel dos acordos/convenções coletivas
+
+4️⃣ DICA PRÁTICA:
+   "DICA: [orientação útil para evitar problemas]"
+   "DICA IMPORTANTE: [como agir na situação real]"
+
+EXEMPLOS DE ALERTAS:
+
+EXEMPLO 1 - Atestado Médico:
+"A LEI diz que você pode apresentar declaração própria para 1 dia de falta.
+⚠️ ATENÇÃO NA PRÁTICA: A MAIORIA das empresas NÃO aceita e EXIGE atestado médico sempre.
+Isso geralmente está na política interna da empresa ou no regulamento interno.
+DICA: Sempre consulte o regulamento da sua empresa e, se possível, apresente 
+atestado médico mesmo para 1 dia de falta, evitando problemas."
+
+EXEMPLO 2 - Acordo Coletivo:
+"A CLT garante férias de 30 dias.
+⚠️ ATENÇÃO: Seu acordo coletivo pode garantir mais dias (35, 40 dias).
+Nesse caso, vale o acordo coletivo por ser mais favorável.
+DICA: Verifique o acordo coletivo do seu sindicato para saber seus direitos extras!"
+
+EXEMPLO 3 - Home Office:
+"A LEI diz que a empresa deve fornecer ou reembolsar equipamentos.
+⚠️ NA PRÁTICA: Muitas empresas não fornecem e não está no contrato.
+Se não estiver combinado por escrito, você pode cobrar reembolso.
+DICA: Guarde todas as notas fiscais de compras para trabalho remoto!"
+
+QUANDO USAR ALERTAS PRÁTICOS:
+
+✅ Quando há diferença comum entre lei e prática
+✅ Quando regulamentos internos podem sobrepor a CLT
+✅ Quando acordos coletivos modificam a regra geral
+✅ Quando existe jurisprudência divergente
+✅ Quando o trabalhador pode se confundir
+✅ Quando há fraudes ou armadilhas comuns
+
+🚫 NÃO CONTRADIZER A LEI - apenas complementar com realidade prática!
+
+PALAVRAS-CHAVE PARA ALERTAS:
+- ⚠️ ATENÇÃO NA PRÁTICA
+- PORÉM, NA PRÁTICA
+- IMPORTANTE SABER
+- CUIDADO
+- DICA IMPORTANTE
+- NA REALIDADE
+- O QUE REALMENTE ACONTECE
+- VERIFIQUE NA SUA EMPRESA
+
+================================================================================
 🔗 LINKS ÚTEIS PARA PESQUISA
 ================================================================================
 

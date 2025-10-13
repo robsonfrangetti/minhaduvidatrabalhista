@@ -672,7 +672,7 @@ export const topics: Record<string, TopicData> = {
         title: "CLT - Art. 474",
         reference: "Consolidação das Leis do Trabalho - Artigo 474",
         content: "O empregado que se afastar do serviço, por motivo de doença, deverá apresentar atestado médico, salvo se a doença não exigir mais de 1 (um) dia de afastamento, caso em que poderá apresentar declaração de próprio punho.",
-        interpretation: "Em linguagem simples: Se você faltar por doença, deve apresentar atestado médico. EXCEÇÃO: se for só 1 dia de doença, você pode escrever uma declaração à mão dizendo que ficou doente. Mais de 1 dia = atestado médico obrigatório. Menos de 1 dia = pode ser declaração própria."
+        interpretation: "Em linguagem simples: A LEI diz que se você faltar por doença, deve apresentar atestado médico. Para faltas de apenas 1 dia, a CLT permite apresentar uma declaração escrita de próprio punho. ⚠️ ATENÇÃO NA PRÁTICA: A MAIORIA das empresas NÃO aceita declaração própria e EXIGE atestado médico sempre, mesmo para 1 dia. Isso geralmente está na política interna da empresa ou no regulamento interno. Embora a CLT permita a declaração, a empresa pode estabelecer regras mais rígidas no contrato ou acordo coletivo. DICA: Sempre consulte o regulamento da sua empresa e, se possível, apresente atestado médico mesmo para 1 dia de falta, evitando problemas."
       },
       {
         title: "CLT - Art. 475",
@@ -718,8 +718,8 @@ export const topics: Record<string, TopicData> = {
       },
       {
         title: "Falta de 1 dia e declaração própria",
-        content: "Para faltas de apenas 1 dia por motivo de doença, o empregado pode apresentar declaração de próprio punho, não sendo obrigatório atestado médico. A empresa não pode exigir atestado médico para 1 dia de falta.",
-        interpretation: "Em linguagem simples: Se você faltar só 1 dia por doença, pode escrever uma declaração à mão dizendo que ficou doente. A empresa NÃO PODE exigir atestado médico para 1 dia só! É direito seu usar declaração própria para faltas de 1 dia."
+        content: "Para faltas de apenas 1 dia por motivo de doença, a CLT prevê que o empregado pode apresentar declaração de próprio punho, não sendo obrigatório atestado médico. No entanto, regulamentos internos, contratos de trabalho ou acordos coletivos podem estabelecer regras mais rígidas.",
+        interpretation: "Em linguagem simples: A CLT permite que você escreva uma declaração à mão para faltas de 1 dia por doença. PORÉM, NA PRÁTICA, muitas empresas têm regulamentos internos que exigem atestado médico sempre, independente de quantos dias. Esses regulamentos geralmente são válidos se estiverem no contrato de trabalho, acordo/convenção coletiva, ou regulamento interno que você assinou. DICA IMPORTANTE: Mesmo que a CLT permita declaração própria, sempre verifique as regras da SUA empresa. Se a política interna exigir atestado, você pode ter a falta descontada caso apresente só a declaração. Para evitar problemas, o ideal é sempre buscar atestado médico, mesmo para 1 dia."
       },
       {
         title: "Atestado médico falso",
