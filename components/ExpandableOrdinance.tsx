@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 
 interface ExpandableOrdinanceProps {
   title: string
@@ -8,6 +9,7 @@ interface ExpandableOrdinanceProps {
   content: string
   fullContent?: string
   interpretation: string
+  link?: string
 }
 
 export default function ExpandableOrdinance({
@@ -15,7 +17,8 @@ export default function ExpandableOrdinance({
   reference,
   content,
   fullContent,
-  interpretation
+  interpretation,
+  link
 }: ExpandableOrdinanceProps) {
   const [isExpanded, setIsExpanded] = useState(false)
 
@@ -78,6 +81,27 @@ export default function ExpandableOrdinance({
       <div className="item-interpretation">
         💡 {interpretation}
       </div>
+
+      {link && (
+        <div style={{ marginTop: '0.75rem' }}>
+          <Link 
+            href={link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{
+              color: 'var(--primary)',
+              textDecoration: 'none',
+              fontSize: '0.9rem',
+              fontWeight: 500,
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.5rem'
+            }}
+          >
+            🔗 Ver portaria completa no site oficial
+          </Link>
+        </div>
+      )}
     </div>
   )
 }

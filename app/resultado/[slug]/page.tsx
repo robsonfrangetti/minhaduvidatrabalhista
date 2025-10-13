@@ -52,6 +52,26 @@ export default async function ResultPage({ params }: { params: { slug: string } 
                   💡 {law.interpretation}
                 </div>
               )}
+              {law.link && (
+                <div style={{ marginTop: '0.75rem' }}>
+                  <Link 
+                    href={law.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{
+                      color: 'var(--primary)',
+                      textDecoration: 'none',
+                      fontSize: '0.9rem',
+                      fontWeight: 500,
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '0.5rem'
+                    }}
+                  >
+                    🔗 Ver legislação completa no site oficial
+                  </Link>
+                </div>
+              )}
             </div>
           ))}
         </section>
@@ -68,6 +88,7 @@ export default async function ResultPage({ params }: { params: { slug: string } 
                 content={ordinance.content}
                 fullContent={ordinance.fullContent}
                 interpretation={ordinance.interpretation}
+                link={ordinance.link}
               />
             ))}
           </section>
@@ -86,6 +107,26 @@ export default async function ResultPage({ params }: { params: { slug: string } 
               {summary.interpretation && (
                 <div className="item-interpretation">
                   💡 {summary.interpretation}
+                </div>
+              )}
+              {summary.link && (
+                <div style={{ marginTop: '0.75rem' }}>
+                  <Link 
+                    href={summary.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{
+                      color: 'var(--primary)',
+                      textDecoration: 'none',
+                      fontSize: '0.9rem',
+                      fontWeight: 500,
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '0.5rem'
+                    }}
+                  >
+                    🔗 Ver súmula no site oficial do TST
+                  </Link>
                 </div>
               )}
             </div>
