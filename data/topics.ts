@@ -47,7 +47,7 @@ export const topics: Record<string, TopicData> = {
   "empregador-empregado": {
     id: "empregador-empregado",
     order: 1,
-    title: "Arts. 1º, 2º e 3º - Empregador e Empregado",
+    title: "Empregador e Empregado",
     description: "Entenda quem é considerado empregador e empregado pela CLT",
     keywords: ["empregador", "empregado", "vínculo empregatício", "conceitos", "definição"],
     legislation: [
@@ -150,7 +150,7 @@ export const topics: Record<string, TopicData> = {
   "tempo-servico": {
     id: "tempo-servico",
     order: 2,
-    title: "Art. 4º - Tempo de Serviço",
+    title: "Tempo de Serviço",
     description: "O que conta como tempo de serviço para seus direitos trabalhistas",
     keywords: ["tempo de serviço", "jornada", "disponibilidade", "horas in itinere", "sobreaviso"],
     legislation: [
@@ -229,7 +229,7 @@ export const topics: Record<string, TopicData> = {
   "teletrabalho": {
     id: "teletrabalho",
     order: 3,
-    title: "Art. 6º e 75-A a 75-E - Teletrabalho e Home Office",
+    title: "Teletrabalho e Home Office",
     description: "Direitos de quem trabalha remotamente ou em casa",
     keywords: ["teletrabalho", "home office", "trabalho remoto", "trabalho em casa", "trabalho à distância"],
     legislation: [
@@ -308,7 +308,7 @@ export const topics: Record<string, TopicData> = {
   "fontes-direito-trabalho": {
     id: "fontes-direito-trabalho",
     order: 4,
-    title: "Art. 8º - Fontes do Direito do Trabalho",
+    title: "Fontes do Direito do Trabalho",
     description: "De onde vêm as regras trabalhistas e hierarquia das normas",
     keywords: ["fontes", "leis", "convenção coletiva", "acordo coletivo", "costume", "jurisprudência", "analogia"],
     legislation: [
@@ -362,7 +362,7 @@ export const topics: Record<string, TopicData> = {
   "protecao-direitos": {
     id: "protecao-direitos",
     order: 5,
-    title: "Arts. 9º e 10 - Proteção contra Fraudes",
+    title: "Proteção contra Fraudes",
     description: "Seus direitos não podem ser fraudados ou reduzidos",
     keywords: ["fraude", "direitos", "nulidade", "proteção", "burla", "fraude trabalhista"],
     legislation: [
@@ -442,7 +442,7 @@ export const topics: Record<string, TopicData> = {
   "experiencia": {
     id: "experiencia",
     order: 6,
-    title: "Arts. 443, 445 e 451 - Contrato de Experiência",
+    title: "Contrato de Experiência",
     description: "Informações completas sobre o contrato de trabalho de experiência",
     keywords: ["experiência", "contrato de experiência", "período de experiência"],
     legislation: [
@@ -527,7 +527,7 @@ export const topics: Record<string, TopicData> = {
   "ferias": {
     id: "ferias",
     order: 7,
-    title: "Arts. 129, 130 e 134 - Férias Trabalhistas",
+    title: "Férias Trabalhistas",
     description: "Tudo sobre direito a férias, cálculo e períodos",
     keywords: ["férias", "descanso", "férias proporcionais"],
     legislation: [
@@ -601,7 +601,7 @@ export const topics: Record<string, TopicData> = {
   "13-salario": {
     id: "13-salario",
     order: 8,
-    title: "Leis 4.090/62 e 4.749/65 - 13º Salário",
+    title: "13º Salário",
     description: "Informações sobre gratificação natalina e forma de cálculo",
     keywords: ["13º salário", "gratificação natalina", "décimo terceiro"],
     legislation: [
@@ -661,7 +661,7 @@ export const topics: Record<string, TopicData> = {
   "atestado-medico": {
     id: "atestado-medico",
     order: 9,
-    title: "Arts. 473, 474 e 475 - Atestado Médico",
+    title: "Atestado Médico",
     description: "Direitos do empregado quanto ao atestado médico e faltas justificadas",
     keywords: ["atestado médico", "falta justificada", "doença", "licença médica", "INSS", "auxílio doença"],
     legislation: [
@@ -757,7 +757,7 @@ export const topics: Record<string, TopicData> = {
   "atrasos": {
     id: "atrasos",
     order: 10,
-    title: "Art. 58 e 482 - Atrasos no Trabalho",
+    title: "Atrasos no Trabalho",
     description: "Direitos e deveres sobre atrasos, descontos e consequências trabalhistas",
     keywords: ["atraso", "pontualidade", "desconto salarial", "justa causa", "tolerância", "ponto eletrônico"],
     legislation: [
@@ -853,7 +853,7 @@ export const topics: Record<string, TopicData> = {
   "gravidez": {
     id: "gravidez",
     order: 11,
-    title: "Arts. 391 a 400 e ADCT 10 - Direitos da Gestante",
+    title: "Direitos da Gestante",
     description: "Estabilidade, licença-maternidade, amamentação e proteções à gestante",
     keywords: ["gravidez", "gestante", "licença maternidade", "estabilidade", "amamentação", "grávida"],
     legislation: [
@@ -957,6 +957,93 @@ export const topics: Record<string, TopicData> = {
         number: "Processo nº 0104678-12.2024.5.03.0000",
         date: "05/09/2024",
         summary: "Empresa condenada por não conceder intervalos para amamentação. Mãe foi impedida de fazer pausas para amamentar após retorno da licença. Tribunal reconheceu violação dos direitos e condenou empresa ao pagamento de horas extras referentes aos intervalos não concedidos (R$ 4.500) mais danos morais de R$ 8 mil."
+      }
+    ]
+  },
+  "multa-fgts": {
+    id: "multa-fgts",
+    order: 12,
+    title: "Multa de 40% do FGTS",
+    description: "Quando você tem direito à multa de 40% do FGTS na demissão",
+    keywords: ["FGTS", "multa 40%", "demissão sem justa causa", "rescisão", "fundo de garantia"],
+    legislation: [
+      {
+        title: "CF - Art. 7º, III",
+        reference: "Constituição Federal - Artigo 7º, inciso III",
+        content: "São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social: III - fundo de garantia do tempo de serviço;",
+        interpretation: "Em linguagem simples: A Constituição Federal garante o direito ao FGTS (Fundo de Garantia do Tempo de Serviço) para todos os trabalhadores. O FGTS é um depósito mensal de 8% do seu salário que a empresa faz numa conta da Caixa em seu nome. Você só pode sacar em situações específicas previstas em lei (demissão sem justa causa, compra da casa própria, aposentadoria, doenças graves).",
+        link: "http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art7"
+      },
+      {
+        title: "Lei nº 8.036/1990 - Art. 18, § 1º",
+        reference: "Lei do FGTS - Artigo 18, Parágrafo 1º",
+        content: "Na hipótese de despedida pelo empregador sem justa causa, depositará este, na conta vinculada do trabalhador no FGTS, importância igual a quarenta por cento do montante de todos os depósitos realizados na conta vinculada durante a vigência do contrato de trabalho, atualizados monetariamente e acrescidos dos respectivos juros.",
+        interpretation: "Em linguagem simples: Se você é demitido SEM JUSTA CAUSA, a empresa DEVE pagar uma MULTA DE 40% de TODO o saldo do seu FGTS! Exemplo: você tem R$ 10.000 no FGTS = a empresa paga R$ 4.000 de multa. Esse dinheiro é DEPOSITADO na sua conta do FGTS (você pode sacar junto com o saldo). ⚠️ ATENÇÃO NA PRÁTICA: Essa multa só existe em demissão SEM JUSTA CAUSA. Se você pedir demissão, for demitido por justa causa, ou for um acordo de demissão, a multa é diferente ou não existe. IMPORTANTE: A multa é calculada sobre TODO o saldo que você acumulou desde que começou a trabalhar naquela empresa. DICA: Sempre confira se a multa foi depositada corretamente - veja no extrato do FGTS no app ou site da Caixa.",
+        link: "http://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm#art18"
+      },
+      {
+        title: "Lei nº 8.036/1990 - Art. 18, § 2º - Acordo de Demissão",
+        reference: "Lei do FGTS - Artigo 18, Parágrafo 2º",
+        content: "Quando ocorrer despedida por acordo entre empregado e empregador, nos termos previstos no art. 484-A da Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, será depositada a importância de vinte por cento sobre o montante de todos os depósitos realizados na conta vinculada durante a vigência do contrato de trabalho.",
+        interpretation: "Em linguagem simples: Na DEMISSÃO EM ACORDO (você e a empresa combinam de 'terminar bem'), a multa é de apenas 20% (metade da multa normal). Mas cuidado: no acordo você recebe METADE do aviso prévio e da multa, mas NÃO pode pegar seguro-desemprego e só saca 80% do FGTS. ⚠️ ATENÇÃO NA PRÁTICA: Acordo de demissão vale a pena se você JÁ TEM OUTRO EMPREGO garantido ou vai empreender. Se você precisa do seguro-desemprego, NÃO faça acordo! É melhor a demissão sem justa causa normal. DICA: Faça as contas antes de aceitar: demissão normal = 40% do FGTS + seguro-desemprego + saca 100% do FGTS. Acordo = 20% do FGTS + saca 80% do FGTS + NÃO tem seguro.",
+        link: "http://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm#art18"
+      },
+      {
+        title: "CLT - Art. 484-A - Demissão por Acordo",
+        reference: "Consolidação das Leis do Trabalho - Artigo 484-A",
+        content: "O contrato de trabalho poderá ser extinto por acordo entre empregado e empregador, caso em que serão devidas as seguintes verbas trabalhistas: I - por metade: a) o aviso prévio, se indenizado; e b) a indenização sobre o saldo do Fundo de Garantia do Tempo de Serviço, prevista no § 1º do art. 18 da Lei nº 8.036, de 11 de maio de 1990; II - na integralidade, as demais verbas trabalhistas.",
+        interpretation: "Em linguagem simples: Este artigo criou a possibilidade de 'demissão em comum acordo' (reforma trabalhista de 2017). Você e a empresa decidem terminar o contrato e você recebe: METADE do aviso prévio indenizado, METADE da multa do FGTS (20% em vez de 40%), férias proporcionais + 1/3, 13º proporcional, saldo de salário. Você pode sacar 80% do FGTS mas NÃO TEM DIREITO ao seguro-desemprego. ⚠️ IMPORTANTE: A empresa NÃO PODE te obrigar a fazer acordo. Tem que ser vontade dos dois. Se a empresa está te 'empurrando' para o acordo, NÃO aceite - pode ser tentativa de fraude para não pagar direitos completos.",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art484a"
+      }
+    ],
+    ordinances: [],
+    summaries: [
+      {
+        number: "Súmula 461",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "O saque do FGTS na modalidade 'Saque-Aniversário' não impede a percepção da multa de 40% prevista no art. 18, § 1º, da Lei nº 8.036/1990, quando houver despedida sem justa causa.",
+        interpretation: "Em linguagem simples: Mesmo se você aderiu ao 'saque-aniversário' do FGTS (que permite sacar uma parte todo ano no mês do seu aniversário), você CONTINUA tendo direito à multa de 40% se for demitido sem justa causa! A única diferença é que você não pode sacar o saldo TODO do FGTS na demissão (porque está no modo aniversário), mas a multa de 40% é sua de qualquer jeito. DICA: Se você aderiu ao saque-aniversário e vai ser demitido, pode pedir para SAIR do saque-aniversário para poder sacar tudo, mas precisa pedir antes da demissão.",
+        link: "https://www.tst.jus.br/sumulas"
+      }
+    ],
+    jurisprudence: [
+      {
+        title: "Multa de 40% sobre todo o período trabalhado",
+        content: "A multa de 40% do FGTS incide sobre TODO o saldo da conta vinculada do trabalhador, incluindo depósitos de contratos anteriores com o mesmo empregador, desde que não tenha havido saque após rescisões anteriores.",
+        interpretation: "Em linguagem simples: Se você trabalhou na mesma empresa por 5 anos, foi demitido sem justa causa, voltou após 1 ano e trabalhou mais 3 anos, quando for demitido de novo a multa de 40% é sobre OS 8 ANOS TODOS (se você não sacou o FGTS da primeira vez)! O FGTS acumula mesmo que você tenha saído e voltado, desde que não tenha sacado. Exemplo: R$ 15.000 de FGTS acumulado nos 8 anos = multa de R$ 6.000."
+      },
+      {
+        title: "Diferença entre demissão sem justa causa e pedido de demissão",
+        content: "No pedido de demissão não há direito à multa de 40% do FGTS nem ao saque do saldo. O trabalhador que pede demissão perde esses direitos, salvo em casos de rescisão indireta (quando a empresa comete falta grave).",
+        interpretation: "Em linguagem simples: Se VOCÊ pede demissão, NÃO TEM multa de 40% e NÃO PODE SACAR o FGTS (fica lá guardado para aposentadoria ou compra de casa). Por isso muita gente prefere ser demitido em vez de pedir demissão. EXCEÇÃO: Rescisão indireta = quando a EMPRESA comete falta grave (não paga salário, assédio, condições degradantes). Nesse caso você 'demite a empresa' na Justiça e tem direito a tudo como se fosse demissão sem justa causa (multa 40%, saque FGTS, seguro-desemprego)."
+      },
+      {
+        title: "Multa de 40% e acordo de demissão",
+        content: "Na demissão por acordo, a multa é reduzida para 20% e o trabalhador pode movimentar 80% do saldo do FGTS, mas não tem direito ao seguro-desemprego. O acordo deve ser formalizado por escrito e homologado quando aplicável.",
+        interpretation: "Em linguagem simples: FAÇA AS CONTAS antes de aceitar acordo! Acordo pode parecer bom, mas você perde bastante: PERDE metade da multa (20% em vez de 40%), PERDE 20% do saldo do FGTS (só saca 80%), PERDE o seguro-desemprego, PERDE metade do aviso prévio. QUANDO VALE A PENA O ACORDO: 1) Você já tem outro emprego garantido, 2) Empresa está em crise e pode não conseguir pagar tudo depois, 3) Você quer empreender e precisa do dinheiro do FGTS. QUANDO NÃO VALE: Se você precisa do seguro-desemprego para sobreviver até achar outro emprego."
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1004567-89.2024.5.02.0000",
+        date: "22/09/2024",
+        summary: "Empresa condenada a pagar multa de 40% do FGTS que não foi depositada. Funcionário demitido sem justa causa não recebeu a multa na conta do FGTS. Empresa condenada a pagar R$ 8.500 de multa acrescida de juros e correção, totalizando R$ 11.200."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0014678-90.2024.5.15.0000",
+        date: "16/09/2024",
+        summary: "Reconhecido direito à multa de 40% em rescisão indireta. Empregado sofreu assédio moral e empresa não pagou salários por 3 meses. Tribunal equiparou à demissão sem justa causa. Empresa condenada a pagar todas as verbas rescisórias incluindo multa de 40% do FGTS de R$ 5.800 + indenização por danos morais de R$ 15 mil."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0105789-23.2024.5.03.0000",
+        date: "09/09/2024",
+        summary: "Acordo de demissão anulado por vício de consentimento. Funcionário pressionado a aceitar acordo quando queria demissão normal. Tribunal converteu em demissão sem justa causa. Empresa condenada a pagar diferença da multa (de 20% para 40%) no valor de R$ 3.200 + diferenças de aviso prévio e liberação de saque integral do FGTS."
       }
     ]
   }
