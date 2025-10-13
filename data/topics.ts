@@ -442,27 +442,27 @@ export const topics: Record<string, TopicData> = {
   "experiencia": {
     id: "experiencia",
     order: 6,
-    title: "Contrato de Experiência",
-    description: "Informações completas sobre o contrato de trabalho de experiência",
-    keywords: ["experiência", "contrato de experiência", "período de experiência"],
+    title: "Quanto tempo pode durar o contrato de experiência?",
+    description: "Prazos, prorrogações e direitos no contrato de experiência",
+    keywords: ["contrato experiência", "tempo experiência", "prazo experiência", "prorrogação experiência", "direitos experiência", "duração experiência"],
     legislation: [
       {
         title: "CLT - Art. 443",
         reference: "Consolidação das Leis do Trabalho - Artigo 443",
         content: "O contrato individual de trabalho poderá ser acordado tácita ou expressamente, verbalmente ou por escrito, por prazo determinado ou indeterminado, ou para prestação de trabalho intermitente. § 2º O contrato por prazo determinado só será válido em se tratando: a) de serviço cuja natureza ou transitoriedade justifique a predeterminação do prazo; b) de atividades empresariais de caráter transitório; c) de contrato de experiência.",
-        interpretation: "Em linguagem simples: Este artigo define que o contrato de experiência é uma das formas válidas de contrato por prazo determinado. Significa que a empresa pode contratar você por um período específico para avaliar seu desempenho e adaptação ao trabalho antes de efetivar."
+        interpretation: "Em linguagem simples: CONTRATO DE EXPERIÊNCIA é uma modalidade válida de contrato por prazo determinado. A empresa pode contratar você por um período específico para avaliar seu desempenho e adaptação ao trabalho antes de efetivar. ⚠️ IMPORTANTE: É diferente de contrato normal - tem prazo fixo e regras específicas. DICA: Se a empresa disser que é 'experiência' mas não tem prazo definido, pode não ser válido!"
       },
       {
         title: "CLT - Art. 445",
         reference: "Consolidação das Leis do Trabalho - Artigo 445",
         content: "O contrato de experiência não poderá exceder de 90 (noventa) dias. Parágrafo único - O contrato de experiência poderá ser prorrogado uma única vez, desde que a soma dos dois períodos não exceda 90 dias.",
-        interpretation: "Em linguagem simples: O contrato de experiência tem prazo máximo de 90 dias (3 meses). A empresa pode dividir esse período, por exemplo: 60 dias + 30 dias, ou 45 dias + 45 dias. Mas só pode fazer uma prorrogação, e o total nunca pode passar de 90 dias."
+        interpretation: "Em linguagem simples: CONTRATO DE EXPERIÊNCIA tem PRAZO MÁXIMO DE 90 DIAS (3 meses)! A empresa pode dividir esse período, por exemplo: 60 dias + 30 dias, ou 45 dias + 45 dias. ⚠️ IMPORTANTE: Só pode fazer UMA prorrogação, e o total NUNCA pode passar de 90 dias. Se passar de 90 dias, vira contrato permanente automaticamente! DICA: Se a empresa quiser mais de 90 dias, já é contrato normal."
       },
       {
         title: "CLT - Art. 451",
         reference: "Consolidação das Leis do Trabalho - Artigo 451",
         content: "O contrato de experiência que, tácita ou expressamente, for prorrogado mais de uma vez passará a vigorar sem determinação de prazo.",
-        interpretation: "Em linguagem simples: Se a empresa prorrogar seu contrato de experiência mais de uma vez, ele automaticamente vira contrato permanente (por prazo indeterminado). Isso é bom para você, pois garante mais estabilidade e direitos em caso de demissão."
+        interpretation: "Em linguagem simples: PRORROGAÇÃO IRREGULAR vira contrato permanente! Se a empresa prorrogar seu contrato de experiência mais de uma vez, ele automaticamente vira contrato permanente (por prazo indeterminado). ⚠️ IMPORTANTE: Isso é bom para você, pois garante mais estabilidade e direitos em caso de demissão. DICA: Se a empresa tentar prorrogar mais de uma vez, você ganha todos os direitos de funcionário efetivo!"
       }
     ],
     ordinances: [
@@ -471,7 +471,7 @@ export const topics: Record<string, TopicData> = {
         reference: "Ministério do Trabalho e Emprego - Portaria 671/2021",
         content: "Estabelece diretrizes sobre registros e anotações na Carteira de Trabalho Digital, incluindo contratos de experiência.",
         fullContent: "PORTARIA MTE Nº 671, DE 8 DE NOVEMBRO DE 2021\n\nO SECRETÁRIO ESPECIAL DE PREVIDÊNCIA E TRABALHO DO MINISTÉRIO DA ECONOMIA, no uso de suas atribuições legais, resolve:\n\nArt. 1º Regulamentar os procedimentos de registro de informações na Carteira de Trabalho Digital.\n\nArt. 2º O empregador deverá registrar as seguintes informações na Carteira de Trabalho Digital:\nI - data de admissão;\nII - remuneração;\nIII - condições especiais, se houver;\nIV - tipo de contrato de trabalho (prazo indeterminado, determinado, experiência, intermitente);\nV - local de trabalho (presencial, teletrabalho, híbrido).\n\nArt. 3º No contrato de experiência, deverão constar:\nI - prazo inicial;\nII - prazo final;\nIII - possibilidade de prorrogação (limitada a uma única vez);\nIV - data de conversão em prazo indeterminado, se aplicável.\n\nArt. 4º O registro deverá ser efetuado:\nI - no prazo de até 48 horas após a admissão;\nII - de forma clara e precisa;\nIII - com assinatura digital ou certificação eletrônica.\n\nArt. 5º A Carteira de Trabalho Digital terá a mesma validade jurídica da Carteira de Trabalho física.\n\nArt. 6º O trabalhador terá acesso imediato e irrestrito aos dados registrados através do aplicativo Carteira de Trabalho Digital ou portal gov.br.\n\nArt. 7º O descumprimento do disposto nesta Portaria sujeitará o infrator às penalidades previstas na legislação trabalhista.\n\nArt. 8º Esta Portaria entra em vigor na data de sua publicação.",
-        interpretation: "Em linguagem simples: Esta portaria define como a empresa deve registrar você na Carteira de Trabalho Digital. A empresa TEM QUE registrar em até 48 horas: data de admissão, salário, tipo de contrato (se é experiência, prazo determinado, etc.), local de trabalho (presencial, home office). Para contratos de experiência, deve colocar prazo inicial, final, e se pode prorrogar. VOCÊ tem acesso imediato a tudo pelo app ou site gov.br. Se a empresa não registrar corretamente, pode ser multada. É uma proteção para garantir que seu contrato seja documentado direitinho e digitalmente!"
+        interpretation: "Em linguagem simples: CONTRATO DE EXPERIÊNCIA deve ser REGISTRADO na carteira digital! A empresa TEM QUE registrar em até 48 horas: data de admissão, salário, tipo de contrato (experiência), local de trabalho. Para contratos de experiência, deve colocar prazo inicial, final, e se pode prorrogar. ⚠️ IMPORTANTE: VOCÊ tem acesso imediato a tudo pelo app ou site gov.br. DICA: Se a empresa não registrar corretamente o prazo de experiência, pode ser multada!"
       }
     ],
     summaries: [
@@ -479,25 +479,25 @@ export const topics: Record<string, TopicData> = {
         number: "Súmula 188",
         court: "TST - Tribunal Superior do Trabalho",
         content: "O contrato de experiência pode ser prorrogado, respeitado o limite máximo de 90 (noventa) dias.",
-        interpretation: "Em linguagem simples: O Tribunal Superior do Trabalho confirma que é permitido prorrogar o contrato de experiência, mas sempre respeitando o limite máximo de 90 dias no total. Exemplo: se você foi contratado por 60 dias, pode ser prorrogado por mais 30 dias."
+        interpretation: "Em linguagem simples: TST confirma: PRORROGAÇÃO é permitida, mas máximo 90 dias total! Se você foi contratado por 60 dias, pode ser prorrogado por mais 30 dias. ⚠️ IMPORTANTE: Total nunca pode passar de 90 dias. DICA: Exemplo prático: 45 dias + 45 dias = OK. 60 dias + 40 dias = NÃO (passa de 90)!"
       },
       {
         number: "Súmula 212",
         court: "TST - Tribunal Superior do Trabalho",
         content: "O ônus de provar o término do contrato de trabalho, quando negados a prestação de serviço e o despedimento, é do empregador, pois o princípio da continuidade da relação de emprego constitui presunção favorável ao empregado.",
-        interpretation: "Em linguagem simples: Se houver dúvida sobre quando seu contrato terminou ou se você foi demitido, a empresa é quem precisa provar isso, não você. A justiça presume que o contrato continua valendo até que a empresa prove o contrário."
+        interpretation: "Em linguagem simples: EMPRESA precisa PROVAR quando contrato terminou! Se houver dúvida sobre fim do contrato ou demissão, a empresa é quem precisa provar, não você. ⚠️ IMPORTANTE: Justiça presume que contrato continua até empresa provar o contrário. DICA: Se empresa não conseguir provar, você ganha!"
       }
     ],
     jurisprudence: [
       {
         title: "Prorrogação irregular do contrato de experiência",
         content: "A prorrogação do contrato de experiência por mais de uma vez, ou que ultrapasse o limite de 90 dias, converte automaticamente o contrato em prazo indeterminado, garantindo ao empregado todos os direitos decorrentes dessa modalidade contratual.",
-        interpretation: "Em linguagem simples: Se a empresa prorrogar seu contrato mais de uma vez, ou se o total passar de 90 dias, você automaticamente se torna um funcionário efetivo. Isso significa que, se for demitido, tem direito a aviso prévio, multa de 40% do FGTS e outros direitos de quem tem contrato permanente."
+        interpretation: "Em linguagem simples: PRORROGAÇÃO IRREGULAR = CONTRATO PERMANENTE! Se empresa prorrogar mais de uma vez ou passar de 90 dias, você vira funcionário efetivo automaticamente. ⚠️ IMPORTANTE: Se for demitido, tem direito a aviso prévio, multa de 40% do FGTS e todos os direitos de contrato permanente. DICA: Guarde provas das prorrogações!"
       },
       {
         title: "Direitos durante o contrato de experiência",
         content: "Durante o contrato de experiência, o trabalhador tem direito a todos os benefícios trabalhistas: FGTS, férias proporcionais, 13º salário proporcional, vale-transporte, entre outros direitos previstos em lei ou convenção coletiva.",
-        interpretation: "Em linguagem simples: Mesmo estando em experiência, você tem os mesmos direitos de qualquer trabalhador: a empresa deve depositar FGTS, pagar férias e 13º salário proporcionais, fornecer vale-transporte, e todos os outros benefícios normais. Não aceite menos direitos por estar 'só' em experiência!"
+        interpretation: "Em linguagem simples: EXPERIÊNCIA = MESMOS DIREITOS! Mesmo em período de experiência, você tem direito a FGTS, férias proporcionais, 13º proporcional, vale-transporte e todos os benefícios normais. ⚠️ IMPORTANTE: Não aceite menos direitos por estar 'só' em experiência! DICA: Empresa não pode usar experiência como desculpa para não pagar benefícios!"
       }
     ],
     recentDecisions: [
