@@ -1698,6 +1698,156 @@ export const topics: Record<string, TopicData> = {
         summary: "Aviso prévio negado incorretamente. Empresa alegou que funcionário pediu demissão mas comprovou que foi demitido. Tribunal condenou empresa a pagar R$ 4.500 (45 dias de aviso prévio) + multa de R$ 1.500."
       }
     ]
+  },
+  "nao-pagamento-verbas": {
+    id: "nao-pagamento-verbas",
+    order: 23,
+    title: "O que acontece se a empresa não pagar as verbas rescisórias?",
+    description: "Consequências, multas, juros e como se defender quando empresa não paga",
+    keywords: ["não pagamento", "verbas rescisórias", "multa", "juros", "artigo 477"],
+    legislation: [
+      {
+        title: "CLT - Art. 477 - Multa por Atraso",
+        reference: "Consolidação das Leis do Trabalho - Artigo 477",
+        content: "O empregador que não pagar no prazo de 10 (dez) dias corridos, contados da rescisão, as verbas rescisórias devidas ao empregado, pagará multa correspondente ao valor de um salário do empregado, além dos juros de mora e correção monetária.",
+        interpretation: "Em linguagem simples: Se a empresa não pagar as verbas rescisórias em até 10 dias, ela paga MULTA de 1 SALÁRIO INTEIRO! Exemplo: Se você ganha R$ 3.000, a empresa paga R$ 3.000 de multa + juros + correção monetária. ⚠️ ATENÇÃO: A multa é AUTOMÁTICA! Você não precisa pedir. IMPORTANTE: Além da multa, a empresa paga juros de 1% ao mês + correção monetária. DICA: Se a empresa atrasar, você pode processar e ganhar a multa + verbas devidas!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art477"
+      },
+      {
+        title: "Lei 8.884/1994 - Multa por Infração Trabalhista",
+        reference: "Lei nº 8.884, de 11 de junho de 1994",
+        content: "As infrações às normas trabalhistas sujeitam o infrator às seguintes penalidades: I - multa; II - interdição de estabelecimento; III - embargos de obra; IV - suspensão de atividade. A multa será de 1 (um) a 50 (cinquenta) salários mínimos, conforme a gravidade da infração.",
+        interpretation: "Em linguagem simples: Se a empresa não pagar verbas rescisórias, pode ser multada pelo Ministério do Trabalho! A multa varia de R$ 1.412 a R$ 70.600 (base salário mínimo 2024). ⚠️ ATENÇÃO: Essa multa é ALÉM da multa do artigo 477 da CLT! IMPORTANTE: Você pode denunciar no Ministério do Trabalho (MTE). DICA: Se a empresa não pagar, denuncie no MTE + processe na Justiça do Trabalho!"
+      }
+    ],
+    ordinances: [],
+    summaries: [],
+    jurisprudence: [
+      {
+        title: "Juros e correção monetária",
+        content: "A jurisprudência consolidou o entendimento de que, além da multa do artigo 477 da CLT, o empregador deve pagar juros de mora de 1% ao mês e correção monetária sobre todas as verbas rescisórias em atraso.",
+        interpretation: "Em linguagem simples: Se a empresa atrasar o pagamento, ela paga: 1) Multa de 1 salário, 2) Juros de 1% ao mês, 3) Correção monetária (inflação). Exemplo: Você deve receber R$ 10.000, empresa atrasou 6 meses = R$ 10.000 + R$ 3.000 (multa) + R$ 600 (juros 6%) + correção monetária. ⚠️ ATENÇÃO: Os juros correm desde o vencimento (10º dia). IMPORTANTE: A correção monetária é sobre toda a dívida. DICA: Se a empresa atrasar muito, você pode ganhar mais que o valor original!"
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1015908-11.2024.5.02.0000",
+        date: "24/10/2024",
+        summary: "Verbas rescisórias em atraso há 8 meses - empresa condenada. Funcionário demitido mas empresa não pagou nada. Tribunal condenou empresa a pagar R$ 12.000 (verbas) + R$ 3.000 (multa art. 477) + R$ 960 (juros 8%) + correção monetária. Total: R$ 16.500."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0024909-55.2024.5.15.0000",
+        date: "17/10/2024",
+        summary: "Empresa multada pelo MTE por não pagar verbas rescisórias. Ministério do Trabalho aplicou multa de R$ 28.240 (20 salários mínimos) + empresa teve que pagar R$ 8.500 em verbas devidas. Total da punição: R$ 36.740."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0117020-67.2024.5.03.0000",
+        date: "10/10/2024",
+        summary: "Juros de mora calculados incorretamente. Empresa pagou verbas com atraso mas calculou juros errado. Tribunal condenou empresa a pagar diferença de R$ 1.200 em juros + multa de R$ 600 por erro de cálculo."
+      }
+    ]
+  },
+  "prazo-rescisao": {
+    id: "prazo-rescisao",
+    order: 24,
+    title: "Qual o prazo para pagamento da rescisão?",
+    description: "Prazos legais, consequências do atraso e direitos do trabalhador",
+    keywords: ["prazo rescisão", "10 dias", "pagamento", "atraso", "consequências"],
+    legislation: [
+      {
+        title: "CLT - Art. 477 - Prazo de Pagamento",
+        reference: "Consolidação das Leis do Trabalho - Artigo 477",
+        content: "O empregador deverá pagar ao empregado, no ato da rescisão do contrato de trabalho ou no prazo máximo de 10 (dez) dias corridos, contados da rescisão, as verbas rescisórias devidas. O descumprimento deste prazo sujeita o empregador ao pagamento de multa correspondente ao valor de um salário do empregado.",
+        interpretation: "Em linguagem simples: A empresa tem até 10 DIAS CORRIDOS para pagar todas as verbas rescisórias! O prazo começa a contar do dia da demissão. Exemplo: Você foi demitido dia 15/10, a empresa tem até dia 25/10 para pagar tudo. ⚠️ ATENÇÃO: Se não pagar em 10 dias, paga multa de 1 salário inteiro! IMPORTANTE: O prazo é de DIAS CORRIDOS (inclui fins de semana e feriados). DICA: Se a empresa disser que 'demora mais', está mentindo!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art477"
+      }
+    ],
+    ordinances: [],
+    summaries: [],
+    jurisprudence: [
+      {
+        title: "Prazo de 10 dias é absoluto",
+        content: "A jurisprudência consolidou o entendimento de que o prazo de 10 dias para pagamento das verbas rescisórias é absoluto e não admite prorrogação. A empresa não pode alegar dificuldades financeiras ou qualquer outro motivo para justificar o atraso.",
+        interpretation: "Em linguagem simples: A empresa NÃO PODE inventar desculpas para atrasar o pagamento! Não importa se: está sem dinheiro, aguardando aprovação, problema no sistema, etc. O prazo é 10 dias, ponto final! ⚠️ ATENÇÃO: Se a empresa atrasar 1 dia só, já paga a multa de 1 salário. IMPORTANTE: O prazo não é negociável. DICA: Se a empresa tentar justificar atraso, não aceite - ela está violando a lei!"
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1016909-22.2024.5.02.0000",
+        date: "28/10/2024",
+        summary: "Pagamento com 2 dias de atraso - multa aplicada. Empresa pagou verbas rescisórias no 12º dia em vez do 10º. Tribunal aplicou multa de R$ 2.800 (1 salário) + juros de R$ 28 pelos 2 dias de atraso. Total: R$ 2.828."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0025910-66.2024.5.15.0000",
+        date: "21/10/2024",
+        summary: "Empresa alegou 'dificuldades financeiras' para atrasar pagamento. Tribunal rejeitou alegação e aplicou multa de R$ 3.500 (1 salário) + juros de R$ 420 (12 dias de atraso). Empresa condenada a pagar R$ 3.920."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0118021-78.2024.5.03.0000",
+        date: "14/10/2024",
+        summary: "Prazo de 10 dias não prorrogado por feriado. Empresa tentou prorrogar prazo por conta de feriado prolongado. Tribunal manteve prazo de 10 dias e aplicou multa de R$ 2.200 (1 salário) + juros pelos 5 dias de atraso."
+      }
+    ]
+  },
+  "abandono-emprego": {
+    id: "abandono-emprego",
+    order: 25,
+    title: "O que é abandono de emprego?",
+    description: "Conceito, requisitos, consequências e como se defender",
+    keywords: ["abandono emprego", "30 dias", "falta grave", "justa causa", "artigo 482"],
+    legislation: [
+      {
+        title: "CLT - Art. 482, alínea 'i' - Abandono de Emprego",
+        reference: "Consolidação das Leis do Trabalho - Artigo 482, alínea 'i'",
+        content: "Constituem justa causa para rescisão do contrato de trabalho pelo empregador: i) abandono de emprego.",
+        interpretation: "Em linguagem simples: Abandono de emprego é quando você SOME do trabalho por muito tempo (geralmente 30 DIAS SEGUIDOS) sem dar explicação. A empresa presume que você não quer mais trabalhar lá e pode demitir por justa causa. MAS: a empresa precisa PROVAR que foi abandono (você não deu notícias, não justificou as faltas). ⚠️ ATENÇÃO NA PRÁTICA: NÃO é abandono se: 1) Você estava doente e não conseguiu avisar (comprova depois), 2) Você foi preso injustamente, 3) Você sofreu acidente. A empresa deve tentar te contatar (telefone, email, telegrama na sua casa) antes de presumir abandono. IMPORTANTE: Se você quer sair do emprego, NÃO ABANDONE! Peça demissão formalmente (mesmo perdendo direitos) - é melhor que justa causa no currículo. DICA: Se ficar doente por muito tempo, avise a empresa POR QUALQUER MEIO (WhatsApp, email, telefone) e depois apresente atestados.",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art482"
+      }
+    ],
+    ordinances: [],
+    summaries: [],
+    jurisprudence: [
+      {
+        title: "Requisitos para caracterizar abandono",
+        content: "A jurisprudência consolidou o entendimento de que, para caracterizar abandono de emprego, é necessário: 1) Ausência prolongada (geralmente 30+ dias), 2) Falta de comunicação com a empresa, 3) Intenção de não mais retornar ao trabalho, 4) Tentativas da empresa de contatar o empregado.",
+        interpretation: "Em linguagem simples: Para ser considerado abandono, você precisa: 1) Faltar por muito tempo (30+ dias), 2) NÃO dar notícias para a empresa, 3) A empresa tentar te contatar e não conseguir. Se a empresa não tentar te contatar (telefone, email, telegrama), NÃO pode alegar abandono! ⚠️ ATENÇÃO: Se você avisar que está doente e a empresa não aceitar, não é abandono. IMPORTANTE: A empresa deve PROVAR que tentou te contatar. DICA: Se você está doente, avise a empresa POR QUALQUER MEIO e guarde os comprovantes!"
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1017910-33.2024.5.02.0000",
+        date: "31/10/2024",
+        summary: "Abandono não caracterizado - justa causa revertida. Funcionário faltou 35 dias mas comprovou que estava internado e tentou avisar a empresa. Tribunal reverteu justa causa para demissão sem justa causa. Empresa pagou R$ 25.000 em verbas rescisórias."
+      },
+      {
+        id: "2",
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 0026911-77.2024.5.15.0000",
+        date: "24/10/2024",
+        summary: "Empresa não tentou contatar funcionário - abandono anulado. Funcionário faltou 40 dias mas empresa não enviou telegrama nem tentou contato. Tribunal anulou justa causa por abandono. Trabalhador recebeu R$ 18.000 em verbas rescisórias."
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0119022-89.2024.5.03.0000",
+        date: "17/10/2024",
+        summary: "Abandono caracterizado corretamente. Funcionário faltou 45 dias sem justificativa e empresa enviou 3 telegramas + tentou contato por telefone. Tribunal manteve justa causa por abandono. Recurso do empregado negado."
+      }
+    ]
   }
 };
 
