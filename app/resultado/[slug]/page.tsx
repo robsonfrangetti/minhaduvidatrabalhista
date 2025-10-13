@@ -170,6 +170,26 @@ export default async function ResultPage({ params }: { params: { slug: string } 
               </div>
               <div className="decision-number">{decision.number}</div>
               <div className="decision-summary">{decision.summary}</div>
+              {decision.link && (
+                <div style={{ marginTop: '1rem' }}>
+                  <Link 
+                    href={decision.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{
+                      color: 'var(--primary)',
+                      textDecoration: 'none',
+                      fontSize: '0.9rem',
+                      fontWeight: 600,
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '0.5rem'
+                    }}
+                  >
+                    🔗 Ver decisão completa
+                  </Link>
+                </div>
+              )}
             </div>
           ))}
         </section>
