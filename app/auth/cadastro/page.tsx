@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { createClient } from '@/lib/supabase/client'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import styles from '../login/auth.module.css'
 
@@ -25,7 +25,11 @@ export default function CadastroPage() {
   const [error, setError] = useState<string | null>(null)
   const [success, setSuccess] = useState(false)
   const router = useRouter()
+  const searchParams = useSearchParams()
   const supabase = createClient()
+  
+  // Pegar o parâmetro de redirect da URL
+  const redirectTo = searchParams.get('redirect') || '/'
 
   // Máscara de telefone
   const handleTelefoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {

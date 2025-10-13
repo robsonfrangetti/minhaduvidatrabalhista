@@ -1,8 +1,8 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { createClient } from '@/lib/supabase/client'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import styles from './auth.module.css'
 
@@ -13,7 +13,11 @@ export default function LoginPage() {
   const [error, setError] = useState<string | null>(null)
   const [message, setMessage] = useState<string | null>(null)
   const router = useRouter()
+  const searchParams = useSearchParams()
   const supabase = createClient()
+  
+  // Pegar o parâmetro de redirect da URL
+  const redirectTo = searchParams.get('redirect') || '/'
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -41,7 +45,7 @@ export default function LoginPage() {
       if (data.user) {
         setMessage('Login realizado com sucesso! Redirecionando...')
         setTimeout(() => {
-          router.push('/')
+          router.push(redirectTo)
           router.refresh()
         }, 1000)
       }
@@ -59,6 +63,20 @@ export default function LoginPage() {
           <h1>Bem-vindo de volta!</h1>
           <p>Entre na sua conta para continuar</p>
         </div>
+
+        {redirectTo !== '/' && (
+          <div className={styles.infoMessage} style={{
+            background: '#e3f2fd',
+            border: '1px solid #2196f3',
+            borderRadius: '8px',
+            padding: '1rem',
+            marginBottom: '1.5rem',
+            color: '#1565c0'
+          }}>
+            <span>ℹ️</span>
+            <p><strong>Faça login para acessar o conteúdo completo!</strong></p>
+          </div>
+        )}
 
         {error && (
           <div className={styles.errorMessage}>
@@ -117,7 +135,7 @@ export default function LoginPage() {
         <div className={styles.authFooter}>
           <p>
             Não tem uma conta?{' '}
-            <Link href="/auth/cadastro">Cadastre-se gratuitamente</Link>
+            <Link href={`/auth/cadastro${redirectTo !== '/' ? '?redirect=' + redirectTo : ''}`}>Cadastre-se gratuitamente</Link>
           </p>
         </div>
 

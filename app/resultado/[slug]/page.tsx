@@ -1,9 +1,22 @@
 import Link from 'next/link'
 import { topics } from '@/data/topics'
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import ExpandableOrdinance from '@/components/ExpandableOrdinance'
+import { createClient } from '@/lib/supabase/server'
 
-export default function ResultPage({ params }: { params: { slug: string } }) {
+export default async function ResultPage({ params }: { params: { slug: string } }) {
+  const supabase = await createClient()
+  
+  // Verificar se o usuário está logado
+  const {
+    data: { user },
+  } = await supabase.auth.getUser()
+
+  // Se não estiver logado, redireciona para login
+  if (!user) {
+    redirect('/auth/login?redirect=/resultado/' + params.slug)
+  }
+
   const topic = topics[params.slug]
 
   if (!topic) {
