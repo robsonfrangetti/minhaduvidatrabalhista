@@ -527,27 +527,27 @@ export const topics: Record<string, TopicData> = {
   "ferias": {
     id: "ferias",
     order: 7,
-    title: "Férias Trabalhistas",
-    description: "Tudo sobre direito a férias, cálculo e períodos",
-    keywords: ["férias", "descanso", "férias proporcionais"],
+    title: "Quando tenho direito às férias?",
+    description: "Período aquisitivo, concessão, gozo e pagamento das férias anuais",
+    keywords: ["quando férias", "direito férias", "período aquisitivo", "concessão férias", "gozo férias", "férias anuais"],
     legislation: [
       {
         title: "CLT - Art. 129",
         reference: "Consolidação das Leis do Trabalho - Artigo 129",
         content: "Todo empregado terá direito anualmente ao gozo de um período de férias, sem prejuízo da remuneração.",
-        interpretation: "Em linguagem simples: Todo trabalhador tem direito a férias uma vez por ano, e deve receber o salário normalmente durante esse período de descanso. É um direito garantido e não pode ser negado."
+        interpretation: "Em linguagem simples: TODO trabalhador tem direito a férias uma vez por ano! Deve receber salário normalmente durante o descanso. ⚠️ IMPORTANTE: É direito garantido e não pode ser negado. DICA: Se empresa negar férias, pode ser multada!"
       },
       {
         title: "CLT - Art. 130",
         reference: "Consolidação das Leis do Trabalho - Artigo 130",
         content: "Após cada período de 12 (doze) meses de vigência do contrato de trabalho, o empregado terá direito a férias, na seguinte proporção: I - 30 (trinta) dias corridos, quando não houver faltado ao serviço mais de 5 (cinco) vezes...",
-        interpretation: "Em linguagem simples: Depois de trabalhar 12 meses, você tem direito a 30 dias de férias, desde que não tenha faltado mais de 5 vezes sem justificativa. Quanto mais faltas injustificadas, menos dias de férias você terá direito."
+        interpretation: "Em linguagem simples: APÓS 12 MESES trabalhados, você tem direito a 30 dias de férias! Mas atenção: se faltou mais de 5 vezes sem justificativa, perde dias de férias. ⚠️ IMPORTANTE: Faltas injustificadas reduzem suas férias. DICA: 6-14 faltas = 24 dias | 15-23 faltas = 18 dias | 24-32 faltas = 12 dias!"
       },
       {
         title: "CLT - Art. 134",
         reference: "Consolidação das Leis do Trabalho - Artigo 134",
         content: "As férias serão concedidas por ato do empregador, em um só período, nos 12 (doze) meses subsequentes à data em que o empregado tiver adquirido o direito.",
-        interpretation: "Em linguagem simples: A empresa decide quando você vai tirar férias, mas tem até 12 meses após você completar o período para liberar seu descanso. Normalmente as férias são tiradas em um período único, mas podem ser divididas em alguns casos."
+        interpretation: "Em linguagem simples: EMPRESA decide QUANDO você tira férias! Tem até 12 meses após completar o período para liberar seu descanso. ⚠️ IMPORTANTE: Normalmente é em um período único, mas pode ser dividido em alguns casos. DICA: Se empresa não liberar férias em 12 meses, pode ser multada!"
       }
     ],
     ordinances: [
@@ -556,7 +556,7 @@ export const topics: Record<string, TopicData> = {
         reference: "Ministério do Trabalho e Emprego - Portaria 1.127/2017",
         content: "Dispõe sobre procedimentos relacionados às férias trabalhistas.",
         fullContent: "PORTARIA MTE Nº 1.127, DE 14 DE OUTUBRO DE 2017\n\nO MINISTRO DE ESTADO DO TRABALHO, no uso de suas atribuições legais, resolve:\n\nArt. 1º As férias serão concedidas por ato do empregador, em um só período, nos 12 (doze) meses subsequentes à data em que o empregado tiver adquirido o direito.\n\n§ 1º Somente em casos excepcionais serão as férias concedidas em dois períodos, um dos quais não poderá ser inferior a 10 (dez) dias corridos.\n\n§ 2º Aos menores de 18 (dezoito) anos e aos maiores de 50 (cinquenta) anos de idade, as férias serão sempre concedidas de uma só vez.\n\nArt. 2º A época da concessão das férias será a que melhor consulte os interesses do empregador.\n\n§ 1º Os membros de uma família, que trabalharem no mesmo estabelecimento ou empresa, terão direito a gozar férias no mesmo período, se assim o desejarem e se disto não resultar prejuízo para o serviço.\n\n§ 2º O empregado estudante, menor de 18 (dezoito) anos, terá direito a fazer coincidir suas férias com as férias escolares.\n\nArt. 3º O empregado deverá ser comunicado da concessão de férias com antecedência mínima de 30 (trinta) dias.\n\nParágrafo único. A comunicação será feita por escrito e o empregado dará recibo.\n\nArt. 4º O pagamento da remuneração das férias será efetuado até 2 (dois) dias antes do início do respectivo período.\n\nArt. 5º Ao empregado que solicitar conversão de 1/3 (um terço) do período de férias em abono pecuniário, o pagamento deverá ser realizado até 2 (dois) dias antes do início das férias.\n\nArt. 6º A concessão de férias será registrada na Carteira de Trabalho e Previdência Social ou no sistema eletrônico.\n\nArt. 7º Esta Portaria entra em vigor na data de sua publicação.",
-        interpretation: "Em linguagem simples: Esta portaria estabelece as regras práticas de como a empresa deve controlar e conceder férias. Define que: a empresa escolhe quando você tira férias (mas respeitando seus interesses), membros da mesma família podem tirar férias juntos, estudantes menores de 18 anos podem coincidir com férias escolares, você deve ser avisado com 30 dias de antecedência POR ESCRITO, o pagamento das férias deve ser feito 2 dias ANTES de você sair de férias, e tudo deve ser registrado na sua carteira. São regras para garantir que seus direitos sejam respeitados!"
+        interpretation: "Em linguagem simples: REGRAS PRÁTICAS das férias! Empresa escolhe quando você tira férias, mas deve avisar com 30 dias de antecedência POR ESCRITO. ⚠️ IMPORTANTE: Pagamento deve ser feito 2 dias ANTES de sair de férias. DICA: Menores de 18 anos podem coincidir com férias escolares!"
       }
     ],
     summaries: [
@@ -564,14 +564,14 @@ export const topics: Record<string, TopicData> = {
         number: "Súmula 7",
         court: "TST - Tribunal Superior do Trabalho",
         content: "A indenização pelo não deferimento das férias no tempo oportuno será calculada com base na remuneração devida ao empregado na época da reclamação ou, se for o caso, na da extinção do contrato.",
-        interpretation: "Em linguagem simples: Se a empresa não te der férias no prazo certo (dentro dos 12 meses), ela terá que te pagar uma indenização. O valor é calculado com base no seu salário atual (na hora que você reclamar) ou do momento em que saiu da empresa."
+        interpretation: "Em linguagem simples: FÉRIAS NÃO DADAS = INDENIZAÇÃO! Se empresa não der férias no prazo certo (12 meses), terá que pagar indenização. ⚠️ IMPORTANTE: Valor calculado com base no salário atual. DICA: Se sair da empresa, usa o salário da época da saída!"
       }
     ],
     jurisprudence: [
       {
         title: "Férias em dobro",
         content: "O empregado que não usufruir férias dentro do período concessivo tem direito ao pagamento em dobro da remuneração correspondente.",
-        interpretation: "Em linguagem simples: Se a empresa não liberar suas férias dentro do prazo de 12 meses após você ter adquirido o direito, ela terá que pagar em dobro. Ou seja, você recebe o valor das férias multiplicado por 2. É uma punição para a empresa que não respeita o prazo."
+        interpretation: "Em linguagem simples: FÉRIAS EM DOBRO se empresa não liberar no prazo! Se não der férias em 12 meses após adquirir o direito, paga em DOBRO. ⚠️ IMPORTANTE: Você recebe valor das férias multiplicado por 2. DICA: É punição para empresa que não respeita prazo!"
       }
     ],
     recentDecisions: [
