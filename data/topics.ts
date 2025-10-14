@@ -836,29 +836,29 @@ export const topics: Record<string, TopicData> = {
   "atrasos": {
     id: "atrasos",
     order: 10,
-    title: "Atrasos no Trabalho",
-    description: "Direitos e deveres sobre atrasos, descontos e consequências trabalhistas",
-    keywords: ["atraso", "pontualidade", "desconto salarial", "justa causa", "tolerância", "ponto eletrônico"],
+    title: "Posso ser descontado por atrasos no trabalho?",
+    description: "Tolerância de atrasos, descontos salariais, consequências e demissão por justa causa",
+    keywords: ["desconto atraso", "tolerância atraso", "ponto eletrônico", "desconto salarial", "justa causa", "atrasos frequentes"],
     legislation: [
       {
         title: "CLT - Art. 58, § 1º",
         reference: "Consolidação das Leis do Trabalho - Artigo 58, Parágrafo 1º",
         content: "§ 1º Não serão descontadas nem computadas como jornada extraordinária as variações de horário no registro de ponto não excedentes de cinco minutos, observado o limite máximo de dez minutos diários.",
-        interpretation: "Em linguagem simples: A LEI permite uma TOLERÂNCIA de até 5 minutos de atraso (ou saída antecipada) por marcação de ponto, com LIMITE MÁXIMO de 10 minutos por dia. Exemplo: chegou 3 minutos atrasado de manhã e saiu 4 minutos depois à noite = 7 minutos no total, está dentro da tolerância. ⚠️ ATENÇÃO NA PRÁTICA: Se você ultrapassar os 10 minutos diários, a empresa pode descontar TODO o tempo de atraso, não só o que passou dos 10 minutos. IMPORTANTE: Essa tolerância NÃO é um direito de chegar atrasado, é apenas uma margem para pequenas variações inevitáveis. DICA: Não conte com essa tolerância como 'tempo livre' - use apenas para imprevistos reais.",
+        interpretation: "Em linguagem simples: TOLERÂNCIA de até 5 minutos por marcação, máximo 10 minutos/dia! Exemplo: chegou 3min atrasado + saiu 4min depois = 7min total (dentro da tolerância). ⚠️ IMPORTANTE: Se passar dos 10min/dia, empresa pode descontar TODO o atraso! DICA: Tolerância NÃO é direito de chegar atrasado - é só margem para imprevistos!",
         link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art58"
       },
       {
         title: "CLT - Art. 482, alínea 'e'",
         reference: "Consolidação das Leis do Trabalho - Artigo 482, alínea 'e'",
         content: "Constituem justa causa para rescisão do contrato de trabalho pelo empregador: e) desídia no desempenho das respectivas funções;",
-        interpretation: "Em linguagem simples: Desídia significa 'desleixo', 'preguiça', 'falta de cuidado' no trabalho. Atrasos FREQUENTES e INJUSTIFICADOS podem ser considerados desídia e levar à demissão por justa causa! Isso significa perder: aviso prévio, multa de 40% do FGTS, seguro-desemprego, e receber só saldo de salário e férias vencidas. ⚠️ ATENÇÃO NA PRÁTICA: Não existe um número exato de atrasos que caracteriza justa causa - depende da frequência, gravidade, e se houve advertências antes. A empresa geralmente segue: 1ª vez = advertência verbal, 2ª vez = advertência escrita, 3ª vez = suspensão, reincidência = justa causa. DICA: Se você receber advertência por atraso, leve MUITO a sério! É o caminho para a demissão por justa causa.",
+        interpretation: "Em linguagem simples: ATRASOS FREQUENTES = JUSTA CAUSA! Atrasos injustificados podem ser considerados desídia (desleixo) e levar à demissão por justa causa. ⚠️ IMPORTANTE: Perde aviso prévio, multa FGTS, seguro-desemprego! DICA: Empresa geralmente: 1ª vez = advertência verbal, 2ª vez = escrita, 3ª vez = suspensão, reincidência = justa causa!",
         link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art482"
       },
       {
         title: "CLT - Art. 474",
         reference: "Consolidação das Leis do Trabalho - Artigo 474",
         content: "A suspensão do empregado por mais de 30 (trinta) dias consecutivos importa na rescisão injusta do contrato de trabalho.",
-        interpretation: "Em linguagem simples: Se a empresa te suspender por mais de 30 dias seguidos como punição por atrasos (ou qualquer outro motivo), isso é considerado demissão sem justa causa! Você tem direito a todas as verbas rescisórias: aviso prévio, multa de 40% do FGTS, seguro-desemprego, férias e 13º proporcionais. É uma proteção contra empresas que tentam 'forçar' você a pedir demissão através de suspensões excessivas.",
+        interpretation: "Em linguagem simples: SUSPENSÃO + 30 DIAS = DEMISSÃO SEM JUSTA CAUSA! Se empresa te suspender por mais de 30 dias seguidos, vira demissão sem justa causa. ⚠️ IMPORTANTE: Tem direito a aviso prévio, multa FGTS, seguro-desemprego, férias e 13º proporcionais! DICA: É proteção contra empresas que tentam forçar pedido de demissão!",
         link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art474"
       }
     ],
@@ -868,7 +868,7 @@ export const topics: Record<string, TopicData> = {
         reference: "Ministério do Trabalho e Emprego - Portaria 671/2021",
         content: "Regulamenta o registro de ponto eletrônico e manual, incluindo regras sobre tolerância de atrasos e descontos.",
         fullContent: "PORTARIA MTE Nº 671, DE 8 DE NOVEMBRO DE 2021\n\nO SECRETÁRIO ESPECIAL DE PREVIDÊNCIA E TRABALHO DO MINISTÉRIO DA ECONOMIA, no uso de suas atribuições legais, resolve:\n\nArt. 1º Esta Portaria estabelece regras sobre o registro de ponto e controle de jornada de trabalho.\n\nArt. 2º O registro de ponto deve:\nI - registrar fielmente os horários de entrada e saída;\nII - não permitir alterações fraudulentas;\nIII - garantir a privacidade do trabalhador;\nIV - estar disponível para consulta do empregado.\n\nArt. 3º Variações de horário:\nI - até 5 minutos por marcação (máximo 10 minutos diários) não são descontadas nem pagas como extra;\nII - acima de 10 minutos diários: TODO o tempo é computado (incluindo os 10 minutos iniciais);\nIII - empresa pode descontar atrasos do salário;\nIV - NÃO é permitido compensar atraso com banco de horas sem acordo formal;\nV - desconto não pode ultrapassar o valor do tempo não trabalhado.\n\nArt. 4º Descontos por atrasos:\nI - devem ser proporcionais ao tempo não trabalhado;\nII - devem estar discriminados no holerite;\nIII - empregado tem direito a consultar registros de ponto;\nIV - empresa deve manter registros por 5 anos.\n\nArt. 5º Medidas disciplinares:\nI - atrasos injustificados podem gerar: advertência → suspensão → justa causa;\nII - empresa deve seguir gradação de penalidades;\nIII - empregado deve ser notificado formalmente;\nIV - demissão por justa causa exige documentação comprobatória.\n\nArt. 6º Atrasos justificados:\nI - problemas de saúde (com atestado);\nII - caso fortuito ou força maior (acidente, enchente, pane em transporte público);\nIII - comparecimento a juízo ou outros deveres legais;\nIV - empregado deve comunicar e comprovar motivo quando possível.\n\nArt. 7º Esta Portaria entra em vigor na data de sua publicação.",
-        interpretation: "Em linguagem simples: Esta portaria define como funciona o controle de ponto e os atrasos. PONTOS PRINCIPAIS: 1) Até 10 minutos de atraso por dia não são descontados, MAS se passar disso, TODO o tempo é descontado (não só o que passou). 2) A empresa PODE descontar atrasos do seu salário, e isso deve aparecer no holerite. 3) Você tem direito de ver seus registros de ponto. 4) Atrasos geram punições progressivas: advertência → suspensão → demissão por justa causa. 5) Atrasos por motivos de saúde, força maior ou dever legal são justificados (mas você precisa comprovar). DICA PRÁTICA: Sempre que houver um imprevisto que vai te atrasar (trânsito, problema de saúde, etc.), avise o chefe IMEDIATAMENTE por WhatsApp ou telefone. Isso mostra boa-fé e pode evitar desconto ou advertência!",
+        interpretation: "Em linguagem simples: REGRAS do controle de ponto! Até 10min/dia não descontam, MAS se passar disso, TODO tempo é descontado! ⚠️ IMPORTANTE: Empresa PODE descontar atrasos do salário (deve aparecer no holerite). Punições: advertência → suspensão → justa causa. DICA: Atrasos por saúde/força maior são justificados - AVISE o chefe imediatamente!",
         link: "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/ctpp/arquivos/normas-regulamentadoras/portaria-mte-no-671-de-8-de-novembro-de-2021.pdf"
       }
     ],
@@ -877,14 +877,14 @@ export const topics: Record<string, TopicData> = {
         number: "Súmula 366",
         court: "TST - Tribunal Superior do Trabalho",
         content: "Não serão descontadas nem computadas como jornada extraordinária as variações de horário do registro de ponto não excedentes de cinco minutos, observado o limite máximo de dez minutos diários. Se ultrapassado esse limite, será considerada como extra a totalidade do tempo que exceder a jornada normal.",
-        interpretation: "Em linguagem simples: Esta súmula confirma a regra do artigo 58 da CLT. Você tem tolerância de até 10 minutos de variação por dia (chegando atrasado ou saindo mais tarde). MAS ATENÇÃO: se você atrasar 11 minutos, por exemplo, a empresa pode descontar ou pagar como extra OS 11 MINUTOS COMPLETOS, não só 1 minuto que passou da tolerância. Exemplo: chegou 12 minutos atrasado = pode descontar os 12 minutos, não só 2.",
+        interpretation: "Em linguagem simples: TOLERÂNCIA de 10min/dia confirmada! MAS ATENÇÃO: se atrasar 11min, empresa pode descontar OS 11 MINUTOS COMPLETOS! ⚠️ IMPORTANTE: Não é só o que passou da tolerância. DICA: Exemplo: 12min de atraso = desconto dos 12min, não só 2min!",
         link: "https://www.tst.jus.br/sumulas"
       },
       {
         number: "Súmula 346",
         court: "TST - Tribunal Superior do Trabalho",
         content: "São válidos os descontos salariais referentes a danos causados pelo empregado, desde que esta possibilidade tenha sido acordada ou na ocorrência de dolo do empregado.",
-        interpretation: "Em linguagem simples: A empresa pode descontar do seu salário prejuízos que você causou intencionalmente (dolo) ou se isso estiver no contrato. Isso se aplica a atrasos: se você atrasa de propósito (dolo), ou se o contrato/regulamento prevê desconto por atraso, o desconto é válido. A maioria das empresas inclui essa cláusula no contrato ou regulamento interno.",
+        interpretation: "Em linguagem simples: DESCONTO por atrasos é VÁLIDO se estiver no contrato/regulamento ou se for intencional (dolo)! ⚠️ IMPORTANTE: Maioria das empresas inclui cláusula de desconto no contrato. DICA: Verifique seu contrato e regulamento interno!",
         link: "https://www.tst.jus.br/sumulas"
       }
     ],
@@ -892,17 +892,17 @@ export const topics: Record<string, TopicData> = {
       {
         title: "Atrasos frequentes e demissão por justa causa",
         content: "Os tribunais trabalhistas consideram que atrasos frequentes e injustificados caracterizam desídia (desleixo), podendo justificar demissão por justa causa. Geralmente exige-se gradação de penalidades (advertências e suspensões) antes da justa causa, salvo em casos gravíssimos.",
-        interpretation: "Em linguagem simples: Para demitir por justa causa devido a atrasos, a empresa normalmente precisa seguir uma ordem: 1) Advertência verbal, 2) Advertência escrita, 3) Suspensão, 4) Justa causa. Mas se os atrasos forem muito graves e frequentes (exemplo: faltar de trabalhar várias horas por dia, vários dias seguidos), pode ser justa causa direto. IMPORTANTE: Guarde cópia de toda advertência que você receber! Se a empresa não seguiu a gradação correta, você pode contestar a justa causa na Justiça."
+        interpretation: "Em linguagem simples: GRADAÇÃO para demissão por justa causa: 1) Advertência verbal, 2) Escrita, 3) Suspensão, 4) Justa causa. ⚠️ IMPORTANTE: Guarde cópia de toda advertência! DICA: Se empresa não seguir gradação, pode contestar na Justiça!"
       },
       {
         title: "Desconto de Descanso Semanal Remunerado (DSR) por atraso",
         content: "O desconto do DSR (folga remunerada) é permitido quando o empregado não cumpre integralmente a jornada semanal sem justificativa. Atrasos durante a semana podem ensejar perda do DSR, desde que previstos em regulamento interno ou acordo coletivo.",
-        interpretation: "Em linguagem simples: DSR é sua folga do final de semana (geralmente domingo) que você recebe mesmo sem trabalhar. Se você atrasar durante a semana sem justificativa, a empresa pode descontar o DSR (você perde o pagamento daquele dia de folga). Isso é legal SE estiver previsto no regulamento da empresa ou na convenção coletiva. ATENÇÃO: Perder DSR significa perder um dia inteiro de salário por causa de alguns minutos/horas de atraso na semana - é uma punição pesada! DICA: Se a empresa descontar seu DSR, verifique se está previsto no regulamento interno ou acordo coletivo. Se não estiver, o desconto pode ser indevido."
+        interpretation: "Em linguagem simples: DSR (folga remunerada) pode ser DESCONTADO por atrasos! Se atrasar na semana sem justificativa, empresa pode descontar DSR (perde dia de folga). ⚠️ IMPORTANTE: É legal SE estiver no regulamento/acordo coletivo. DICA: Verifique se está previsto - se não estiver, desconto pode ser indevido!"
       },
       {
         title: "Atraso justificado não gera desconto",
         content: "Atrasos causados por motivo de força maior, caso fortuito, ou problemas de saúde devidamente comprovados não podem ser descontados do salário nem gerar punições disciplinares. O empregado deve comunicar e comprovar o motivo o mais breve possível.",
-        interpretation: "Em linguagem simples: Se você atrasa por motivos fora do seu controle e consegue provar, a empresa NÃO PODE descontar nem punir você. Exemplos válidos: acidente grave bloqueando estradas, enchente, greve de transporte público, emergência médica (sua ou de familiar próximo). IMPORTANTE: 1) Avise a empresa O MAIS RÁPIDO POSSÍVEL (por WhatsApp, telefone, email), 2) Guarde PROVAS (foto do trânsito parado, notícia do acidente, comprovante de atendimento médico), 3) Apresente as provas no dia que voltar. Se a empresa descontar mesmo com justificativa válida, você pode reclamar no RH ou, se não resolver, na Justiça do Trabalho."
+        interpretation: "Em linguagem simples: ATRASO JUSTIFICADO ≠ DESCONTO! Se atrasa por motivos fora do controle e consegue provar, empresa NÃO PODE descontar nem punir. ⚠️ IMPORTANTE: AVISE imediatamente + GUARDE provas + APRESENTE no retorno. DICA: Exemplos: acidente, enchente, greve transporte, emergência médica!"
       }
     ],
     recentDecisions: [
