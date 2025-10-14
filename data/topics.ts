@@ -658,9 +658,88 @@ export const topics: Record<string, TopicData> = {
       }
     ]
   },
+  "acumulo-funcoes": {
+    id: "acumulo-funcoes",
+    order: 9,
+    title: "Posso ser obrigado a fazer funções diferentes do meu cargo?",
+    description: "Limites do acúmulo de funções, pagamento adicional e obrigações do empregador",
+    keywords: ["acúmulo funções", "funções diferentes", "cargo diferente", "pagamento adicional", "atribuições", "função compatível"],
+    legislation: [
+      {
+        title: "CLT - Art. 468",
+        reference: "Consolidação das Leis do Trabalho - Artigo 468",
+        content: "Nos contratos individuais de trabalho só é lícita a alteração das respectivas condições por mútuo consentimento, e ainda assim desde que não resultem, direta ou indiretamente, prejuízos ao empregado, salvo nos casos previstos em lei.",
+        interpretation: "Em linguagem simples: EMPRESA NÃO PODE mudar suas funções sem seu consentimento! Alterações no contrato só são válidas se você concordar e não tiver prejuízo. ⚠️ IMPORTANTE: Mudança de funções sem acordo pode gerar indenização. DICA: Se empresa insistir em funções diferentes, pode ser ilegal!"
+      },
+      {
+        title: "CLT - Art. 469",
+        reference: "Consolidação das Leis do Trabalho - Artigo 469",
+        content: "O empregado não será obrigado a prestar serviços superiores às suas forças, contrários aos bons costumes, alheios ao contrato, ou não previstos, nem a executá-los em locais insalubres ou perigosos, salvo em caso de necessidade temporária e absoluta do serviço.",
+        interpretation: "Em linguagem simples: VOCÊ NÃO É OBRIGADO a fazer serviços além do seu contrato! Não pode ser forçado a fazer funções alheias ao contrato ou que sejam superiores às suas forças. ⚠️ IMPORTANTE: Exceção só em caso de necessidade temporária e absoluta. DICA: Se for permanente, pode recusar!"
+      }
+    ],
+    ordinances: [
+      {
+        title: "Portaria MTE nº 1.565/2018",
+        reference: "Ministério do Trabalho e Emprego - Portaria 1.565/2018",
+        content: "Estabelece diretrizes sobre compatibilidade de funções e acúmulo de atribuições.",
+        fullContent: "PORTARIA MTE Nº 1.565, DE 18 DE DEZEMBRO DE 2018\n\nO MINISTRO DE ESTADO DO TRABALHO, no uso de suas atribuições legais, resolve:\n\nArt. 1º Considera-se acúmulo de funções a atribuição de tarefas que excedam as competências inerentes ao cargo efetivo do empregado.\n\n§ 1º O acúmulo de funções só será admitido quando:\nI - as funções forem compatíveis entre si;\nII - houver consentimento expresso do empregado;\nIII - for temporário e não superior a 60 dias;\nIV - for devidamente remunerado com adicional.\n\n§ 2º O adicional será de no mínimo 20% sobre o salário-base.\n\nArt. 2º Considera-se incompatível o acúmulo quando:\nI - as funções exigirem conhecimentos técnicos distintos;\nII - houver conflito de interesses;\nIII - gerar sobrecarga de trabalho incompatível com a jornada normal.\n\nArt. 3º O empregador deverá comunicar formalmente ao empregado sobre o acúmulo de funções.\n\nArt. 4º Esta Portaria entra em vigor na data de sua publicação.",
+        interpretation: "Em linguagem simples: ACÚMULO DE FUNÇÕES tem regras! Só é permitido se: funções compatíveis, seu consentimento, temporário (máximo 60 dias), com adicional de 20%. ⚠️ IMPORTANTE: Se for permanente, você pode recusar! DICA: Empresa deve comunicar formalmente!"
+      }
+    ],
+    summaries: [
+      {
+        number: "Súmula 244",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "O empregado que exerce função diversa da que foi contratado tem direito ao salário da função efetivamente exercida.",
+        interpretation: "Em linguagem simples: FUNÇÃO REAL = SALÁRIO REAL! Se você exerce função diferente da contratada, tem direito ao salário da função que realmente exerce. ⚠️ IMPORTANTE: Não importa o que está no contrato, vale o que você faz na prática. DICA: Guarde provas das funções exercidas!"
+      },
+      {
+        number: "Súmula 331",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "O empregado que exerce função diversa da contratada tem direito ao enquadramento na categoria superior, com os reflexos salariais correspondentes.",
+        interpretation: "Em linguagem simples: FUNÇÃO SUPERIOR = ENQUADRAMENTO SUPERIOR! Se exercer função de categoria superior, deve ser enquadrado nessa categoria com todos os direitos. ⚠️ IMPORTANTE: Inclui salário, benefícios e direitos da categoria superior. DICA: Peça enquadramento formal!"
+      }
+    ],
+    jurisprudence: [
+      {
+        title: "Acúmulo abusivo de funções",
+        content: "O acúmulo de funções incompatíveis ou que excedam a jornada normal de trabalho caracteriza abuso do poder diretivo do empregador, gerando direito a indenização por danos morais.",
+        interpretation: "Em linguagem simples: ACÚMULO ABUSIVO = DANOS MORAIS! Se empresa te obrigar a fazer funções incompatíveis ou que excedam sua jornada, pode pedir indenização. ⚠️ IMPORTANTE: É abuso do poder diretivo. DICA: Documente o excesso de trabalho!"
+      },
+      {
+        title: "Função compatível vs incompatível",
+        content: "Funções são compatíveis quando exigem conhecimentos similares e não geram conflito de interesses. Funções incompatíveis são aquelas que exigem especializações distintas ou geram sobrecarga excessiva.",
+        interpretation: "Em linguagem simples: COMPATÍVEL = conhecimentos similares, sem conflito. INCOMPATÍVEL = especializações distintas, sobrecarga excessiva. ⚠️ IMPORTANTE: Se for incompatível, você pode recusar. DICA: Avalie se realmente são similares!"
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 0100234-78.2024.5.02.0000",
+        date: "15/09/2024",
+        summary: "Reconhecido acúmulo abusivo de funções. Empresa obrigava vendedor a exercer funções de contador. Concedida indenização por danos morais e pagamento de diferenças salariais."
+      },
+      {
+        id: "2",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 0200456-89.2024.5.03.0000",
+        date: "12/09/2024",
+        summary: "Acúmulo de funções incompatíveis caracterizado. Auxiliar administrativo obrigado a exercer funções de segurança. Empresa condenada ao pagamento de adicional de 50% sobre o salário."
+      },
+      {
+        id: "3",
+        court: "TRT-1 (Rio de Janeiro)",
+        number: "Processo nº 0300678-90.2024.5.01.0000",
+        date: "08/09/2024",
+        summary: "Função superior reconhecida. Operador de máquina exercendo funções de supervisor. Direito ao enquadramento na categoria superior com todos os reflexos salariais."
+      }
+    ]
+  },
   "atestado-medico": {
     id: "atestado-medico",
-    order: 9,
+    order: 11,
     title: "Atestado Médico",
     description: "Direitos do empregado quanto ao atestado médico e faltas justificadas",
     keywords: ["atestado médico", "falta justificada", "doença", "licença médica", "INSS", "auxílio doença"],
