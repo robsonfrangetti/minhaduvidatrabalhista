@@ -932,50 +932,50 @@ export const topics: Record<string, TopicData> = {
   "gravidez": {
     id: "gravidez",
     order: 11,
-    title: "Direitos da Gestante",
-    description: "Estabilidade, licença-maternidade, amamentação e proteções à gestante",
-    keywords: ["gravidez", "gestante", "licença maternidade", "estabilidade", "amamentação", "grávida"],
+    title: "Quais são os direitos da gestante no trabalho?",
+    description: "Estabilidade, licença-maternidade, amamentação, creche e proteções trabalhistas",
+    keywords: ["direitos gestante", "gestante trabalho", "estabilidade gravidez", "licença maternidade", "amamentação", "creche"],
     legislation: [
       {
         title: "CF - ADCT Art. 10, II, 'b'",
         reference: "Constituição Federal - Ato das Disposições Constitucionais Transitórias - Artigo 10, inciso II, alínea 'b'",
         content: "Fica vedada a dispensa arbitrária ou sem justa causa da empregada gestante, desde a confirmação da gravidez até cinco meses após o parto.",
-        interpretation: "Em linguagem simples: Você tem ESTABILIDADE NO EMPREGO desde que descobre a gravidez até 5 meses DEPOIS do bebê nascer! Mesmo que você não tenha contado para a empresa, se estava grávida quando foi demitida, tem direito à reintegração ou indenização. ⚠️ ATENÇÃO NA PRÁTICA: A empresa NÃO precisa saber da gravidez - se você estava grávida no dia da demissão, mesmo sem saber, a demissão é nula! Faça exame de sangue logo após ser demitida para comprovar. IMPORTANTE: São 5 meses APÓS o parto, não até o parto. Exemplo: bebê nasceu dia 10/01, estabilidade vai até 10/06. DICA: Avise a empresa da gravidez por escrito (email, WhatsApp) e guarde comprovante. Se for demitida grávida, apresente atestado médico imediatamente!",
+        interpretation: "Em linguagem simples: ESTABILIDADE desde confirmação da gravidez até 5 meses APÓS o parto! Mesmo sem contar para empresa, se estava grávida quando demitida, tem direito à reintegração. ⚠️ IMPORTANTE: Empresa NÃO precisa saber - se estava grávida no dia da demissão, é nula! DICA: Faça exame logo após demissão para comprovar!",
         link: "http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#adct"
       },
       {
         title: "CLT - Art. 392",
         reference: "Consolidação das Leis do Trabalho - Artigo 392",
         content: "A empregada gestante tem direito à licença-maternidade de 120 (cento e vinte) dias, sem prejuízo do emprego e do salário. § 1º A empregada deve, mediante atestado médico, notificar o seu empregador da data do início do afastamento do emprego, que poderá ocorrer entre o 28º (vigésimo oitavo) dia antes do parto e a ocorrência deste. § 2º Os períodos de repouso, antes e depois do parto, poderão ser aumentados de 2 (duas) semanas cada um, mediante atestado médico. § 3º Em caso de parto antecipado, a mulher terá direito aos 120 (cento e vinte) dias previstos neste artigo.",
-        interpretation: "Em linguagem simples: Você tem direito a 120 DIAS (4 meses) de licença-maternidade com salário completo! Pode começar a licença até 28 dias ANTES do parto (quase 1 mês antes). Se o médico recomendar, pode aumentar mais 2 semanas antes e 2 semanas depois do parto. Se o bebê nascer antes do previsto (parto prematuro), você AINDA tem direito aos 120 dias completos contados do nascimento. ⚠️ ATENÇÃO: Para empresas do Programa Empresa Cidadã, pode ser estendido para 180 dias (6 meses)! DICA PRÁTICA: Se você trabalha em empresa grande, veja se ela participa do programa para ter 2 meses extras de licença. Entregue o atestado médico indicando quando quer começar a licença (a empresa não pode negar).",
+        interpretation: "Em linguagem simples: LICENÇA-MATERNIDADE = 120 DIAS (4 meses) com salário completo! Pode começar até 28 dias ANTES do parto. ⚠️ IMPORTANTE: Se médico recomendar, pode aumentar mais 2 semanas antes e depois. DICA: Empresas do Programa Empresa Cidadã podem estender para 180 dias (6 meses)!",
         link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art392"
       },
       {
         title: "CLT - Art. 392, § 4º - Consultas e Exames",
         reference: "Consolidação das Leis do Trabalho - Artigo 392, Parágrafo 4º",
         content: "§ 4º É garantido à empregada, durante a gravidez, sem prejuízo do salário e demais direitos: I - transferência de função, quando as condições de saúde o exigirem, assegurada a retomada da função anteriormente exercida, logo após o retorno ao trabalho; II - dispensa do horário de trabalho pelo tempo necessário para a realização de, no mínimo, seis consultas médicas e demais exames complementares.",
-        interpretation: "Em linguagem simples: Você tem direito a NO MÍNIMO 6 FALTAS durante a gravidez para consultas e exames, SEM DESCONTO NO SALÁRIO! Se precisar de mais consultas (gravidez de risco, por exemplo), também tem direito. Se o seu trabalho oferece risco para você ou o bebê (carregar peso, produtos químicos, ficar muito tempo em pé), você pode pedir mudança de função temporária SEM PERDER SALÁRIO, e volta para a função original quando retornar da licença. ⚠️ ATENÇÃO NA PRÁTICA: Sempre leve o comprovante da consulta (receita médica, pedido de exame, cartão da gestante carimbado) para mostrar ao RH. A empresa não pode descontar essas faltas. DICA: Tente marcar consultas no início ou fim do expediente para facilitar, mas se não der, é seu direito faltar quantas horas forem necessárias.",
+        interpretation: "Em linguagem simples: DIREITO a MÍNIMO 6 FALTAS para consultas e exames SEM DESCONTO NO SALÁRIO! Se trabalho oferece risco, pode pedir mudança de função temporária. ⚠️ IMPORTANTE: Sempre leve comprovante da consulta para RH. DICA: Empresa não pode descontar essas faltas!",
         link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art392"
       },
       {
         title: "CLT - Art. 396 - Amamentação",
         reference: "Consolidação das Leis do Trabalho - Artigo 396",
         content: "Para amamentar seu filho, inclusive se advindo de adoção, até que este complete 6 (seis) meses de idade, a mulher terá direito, durante a jornada de trabalho, a 2 (dois) descansos especiais de meia hora cada um. Parágrafo único. Quando o exigir a saúde do filho, o período de 6 (seis) meses poderá ser dilatado, a critério da autoridade competente.",
-        interpretation: "Em linguagem simples: Quando você voltar da licença-maternidade, tem direito a 2 PAUSAS DE 30 MINUTOS por dia para amamentar até o bebê completar 6 MESES! Essas pausas são DENTRO do horário de trabalho, ou seja, você não precisa compensar depois. Exemplo: jornada 8h às 17h, você pode sair às 10h por 30min e às 15h por 30min. Se o médico recomendar (bebê prematuro, problemas de saúde), pode estender por mais tempo. ⚠️ ATENÇÃO NA PRÁTICA: Muitas empresas deixam você sair 1 hora mais cedo OU entrar 1 hora mais tarde (em vez de 2 pausas de 30min). Isso precisa ser combinado com a empresa - você não é obrigada a aceitar, mas pode ser mais prático. VALE PARA MÃE ADOTIVA TAMBÉM! DICA: Combine com o RH se prefere as pausas separadas ou juntar tudo para sair mais cedo/entrar mais tarde.",
+        interpretation: "Em linguagem simples: DIREITO a 2 PAUSAS DE 30 MINUTOS/dia para amamentar até bebê completar 6 MESES! Pausas são DENTRO do horário de trabalho. ⚠️ IMPORTANTE: Se médico recomendar, pode estender por mais tempo. DICA: Muitas empresas permitem sair 1h mais cedo ou entrar 1h mais tarde!",
         link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art396"
       },
       {
         title: "CLT - Art. 394-A - Atividades Insalubres",
         reference: "Consolidação das Leis do Trabalho - Artigo 394-A",
         content: "A empregada gestante será afastada, enquanto durar a gestação, de quaisquer atividades, operações ou locais insalubres e deverá exercer suas atividades em local salubre, exceto sob apresentação de atestado médico de sua saúde.",
-        interpretation: "Em linguagem simples: Se você trabalha com produtos químicos, em ambientes contaminados, com muito barulho, ou qualquer trabalho insalubre (que recebe adicional de insalubridade), deve ser AFASTADA IMEDIATAMENTE para local salubre assim que a gravidez for confirmada. A empresa DEVE te mudar de função para lugar seguro. ⚠️ ATENÇÃO NA PRÁTICA: Você continua recebendo o adicional de insalubridade MESMO trabalhando em local salubre durante a gravidez! Se a empresa não tiver local salubre para te realocar, deve te afastar e você recebe salário-maternidade do INSS. IMPORTANTE: Não precisa de autorização médica para ser afastada - a lei protege automaticamente. DICA: Comunique a gravidez imediatamente se trabalha em local insalubre - é questão de saúde sua e do bebê!",
+        interpretation: "Em linguagem simples: GESTANTE deve ser AFASTADA de trabalho insalubre (produtos químicos, barulho, etc.)! Empresa DEVE mudar para local salubre. ⚠️ IMPORTANTE: Continua recebendo adicional de insalubridade MESMO em local salubre! DICA: Se não tiver local salubre, afasta e recebe salário-maternidade INSS!",
         link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art394a"
       },
       {
         title: "CLT - Art. 389, §§ 1º e 2º - Creche e Berçário",
         reference: "Consolidação das Leis do Trabalho - Artigo 389, Parágrafos 1º e 2º",
         content: "§ 1º Os estabelecimentos em que trabalharem pelo menos 30 (trinta) mulheres com mais de 16 (dezesseis) anos de idade terão local apropriado onde seja permitido às empregadas guardar sob vigilância e assistência os seus filhos no período da amamentação. § 2º A exigência do § 1º poderá ser suprida por meio de creches distritais mantidas, diretamente ou mediante convênios, com outras entidades públicas ou privadas, pelas próprias empresas, em regime comunitário, ou a cargo do SESI, do SESC, da LBA ou de entidades sindicais.",
-        interpretation: "Em linguagem simples: Se a empresa tem 30 OU MAIS mulheres trabalhando (com mais de 16 anos), ela É OBRIGADA a oferecer creche ou berçário para os filhos das funcionárias durante o período de amamentação (até 6 meses)! A empresa pode: 1) Ter uma creche própria no local de trabalho, 2) Fazer convênio com creche próxima e pagar, 3) Pagar auxílio-creche para você colocar seu filho onde quiser. ⚠️ ATENÇÃO NA PRÁTICA: Muitas empresas não cumprem essa obrigação! Se sua empresa tem 30+ mulheres e não oferece creche/auxílio-creche, ela está descumprindo a lei e pode ser multada. Você pode exigir esse direito no RH ou denunciar ao Ministério do Trabalho. IMPORTANTE: O limite é 30 mulheres NO TOTAL da empresa, não apenas no seu setor. DICA: Pergunte ao RH quantas mulheres trabalham na empresa. Se for 30 ou mais, exija creche ou auxílio-creche! Algumas convenções coletivas estabelecem valores mínimos de auxílio (R$ 300, R$ 500, etc.).",
+        interpretation: "Em linguagem simples: EMPRESA com 30+ mulheres É OBRIGADA a oferecer creche ou auxílio-creche! Pode ser creche própria, convênio ou auxílio financeiro. ⚠️ IMPORTANTE: Muitas empresas não cumprem! Se não oferecer, pode ser multada. DICA: Pergunte quantas mulheres trabalham na empresa - se for 30+, exija creche!",
         link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art389"
       }
     ],
@@ -985,7 +985,7 @@ export const topics: Record<string, TopicData> = {
         reference: "Lei Federal nº 11.770 de 9 de setembro de 2008",
         content: "Cria o Programa Empresa Cidadã, destinado a prorrogar por 60 dias a duração da licença-maternidade, totalizando 180 dias.",
         fullContent: "LEI Nº 11.770, DE 9 DE SETEMBRO DE 2008\n\nO PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:\n\nArt. 1º É instituído o Programa Empresa Cidadã, destinado a prorrogar:\nI - por 60 (sessenta) dias a duração da licença-maternidade prevista no inciso XVIII do caput do art. 7º da Constituição Federal;\nII - por 15 (quinze) dias a duração da licença-paternidade prevista no § 1º do art. 10 do Ato das Disposições Constitucionais Transitórias.\n\nArt. 2º A prorrogação será garantida à empregada da pessoa jurídica que aderir ao Programa, desde que a empregada a requeira até o final do primeiro mês após o parto.\n\n§ 1º A prorrogação será concedida imediatamente após a fruição da licença-maternidade.\n\n§ 2º Durante o período de prorrogação da licença-maternidade, a empregada não poderá exercer qualquer atividade remunerada e a criança não poderá ser mantida em creche ou organização similar.\n\nArt. 3º Durante a licença-maternidade, a empregada receberá sua remuneração integral.\n\n§ 1º A empresa deduzirá do imposto de renda devido o total da remuneração integral da empregada pago nos 60 dias de prorrogação.\n\n§ 2º Caso a dedução seja superior ao imposto devido, a empresa poderá compensar com o imposto devido nos 6 meses seguintes.\n\nArt. 4º A adesão ao Programa é facultativa e pode ser cancelada a qualquer momento pela empresa.\n\nArt. 5º Esta Lei entra em vigor na data de sua publicação.",
-        interpretation: "Em linguagem simples: Esta lei criou a possibilidade de estender a licença-maternidade de 120 para 180 DIAS (6 MESES)! Mas só vale se a EMPRESA aderir ao programa voluntariamente. Para conseguir: 1) Sua empresa precisa estar no Programa Empresa Cidadã (pergunte ao RH), 2) Você precisa PEDIR a prorrogação até 1 MÊS APÓS o parto, 3) Durante os 60 dias extras você NÃO PODE trabalhar nem deixar o bebê em creche. ⚠️ ATENÇÃO NA PRÁTICA: A maioria das empresas privadas NÃO participa (só órgãos públicos e algumas grandes empresas). Vale a pena perguntar! Para a empresa vale a pena porque desconta do imposto de renda. IMPORTANTE: Você precisa PEDIR formalmente - não é automático! DICA: Empresas públicas federais são OBRIGADAS a dar 180 dias. Se você trabalha em empresa privada, consulte o RH sobre a possibilidade de adesão.",
+        interpretation: "Em linguagem simples: PROGRAMA EMPRESA CIDADÃ = 180 DIAS (6 meses) de licença! Mas só vale se empresa aderir voluntariamente. ⚠️ IMPORTANTE: Você precisa PEDIR até 1 mês após o parto. DICA: Maioria das empresas privadas NÃO participa - pergunte ao RH!",
         link: "http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11770.htm"
       }
     ],
@@ -994,14 +994,14 @@ export const topics: Record<string, TopicData> = {
         number: "Súmula 244",
         court: "TST - Tribunal Superior do Trabalho",
         content: "Gestante. Estabilidade provisória. A garantia de emprego à gestante só autoriza a reintegração se esta se der durante o período de estabilidade. Do contrário, a garantia restringe-se aos salários e demais direitos correspondentes ao período de estabilidade.",
-        interpretation: "Em linguagem simples: Se você foi demitida grávida e ainda está no período de estabilidade (até 5 meses após o parto), pode pedir REINTEGRAÇÃO (voltar para a empresa). Mas se o período de estabilidade já acabou quando você entrar na Justiça, você só recebe INDENIZAÇÃO pelos salários do período de estabilidade que não trabalhou, mas não volta para a empresa. EXEMPLO: Demitida grávida em janeiro, bebê nasceu em maio, estabilidade vai até outubro. Se você processar em agosto = pode voltar a trabalhar. Se processar em dezembro = só recebe indenização de 9 meses (gravidez + 5 meses após parto). DICA: Se foi demitida grávida, PROCESSE RÁPIDO para ter a opção de voltar a trabalhar!",
+        interpretation: "Em linguagem simples: DEMITIDA GRÁVIDA = pode pedir REINTEGRAÇÃO se ainda no período de estabilidade! Se período já acabou, só recebe indenização. ⚠️ IMPORTANTE: PROCESSE RÁPIDO para ter opção de voltar a trabalhar! DICA: Estabilidade vai até 5 meses após o parto!",
         link: "https://www.tst.jus.br/sumulas"
       },
       {
         number: "Súmula 30",
         court: "TST - Tribunal Superior do Trabalho",  
         content: "A empregada gestante tem direito à estabilidade provisória prevista no art. 10, inciso II, alínea 'b', do Ato das Disposições Constitucionais Transitórias, mesmo na hipótese de admissão mediante contrato por tempo determinado.",
-        interpretation: "Em linguagem simples: MESMO SE SEU CONTRATO É TEMPORÁRIO (prazo determinado), você tem direito à estabilidade se engravidar! Exemplo: foi contratada por 6 meses, engravidou no 3º mês, o contrato se estende automaticamente até 5 meses após o parto. A empresa não pode alegar que 'o contrato já ia acabar mesmo'. ⚠️ ATENÇÃO: Isso vale para contratos temporários normais, mas NÃO vale para experiência de obra certa (construção civil) ou safra (agricultura). VALE PARA: contratos de experiência, temporários por empresa de RH, contratos por prazo determinado normais. DICA: Se você está em contrato temporário e engravida, avise a empresa imediatamente - seu contrato será prorrogado automaticamente!",
+        interpretation: "Em linguagem simples: CONTRATO TEMPORÁRIO + GRAVIDEZ = ESTABILIDADE! Mesmo em contrato por prazo determinado, tem direito à estabilidade. ⚠️ IMPORTANTE: Contrato se estende automaticamente até 5 meses após parto. DICA: NÃO vale para obra certa ou safra, mas vale para experiência e temporários normais!",
         link: "https://www.tst.jus.br/sumulas"
       }
     ],
@@ -1009,17 +1009,17 @@ export const topics: Record<string, TopicData> = {
       {
         title: "Estabilidade mesmo sem conhecimento da empresa",
         content: "A jurisprudência consolidada dos tribunais trabalhistas reconhece o direito à estabilidade gestacional mesmo que a empregada desconhecesse a gravidez no momento da dispensa ou que não tenha comunicado ao empregador. O fator determinante é a existência da gravidez na data da dispensa.",
-        interpretation: "Em linguagem simples: Você tem direito à estabilidade MESMO QUE: 1) Você não soubesse que estava grávida, 2) A empresa não soubesse, 3) Você descobriu depois de ser demitida. O que importa é: VOCÊ ESTAVA GRÁVIDA NO DIA DA DEMISSÃO? Se sim, tem direito! IMPORTANTE: Faça exame de sangue LOGO após ser demitida para comprovar que já estava grávida. Exames de sangue conseguem detectar gravidez antes dos sintomas. DICA PRÁTICA: Se foi demitida e há QUALQUER possibilidade de estar grávida (atraso menstrual, etc.), faça o exame IMEDIATAMENTE. Você pode processar depois se confirmar que estava grávida."
+        interpretation: "Em linguagem simples: ESTABILIDADE mesmo sem saber da gravidez! O que importa: estava grávida no dia da demissão? Se sim, tem direito! ⚠️ IMPORTANTE: Faça exame de sangue LOGO após demissão para comprovar. DICA: Se há possibilidade de estar grávida, faça exame IMEDIATAMENTE!"
       },
       {
         title: "Intervalo para amamentação e horários flexíveis",
         content: "Os tribunais têm entendido que o direito a dois intervalos de 30 minutos para amamentação pode ser convertido, mediante acordo entre empregada e empregador, em redução de uma hora no início ou fim da jornada, desde que mais conveniente para ambas as partes.",
-        interpretation: "Em linguagem simples: Na PRÁTICA, muitas mães preferem sair 1 hora mais cedo (ou entrar 1 hora mais tarde) em vez de fazer 2 pausas de 30min no meio do dia. Isso precisa ser ACORDADO com a empresa - você não é obrigada a aceitar nem a empresa é obrigada a oferecer. Mas se for melhor para você (evita ida e volta de casa 2x, ou pode buscar bebê mais cedo na creche), pode propor. IMPORTANTE: Faça esse acordo POR ESCRITO para evitar que a empresa alegue que você está faltando. Exemplo: 'Concordo em sair às 16h em vez de 17h, utilizando meu direito de amamentação'."
+        interpretation: "Em linguagem simples: AMAMENTAÇÃO pode ser convertida em sair 1h mais cedo ou entrar 1h mais tarde! ⚠️ IMPORTANTE: Precisa ser ACORDADO com empresa. DICA: Faça acordo POR ESCRITO para evitar problemas!"
       },
       {
         title: "Adicional de insalubridade durante gravidez",
         content: "Gestantes afastadas de atividades insalubres mantêm o direito ao adicional de insalubridade durante todo o período de gravidez e lactação, mesmo exercendo funções em ambiente salubre. A transferência não pode resultar em redução salarial.",
-        interpretation: "Em linguagem simples: Se você recebia adicional de insalubridade (por trabalhar com produtos químicos, barulho, etc.) e foi transferida para local seguro por causa da gravidez, você CONTINUA RECEBENDO o adicional de insalubridade! Não perde nada no salário. Exemplo: recebia R$ 2.000 + R$ 400 de insalubridade = R$ 2.400. Mesmo trabalhando em local salubre durante a gravidez, continua recebendo os R$ 2.400. ⚠️ ATENÇÃO: Depois que voltar da licença-maternidade e o bebê não mamar mais, se você voltar para o local insalubre, o adicional continua. Se você for realocada definitivamente para local salubre DEPOIS da licença, aí pode perder o adicional."
+        interpretation: "Em linguagem simples: ADICIONAL DE INSALUBRIDADE é MANTIDO durante gravidez! Se transferida para local seguro, continua recebendo o adicional. ⚠️ IMPORTANTE: Não perde nada no salário. DICA: Exemplo: R$ 2.000 + R$ 400 insalubridade = continua recebendo R$ 2.400!"
       }
     ],
     recentDecisions: [
