@@ -601,21 +601,21 @@ export const topics: Record<string, TopicData> = {
   "13-salario": {
     id: "13-salario",
     order: 8,
-    title: "13º Salário",
-    description: "Informações sobre gratificação natalina e forma de cálculo",
-    keywords: ["13º salário", "gratificação natalina", "décimo terceiro"],
+    title: "Quando recebo o 13º salário?",
+    description: "Prazos, parcelas, cálculo e pagamento do 13º salário anual",
+    keywords: ["quando 13º", "recebo 13º", "parcelas 13º", "prazo 13º", "cálculo 13º", "pagamento 13º"],
     legislation: [
       {
         title: "Lei 4.090/1962",
         reference: "Lei nº 4.090 de 13 de julho de 1962",
         content: "Institui a gratificação de Natal para os trabalhadores. Art. 1º No mês de dezembro de cada ano, a todo empregado será paga, pelo empregador, uma gratificação salarial, independentemente da remuneração a que fizer jus.",
-        interpretation: "Em linguagem simples: Esta lei criou o 13º salário (também chamado de gratificação de Natal). Todo trabalhador tem direito a receber essa gratificação em dezembro, além do salário normal. É um 'salário extra' que você recebe todo ano."
+        interpretation: "Em linguagem simples: LEI criou o 13º SALÁRIO (gratificação de Natal)! Todo trabalhador tem direito a receber em dezembro, além do salário normal. ⚠️ IMPORTANTE: É um 'salário extra' anual obrigatório. DICA: Não pode ser negado pela empresa!"
       },
       {
         title: "Lei 4.749/1965",
         reference: "Lei nº 4.749 de 12 de agosto de 1965",
         content: "Dispõe sobre o pagamento da Gratificação de Natal. Art. 1º A gratificação salarial instituída pela Lei número 4.090, de 13 de julho de 1962, será paga pelo empregador até o dia 20 de dezembro de cada ano.",
-        interpretation: "Em linguagem simples: A empresa deve pagar o 13º salário até o dia 20 de dezembro. Na prática, pode ser pago em duas parcelas: a primeira entre fevereiro e novembro (geralmente em novembro) e a segunda até 20 de dezembro. Se atrasar, a empresa pode ser multada."
+        interpretation: "Em linguagem simples: 13º deve ser PAGO ATÉ 20 DE DEZEMBRO! Na prática, pode ser em duas parcelas: primeira entre fevereiro e novembro (geralmente em novembro) e segunda até 20 de dezembro. ⚠️ IMPORTANTE: Se atrasar, empresa pode ser multada! DICA: Primeira parcela é até 30/11, segunda até 20/12!"
       }
     ],
     ordinances: [],
@@ -624,14 +624,14 @@ export const topics: Record<string, TopicData> = {
         number: "Súmula 157",
         court: "TST - Tribunal Superior do Trabalho",
         content: "A gratificação semestral não repercute no cálculo das horas extras, das férias e do aviso prévio, ainda que indenizados. Repercute, contudo, pelo seu duodécimo na indenização por antiguidade e na gratificação natalina.",
-        interpretation: "Em linguagem simples: Esta súmula trata de outras gratificações que algumas empresas pagam. Ela diz que essas gratificações não aumentam o valor das horas extras ou férias, mas devem ser consideradas no cálculo do próprio 13º salário. Resumindo: gratificações extras entram no cálculo do 13º."
+        interpretation: "Em linguagem simples: GRATIFICAÇÕES EXTRAS entram no cálculo do 13º! Outras gratificações que empresa paga devem ser consideradas no cálculo do 13º salário. ⚠️ IMPORTANTE: Não aumentam horas extras ou férias, mas entram no 13º. DICA: Se empresa paga bônus, comissões, etc., tudo conta para o 13º!"
       }
     ],
     jurisprudence: [
       {
         title: "Cálculo proporcional",
         content: "O 13º salário deve ser calculado na proporção de 1/12 por mês de serviço, considerando-se mês integral a fração igual ou superior a 15 dias.",
-        interpretation: "Em linguagem simples: O 13º é calculado dividindo seu salário por 12 e multiplicando pelos meses trabalhados. Se você trabalhou 15 dias ou mais em um mês, esse mês conta. Menos de 15 dias, não conta. Exemplo: trabalhou 7 meses completos = 7/12 do seu salário. Trabalhou o ano todo = salário integral."
+        interpretation: "Em linguagem simples: CÁLCULO do 13º = salário ÷ 12 × meses trabalhados! Se trabalhou 15 dias ou mais em um mês, conta como mês completo. ⚠️ IMPORTANTE: Menos de 15 dias, não conta. DICA: 7 meses = 7/12 do salário | Ano todo = salário integral!"
       }
     ],
     recentDecisions: [
