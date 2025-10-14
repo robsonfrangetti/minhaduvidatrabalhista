@@ -1761,17 +1761,109 @@ export const topics: Record<string, TopicData> = {
         title: "CLT - Art. 477 - Prazo de Pagamento",
         reference: "Consolidação das Leis do Trabalho - Artigo 477",
         content: "O empregador deverá pagar ao empregado, no ato da rescisão do contrato de trabalho ou no prazo máximo de 10 (dez) dias corridos, contados da rescisão, as verbas rescisórias devidas. O descumprimento deste prazo sujeita o empregador ao pagamento de multa correspondente ao valor de um salário do empregado.",
-        interpretation: "Em linguagem simples: A empresa tem até 10 DIAS CORRIDOS para pagar todas as verbas rescisórias! O prazo começa a contar do dia da demissão. Exemplo: Você foi demitido dia 15/10, a empresa tem até dia 25/10 para pagar tudo. ⚠️ ATENÇÃO: Se não pagar em 10 dias, paga multa de 1 salário inteiro! IMPORTANTE: O prazo é de DIAS CORRIDOS (inclui fins de semana e feriados). DICA: Se a empresa disser que 'demora mais', está mentindo!",
+        interpretation: "Em linguagem simples: PRAZO de 10 DIAS CORRIDOS para pagar rescisão! ⚠️ CRÍTICO: Prazo inicia quando? Se pediu demissão hoje e vai cumprir aviso prévio trabalhado = prazo inicia no ÚLTIMO DIA do aviso prévio. Se aviso prévio for INDENIZADO = prazo inicia IMEDIATAMENTE no dia da demissão! DICA: DIAS CORRIDOS = inclui fins de semana e feriados!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art477"
+      },
+      {
+        title: "CLT - Art. 487 - Aviso Prévio Trabalhado",
+        reference: "Consolidação das Leis do Trabalho - Artigo 487",
+        content: "O aviso prévio será de 30 dias corridos, salvo o disposto no artigo seguinte, podendo o empregado dar a ele início imediatamente após a comunicação ao empregador, ou 8 dias após a comunicação, conforme a convenção coletiva.",
+        interpretation: "Em linguagem simples: AVISO PRÉVIO TRABALHADO = 30 dias corridos! Se você pede demissão hoje, pode começar aviso amanhã ou em 8 dias (se convenção coletiva permitir). ⚠️ IMPORTANTE: Prazo de 10 dias para pagar rescisão só inicia APÓS terminar o aviso prévio trabalhado!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art487"
+      },
+      {
+        title: "CLT - Art. 488 - Aviso Prévio Indenizado",
+        reference: "Consolidação das Leis do Trabalho - Artigo 488",
+        content: "O empregador poderá considerar o aviso prévio como indenizado, pagando ao empregado, no ato da rescisão do contrato, a importância correspondente ao período do aviso prévio.",
+        interpretation: "Em linguagem simples: AVISO PRÉVIO INDENIZADO = empresa paga e você não trabalha! ⚠️ CRÍTICO: Se empresa optar por indenizar o aviso, prazo de 10 dias para pagar rescisão inicia IMEDIATAMENTE no dia da demissão!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art488"
+      },
+      {
+        title: "CLT - Art. 477, § 1º - Multa por Atraso",
+        reference: "Consolidação das Leis do Trabalho - Artigo 477, Parágrafo 1º",
+        content: "O descumprimento do prazo de 10 dias sujeita o empregador ao pagamento de multa correspondente ao valor de um salário do empregado.",
+        interpretation: "Em linguagem simples: ATRASO = MULTA DE 1 SALÁRIO INTEIRO! Se empresa não pagar em 10 dias, deve pagar multa equivalente ao seu salário. ⚠️ IMPORTANTE: Multa é CUMULATIVA com juros e correção monetária!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art477"
+      },
+      {
+        title: "CLT - Art. 477, § 2º - Juros e Correção",
+        reference: "Consolidação das Leis do Trabalho - Artigo 477, Parágrafo 2º",
+        content: "Sobre as importâncias devidas em virtude da rescisão do contrato de trabalho, incidirão juros de mora de 1% ao mês, contados a partir do vencimento.",
+        interpretation: "Em linguagem simples: ATRASO = JUROS DE 1% AO MÊS! Se empresa atrasar pagamento, deve pagar juros de mora sobre o valor devido. ⚠️ IMPORTANTE: Juros correm desde o 11º dia!",
         link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art477"
       }
     ],
-    ordinances: [],
-    summaries: [],
+    ordinances: [
+      {
+        title: "Portaria MTE nº 671/2021 - Controle de Prazos",
+        reference: "Ministério do Trabalho e Emprego - Portaria 671/2021",
+        content: "Estabelece procedimentos para controle de prazos de pagamento de verbas rescisórias.",
+        interpretation: "Em linguagem simples: PORTARIA reforça que prazo de 10 dias é OBRIGATÓRIO! Empresa deve documentar data exata da rescisão. ⚠️ IMPORTANTE: MTE pode multar empresa que descumprir prazos!"
+      }
+    ],
+    summaries: [
+      {
+        number: "Súmula 121",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "O prazo de 10 dias para pagamento das verbas rescisórias é absoluto e não admite prorrogação, mesmo em caso de acordo entre as partes.",
+        interpretation: "Em linguagem simples: PRAZO DE 10 DIAS é ABSOLUTO! Nem mesmo acordo entre você e empresa pode prorrogar. ⚠️ IMPORTANTE: Se empresa disser 'vamos fazer acordo para pagar em 15 dias', pode assinar, mas ainda assim pode cobrar multa!",
+        link: "https://www.tst.jus.br/sumulas"
+      },
+      {
+        number: "Súmula 322",
+        court: "TST - Tribunal Superior do Trabalho", 
+        content: "O empregado tem direito à multa de um salário quando o empregador não cumpre o prazo de 10 dias para pagamento das verbas rescisórias.",
+        interpretation: "Em linguagem simples: MULTA DE 1 SALÁRIO é DIREITO GARANTIDO! TST confirma que se empresa atrasar, deve pagar multa. ⚠️ IMPORTANTE: Multa é independente de outros direitos!",
+        link: "https://www.tst.jus.br/sumulas"
+      },
+      {
+        number: "Súmula 420",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "A contagem do prazo de 10 dias para pagamento das verbas rescisórias inicia-se no dia seguinte ao da rescisão do contrato de trabalho.",
+        interpretation: "Em linguagem simples: CONTAGEM inicia no DIA SEGUINTE à rescisão! Se foi demitido dia 15, prazo inicia dia 16. ⚠️ IMPORTANTE: Último dia útil é dia 25 (se dia 15 foi início)!",
+        link: "https://www.tst.jus.br/sumulas"
+      }
+    ],
     jurisprudence: [
       {
         title: "Prazo de 10 dias é absoluto",
         content: "A jurisprudência consolidou o entendimento de que o prazo de 10 dias para pagamento das verbas rescisórias é absoluto e não admite prorrogação. A empresa não pode alegar dificuldades financeiras ou qualquer outro motivo para justificar o atraso.",
         interpretation: "Em linguagem simples: A empresa NÃO PODE inventar desculpas para atrasar o pagamento! Não importa se: está sem dinheiro, aguardando aprovação, problema no sistema, etc. O prazo é 10 dias, ponto final! ⚠️ ATENÇÃO: Se a empresa atrasar 1 dia só, já paga a multa de 1 salário. IMPORTANTE: O prazo não é negociável. DICA: Se a empresa tentar justificar atraso, não aceite - ela está violando a lei!"
+      },
+      {
+        title: "Diferença entre aviso prévio trabalhado e indenizado",
+        content: "O prazo de 10 dias para pagamento das verbas rescisórias inicia-se de forma diferente conforme o tipo de aviso prévio: se trabalhado, inicia após o término do aviso; se indenizado, inicia imediatamente na data da rescisão.",
+        interpretation: "Em linguagem simples: EXEMPLOS PRÁTICOS: 1) PEDIU DEMISSÃO HOJE (15/01) e vai cumprir aviso trabalhado = prazo de 10 dias inicia em 14/02 (último dia do aviso). 2) FOI DEMITIDO HOJE (15/01) com aviso indenizado = prazo de 10 dias inicia amanhã (16/01). ⚠️ CRÍTICO: Essa diferença é fundamental para calcular corretamente!"
+      },
+      {
+        title: "Cálculo de juros e correção monetária",
+        content: "Os juros de mora de 1% ao mês incidem sobre o valor das verbas rescisórias em atraso, além da correção monetária pelo IPCA-E. O cálculo é feito desde o 11º dia após a rescisão.",
+        interpretation: "Em linguagem simples: ATRASO = MULTA + JUROS + CORREÇÃO! Exemplo: Se empresa atrasar 1 mês, você recebe: verbas devidas + multa de 1 salário + juros de 1% + correção pelo IPCA. ⚠️ IMPORTANTE: Cada dia de atraso aumenta o valor devido!"
+      },
+      {
+        title: "Verbas rescisórias em caso de justa causa",
+        content: "Mesmo em caso de demissão por justa causa, o empregado tem direito ao recebimento das verbas rescisórias no prazo de 10 dias, incluindo saldo de salário e férias vencidas (se houver).",
+        interpretation: "Em linguagem simples: JUSTA CAUSA também tem prazo de 10 dias! Mesmo sendo demitido por justa causa, empresa deve pagar saldo de salário e férias vencidas em 10 dias. ⚠️ IMPORTANTE: Não perde o direito ao prazo por ser justa causa!"
+      },
+      {
+        title: "Rescisão indireta e prazo de pagamento",
+        content: "Na rescisão indireta (quando o empregado pede demissão por culpa do empregador), o prazo de 10 dias para pagamento das verbas rescisórias inicia-se imediatamente, sem necessidade de cumprimento de aviso prévio.",
+        interpretation: "Em linguagem simples: RESCISÃO INDIRETA = prazo inicia IMEDIATAMENTE! Se você pediu demissão por culpa da empresa (não pagou salário, etc.), não precisa cumprir aviso e prazo de 10 dias inicia no dia seguinte. ⚠️ IMPORTANTE: Rescisão indireta tem mesmos direitos de demissão sem justa causa!"
+      },
+      {
+        title: "Prazo em caso de morte do empregado",
+        content: "Em caso de morte do empregado, o prazo de 10 dias para pagamento das verbas rescisórias inicia-se na data do óbito, devendo ser pago aos herdeiros ou dependentes.",
+        interpretation: "Em linguagem simples: MORTE do empregado = prazo inicia no dia do óbito! Empresa tem 10 dias para pagar verbas aos herdeiros/dependentes. ⚠️ IMPORTANTE: Não precisa esperar inventário para pagar!"
+      },
+      {
+        title: "Prazo em contratos de experiência",
+        content: "Nos contratos de experiência, o prazo de 10 dias para pagamento das verbas rescisórias inicia-se no último dia do contrato, independentemente de aviso prévio.",
+        interpretation: "Em linguagem simples: CONTRATO DE EXPERIÊNCIA = prazo inicia no último dia! Se contrato termina dia 15, prazo de 10 dias vai até dia 25. ⚠️ IMPORTANTE: Não há aviso prévio em experiência!"
+      },
+      {
+        title: "Prazo em contratos temporários",
+        content: "Em contratos temporários, o prazo de 10 dias para pagamento das verbas rescisórias inicia-se no último dia de trabalho, conforme previsto no contrato.",
+        interpretation: "Em linguagem simples: CONTRATO TEMPORÁRIO = prazo inicia no último dia! Empresa deve pagar verbas em 10 dias após terminar o contrato. ⚠️ IMPORTANTE: Prazo é o mesmo de contrato normal!"
       }
     ],
     recentDecisions: [

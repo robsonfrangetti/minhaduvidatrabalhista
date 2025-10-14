@@ -322,8 +322,64 @@ TRIBUNAIS:
 • TRT-15 (Campinas): https://www.trt15.jus.br/
 
 ================================================================================
+🎯 REGRA DE OURO: BUSCAR PELO MENOS 10 SUBTEMAS PARA CADA TEMA
+================================================================================
+
+⚠️ CRÍTICO: Cada tema deve ser ROBUSTO e COMPLETO!
+
+ANTES DE CRIAR QUALQUER TEMA, você DEVE pesquisar e incluir:
+
+✅ MÍNIMO 10 SUBTEMAS/ASPECTOS diferentes do tema principal
+✅ TODAS as nuances, exceções e casos especiais
+✅ DIFERENÇAS entre situações similares (ex: aviso trabalhado vs indenizado)
+✅ CONSEQUÊNCIAS de cada variação
+✅ EXEMPLOS PRÁTICOS para cada subtema
+✅ ALERTAS PRÁTICOS sobre diferenças entre lei e prática
+
+EXEMPLOS DE COMO PENSAR EM 10+ SUBTEMAS:
+
+TEMA: "Qual o prazo para pagamento da rescisão?"
+✅ Prazo básico de 10 dias
+✅ Quando o prazo inicia (aviso trabalhado vs indenizado)
+✅ Prazo em demissão sem justa causa
+✅ Prazo em demissão por justa causa  
+✅ Prazo em pedido de demissão
+✅ Prazo em rescisão indireta
+✅ Prazo em contratos de experiência
+✅ Prazo em contratos temporários
+✅ Prazo em caso de morte do empregado
+✅ Consequências do atraso (multa, juros, correção)
+✅ Como calcular os 10 dias corridos
+✅ Diferenças entre dias úteis e corridos
+
+TEMA: "Quais são os direitos da gestante no trabalho?"
+✅ Licença maternidade
+✅ Estabilidade no emprego
+✅ Proibição de trabalho insalubre
+✅ Direito à creche/babá
+✅ Horário de amamentação
+✅ Exames médicos obrigatórios
+✅ Adaptação do ambiente de trabalho
+✅ Direitos durante licença
+✅ Retorno ao trabalho
+✅ Proibição de demissão
+✅ Direitos em caso de aborto
+✅ Direitos em adoção
+
+🎯 REGRA: Se você consegue listar menos de 10 subtemas, NÃO está sendo suficientemente detalhado!
+
+================================================================================
 ✅ CHECKLIST DE PESQUISA COMPLETA (ANTES DE COMEÇAR A CRIAR)
 ================================================================================
+
+ETAPA 0 - IDENTIFICAÇÃO DE SUBTEMAS (OBRIGATÓRIO!):
+[ ] Listar PELO MENOS 10 subtemas/aspectos diferentes do tema
+[ ] Identificar TODAS as situações possíveis (ex: trabalhado vs indenizado)
+[ ] Identificar TODAS as exceções e casos especiais
+[ ] Identificar diferenças entre lei e prática para cada subtema
+[ ] Verificar se há variações por tipo de contrato
+[ ] Verificar se há variações por tipo de demissão
+[ ] Verificar se há variações por circunstâncias especiais
 
 ETAPA 1 - PESQUISA DE LEGISLAÇÃO:
 [ ] Pesquisar no Planalto TODOS os artigos da CLT sobre o tema
