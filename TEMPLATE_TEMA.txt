@@ -26,21 +26,24 @@ TRAZER SEMPRE:
 ✅ Leis federais relacionadas
 ✅ Decretos regulamentadores
 
-PARA CADA LEI/ARTIGO INCLUIR:
+PARA CADA LEI/ARTIGO INCLUIR (FOCO NA PERGUNTA!):
 
 • title: "CLT - Art. XXX" ou "CF - Art. XXX" ou "Lei nº XXXX/XXXX"
+  ⚠️ SÓ incluir se responder à pergunta específica!
 
 • reference: Nome completo da legislação
   Exemplo: "Consolidação das Leis do Trabalho - Artigo 473"
 
 • content: TEXTO COMPLETO E ORIGINAL do artigo/lei
   ⚠️ COPIAR O TEXTO EXATO, SEM RESUMIR
+  ⚠️ SÓ incluir se responder à pergunta específica!
 
 • interpretation: "Em linguagem simples: [RESUMO FÁCIL E DIDÁTICO]"
+  ⚠️ CONECTE SEMPRE com a pergunta feita!
   - Explicar como se estivesse conversando com alguém
-  - Usar exemplos práticos
-  - Destacar o que o trabalhador PODE e NÃO PODE fazer
-  - Explicar consequências e direitos
+  - Usar exemplos práticos que respondem à pergunta
+  - Destacar o que responde à pergunta específica
+  - Explicar consequências que respondem à pergunta
 
 • link: ⚠️ OBRIGATÓRIO! Link direto para a legislação oficial
   Exemplo: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art473"
@@ -63,23 +66,27 @@ TRAZER SEMPRE:
 ✅ Resoluções do Conselho Superior da Justiça do Trabalho (CSJT)
 ✅ Atos do Ministério Público do Trabalho (MPT)
 
-PARA CADA PORTARIA/IN INCLUIR:
+PARA CADA PORTARIA/IN INCLUIR (FOCO NA PERGUNTA!):
 
 • title: "Portaria MTE nº XXXX/XXXX" ou "IN SIT nº XXXX/XXXX"
+  ⚠️ SÓ incluir se responder à pergunta específica!
 
 • reference: Nome completo com órgão emissor
   Exemplo: "Ministério do Trabalho e Emprego - Portaria 1.510/2009"
 
 • content: Resumo do que a portaria/IN regulamenta
+  ⚠️ SÓ incluir se responder à pergunta específica!
 
 • fullContent: TEXTO COMPLETO da portaria com todos os artigos principais
   ⚠️ INCLUIR: Introdução, artigos principais, obrigações, penalidades
+  ⚠️ SÓ incluir se responder à pergunta específica!
 
 • interpretation: "Em linguagem simples: [EXPLICAÇÃO DIDÁTICA]"
-  - Como isso afeta o trabalhador no dia a dia
-  - O que a empresa DEVE fazer
-  - O que acontece se a empresa NÃO cumprir
-  - Exemplos práticos de aplicação
+  ⚠️ CONECTE SEMPRE com a pergunta feita!
+  - Como isso responde à pergunta específica
+  - O que responde à pergunta no dia a dia
+  - O que acontece que responde à pergunta
+  - Exemplos práticos que respondem à pergunta
 
 • link: ⚠️ OBRIGATÓRIO! Link para o texto oficial da portaria
   ⚠️ SEMPRE INCLUIR O LINK DA FONTE OFICIAL!
@@ -99,19 +106,22 @@ TRAZER SEMPRE:
 ✅ Orientações Jurisprudenciais (OJs) do TST
 ✅ Precedentes Normativos
 
-PARA CADA SÚMULA INCLUIR:
+PARA CADA SÚMULA INCLUIR (FOCO NA PERGUNTA!):
 
 • number: "Súmula XXX" ou "Súmula Vinculante XXX" ou "OJ XXX"
+  ⚠️ SÓ incluir se responder à pergunta específica!
 
 • court: "TST - Tribunal Superior do Trabalho" ou "STF - Supremo Tribunal Federal"
 
 • content: TEXTO COMPLETO E ORIGINAL da súmula
   ⚠️ COPIAR O TEXTO EXATO
+  ⚠️ SÓ incluir se responder à pergunta específica!
 
 • interpretation: "Em linguagem simples: [EXPLICAÇÃO PRÁTICA]"
-  - O que isso significa para o trabalhador
-  - Quando essa súmula se aplica
-  - Exemplos concretos
+  ⚠️ CONECTE SEMPRE com a pergunta feita!
+  - O que isso responde à pergunta específica
+  - Quando isso se aplica à pergunta
+  - Exemplos concretos que respondem à pergunta
 
 • link: ⚠️ OBRIGATÓRIO! Link direto para a súmula no site oficial
   TST: https://www.tst.jus.br/sumulas
@@ -128,16 +138,19 @@ INCLUIR:
 ✅ Teses jurídicas importantes
 ✅ Interpretações comuns da legislação
 
-PARA CADA JURISPRUDÊNCIA:
+PARA CADA JURISPRUDÊNCIA (FOCO NA PERGUNTA!):
 
 • title: Título descritivo do entendimento
+  ⚠️ SÓ incluir se responder à pergunta específica!
 
 • content: Explicação técnica do entendimento jurisprudencial
+  ⚠️ SÓ incluir se responder à pergunta específica!
 
 • interpretation: "Em linguagem simples: [EXPLICAÇÃO CLARA]"
-  - Como os tribunais decidem normalmente
-  - Proteções garantidas ao trabalhador
-  - Situações práticas onde isso se aplica
+  ⚠️ CONECTE SEMPRE com a pergunta feita!
+  - Como os tribunais decidem sobre a pergunta específica
+  - Proteções que respondem à pergunta
+  - Situações práticas que respondem à pergunta
 
 ================================================================================
 ⚡ DECISÕES RECENTES (recentDecisions)
@@ -148,7 +161,7 @@ TRAZER SEMPRE:
 ✅ Decisões de diferentes TRTs (Tribunais Regionais do Trabalho)
 ✅ Decisões do TST quando aplicável
 
-PARA CADA DECISÃO INCLUIR:
+PARA CADA DECISÃO INCLUIR (FOCO NA PERGUNTA!):
 
 • id: Número sequencial "1", "2", "3"
 
@@ -162,10 +175,11 @@ PARA CADA DECISÃO INCLUIR:
   ⚠️ Usar datas recentes (últimos 3 meses)
 
 • summary: Resumo claro da decisão com:
-  - O que aconteceu
-  - O que o tribunal decidiu
-  - Valores de indenização (quando aplicável)
-  - Impacto para o trabalhador
+  ⚠️ CONECTE SEMPRE com a pergunta feita!
+  - O que aconteceu que responde à pergunta
+  - O que o tribunal decidiu sobre a pergunta
+  - Valores de indenização relacionados à pergunta
+  - Impacto que responde à pergunta específica
 
 • link: ⚠️ RECOMENDADO! Link para inteiro teor da decisão (quando possível)
   ⚠️ SE TIVER LINK PÚBLICO, SEMPRE INCLUIR!
@@ -322,7 +336,35 @@ TRIBUNAIS:
 • TRT-15 (Campinas): https://www.trt15.jus.br/
 
 ================================================================================
-🎯 REGRA DE OURO: BUSCAR PELO MENOS 10 SUBTEMAS PARA CADA TEMA
+🎯 REGRA DE OURO #1: FOQUE EXATAMENTE NA PERGUNTA - NADA MAIS!
+================================================================================
+
+⚠️ CRÍTICO: SEMPRE responda EXATAMENTE o que foi perguntado!
+
+REGRAS FUNDAMENTAIS:
+
+✅ FOQUE 100% NA PERGUNTA ESPECÍFICA
+✅ NÃO traga conteúdo aleatório ou tangencial
+✅ NÃO fale de outros temas "relacionados"
+✅ NÃO adicione informações que não respondem à pergunta
+✅ SEMPRE conecte cada informação com a pergunta
+
+EXEMPLOS DO QUE NÃO FAZER:
+
+❌ PERGUNTA: "Qual o prazo para pagamento da rescisão?"
+❌ ERRADO: Falar sobre férias, 13º salário, FGTS, etc.
+✅ CERTO: Falar APENAS sobre prazo de 10 dias, quando inicia, consequências do atraso
+
+❌ PERGUNTA: "Faltei e entreguei declaração de horas, pode descontar?"
+❌ ERRADO: Falar sobre banco de horas, atestados médicos, faltas justificadas em geral
+✅ CERTO: Falar APENAS sobre declaração de horas, se empresa pode descontar, direitos específicos
+
+🎯 TESTE: Antes de incluir qualquer informação, pergunte:
+"Esta informação responde diretamente à pergunta feita?"
+Se NÃO = NÃO inclua!
+
+================================================================================
+🎯 REGRA DE OURO #2: BUSCAR PELO MENOS 10 SUBTEMAS PARA CADA TEMA
 ================================================================================
 
 ⚠️ CRÍTICO: Cada tema deve ser ROBUSTO e COMPLETO!
@@ -372,14 +414,22 @@ TEMA: "Quais são os direitos da gestante no trabalho?"
 ✅ CHECKLIST DE PESQUISA COMPLETA (ANTES DE COMEÇAR A CRIAR)
 ================================================================================
 
-ETAPA 0 - IDENTIFICAÇÃO DE SUBTEMAS (OBRIGATÓRIO!):
-[ ] Listar PELO MENOS 10 subtemas/aspectos diferentes do tema
-[ ] Identificar TODAS as situações possíveis (ex: trabalhado vs indenizado)
-[ ] Identificar TODAS as exceções e casos especiais
-[ ] Identificar diferenças entre lei e prática para cada subtema
-[ ] Verificar se há variações por tipo de contrato
-[ ] Verificar se há variações por tipo de demissão
-[ ] Verificar se há variações por circunstâncias especiais
+ETAPA 0 - FOCO NA PERGUNTA (OBRIGATÓRIO!):
+[ ] Ler a pergunta 3 vezes e entender EXATAMENTE o que está sendo perguntado
+[ ] Identificar a palavra-chave principal da pergunta (ex: "prazo", "declaração", "pode descontar")
+[ ] Listar APENAS subtemas que respondem diretamente à pergunta
+[ ] REJEITAR qualquer subtema que não responda à pergunta específica
+[ ] TESTAR cada subtema: "Este subtema responde à pergunta feita?"
+[ ] Se NÃO responde = NÃO incluir!
+
+ETAPA 0.1 - IDENTIFICAÇÃO DE SUBTEMAS FOCADOS (OBRIGATÓRIO!):
+[ ] Listar PELO MENOS 10 subtemas/aspectos diferentes que respondem à pergunta
+[ ] Identificar TODAS as situações possíveis que respondem à pergunta
+[ ] Identificar TODAS as exceções e casos especiais relacionados à pergunta
+[ ] Identificar diferenças entre lei e prática que respondem à pergunta
+[ ] Verificar se há variações que respondem à pergunta
+[ ] FOCAR APENAS no que foi perguntado
+[ ] NÃO incluir informações "relacionadas" que não respondem diretamente
 
 ETAPA 1 - PESQUISA DE LEGISLAÇÃO:
 [ ] Pesquisar no Planalto TODOS os artigos da CLT sobre o tema
@@ -452,16 +502,35 @@ ETAPA 6 - VALIDAÇÃO CRUZADA:
 ⚠️ SEM LINKS = NÃO PUBLICAR! Links são OBRIGATÓRIOS para credibilidade!
 
 ================================================================================
+🎯 VALIDAÇÃO FINAL - FOCO NA PERGUNTA (OBRIGATÓRIO!)
+================================================================================
+
+ANTES DE PUBLICAR, FAÇA ESTE TESTE:
+
+[ ] ✅ TODA informação incluída responde à pergunta específica?
+[ ] ✅ NÃO há conteúdo aleatório ou tangencial?
+[ ] ✅ CADA subtema está conectado com a pergunta?
+[ ] ✅ CADA lei/súmula/jurisprudência responde à pergunta?
+[ ] ✅ CADA interpretação conecta com a pergunta?
+[ ] ✅ CADA decisão recente é sobre a pergunta específica?
+
+🎯 TESTE FINAL: Leia o tema completo e pergunte:
+"Uma pessoa que fez esta pergunta específica encontrará TODA a resposta aqui?"
+Se NÃO = REVISE e FOQUE MAIS na pergunta!
+
+================================================================================
 🎓 LEMBRE-SE:
 ================================================================================
 
 O OBJETIVO é EDUCAR e EMPODERAR o trabalhador brasileiro!
 
 • Cada tema deve ser COMPLETO e AUTOCONTIDO
+• FOQUE 100% NA PERGUNTA ESPECÍFICA
 • Linguagem ACESSÍVEL sem perder precisão técnica
-• EXEMPLOS PRÁTICOS que fazem sentido no dia a dia
-• ALERTAS sobre fraudes e armadilhas comuns
+• EXEMPLOS PRÁTICOS que respondem à pergunta
+• ALERTAS sobre fraudes e armadilhas relacionadas à pergunta
 • LINKS para fontes oficiais sempre que possível
+• NÃO traga conteúdo aleatório ou tangencial!
 
 ================================================================================
 FIM DO TEMPLATE
