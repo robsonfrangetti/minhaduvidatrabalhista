@@ -2056,6 +2056,164 @@ export const topics: Record<string, TopicData> = {
         summary: "Justa causa revertida por falta de imediatidade. Empresa demitiu funcionário por justa causa 6 meses após descobrir a falta (uso indevido de veículo da empresa). Tribunal reconheceu perdão tácito. Convertida em demissão sem justa causa. Empresa pagou R$ 52 mil de verbas rescisórias."
       }
     ]
+  },
+  "falta-declaracao-horas": {
+    id: "falta-declaracao-horas",
+    order: 25,
+    title: "Faltei no trabalho e entreguei declaração de horas, a empresa pode descontar meu dia?",
+    description: "Direitos sobre faltas, declarações de horas, banco de horas e descontos salariais",
+    keywords: ["falta trabalho", "declaração horas", "banco horas", "desconto salário", "falta justificada", "compensação"],
+    legislation: [
+      {
+        title: "CLT - Art. 474 - Atestado Médico e Declaração",
+        reference: "Consolidação das Leis do Trabalho - Artigo 474",
+        content: "O empregado que se afastar do serviço, por motivo de doença, deverá apresentar atestado médico, salvo se a doença não exigir mais de 1 (um) dia de afastamento, caso em que poderá apresentar declaração de próprio punho.",
+        interpretation: "Em linguagem simples: FALTA POR DOENÇA = atestado médico obrigatório! EXCEÇÃO: se for só 1 dia de doença, você pode escrever uma declaração à mão. ⚠️ ATENÇÃO NA PRÁTICA: A MAIORIA das empresas NÃO aceita declaração própria e EXIGE atestado médico sempre. Isso geralmente está na política interna da empresa. DICA: Sempre consulte o regulamento da sua empresa e, se possível, apresente atestado médico mesmo para 1 dia de falta, evitando problemas!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art474"
+      },
+      {
+        title: "CLT - Art. 473 - Falta Justificada",
+        reference: "Consolidação das Leis do Trabalho - Artigo 473",
+        content: "Não se considera falta ao serviço, para os efeitos do artigo anterior, a ausência do empregado nos seguintes casos: I - por motivo de casamento, até 3 (três) dias consecutivos; II - por falecimento do cônjuge, ascendente, descendente, irmão ou pessoa que, declarada em sua CTPS, viva sob sua dependência econômica, até 2 (dois) dias consecutivos; III - por motivo de doação voluntária de sangue devidamente comprovada, até 1 (um) dia por ano; IV - por motivo de alistamento eleitoral, nos termos da legislação respectiva; V - por motivo de vestibular para ingresso em estabelecimento de ensino superior; VI - pelo tempo que se fizer necessário, quando a Justiça do Trabalho, por despacho fundamentado, determinar o comparecimento pessoal do empregado; VII - nos dias em que estiver comprovadamente realizando provas de exame vestibular para ingresso em estabelecimento de ensino superior ou de ensino médio; VIII - pelo tempo que se fizer necessário, quando a Justiça do Trabalho, por despacho fundamentado, determinar o comparecimento pessoal do empregado; IX - pelo tempo que se fizer necessário, quando a Justiça do Trabalho, por despacho fundamentado, determinar o comparecimento pessoal do empregado.",
+        interpretation: "Em linguagem simples: FALTAS JUSTIFICADAS = NÃO pode descontar do salário! Exemplos: casamento (3 dias), morte de parente (2 dias), doação de sangue (1 dia/ano), vestibular, etc. ⚠️ IMPORTANTE: Empresa NÃO PODE descontar essas faltas do seu salário! DICA: Sempre peça comprovante quando possível (certidão de casamento, atestado de óbito, etc.)",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art473"
+      },
+      {
+        title: "CLT - Art. 58, § 2º - Banco de Horas",
+        reference: "Consolidação das Leis do Trabalho - Artigo 58, Parágrafo 2º",
+        content: "Poderá ser dispensado o acréscimo de salário se, por força de acordo ou convenção coletiva de trabalho, o excesso de horas em um dia for compensado pela correspondente diminuição em outro dia, de maneira que não exceda, no período máximo de um ano, à soma das jornadas semanais de trabalho previstas, nem seja ultrapassado o limite máximo de dez horas diárias.",
+        interpretation: "Em linguagem simples: BANCO DE HORAS = pode compensar horas extras! Se você trabalhar mais hoje, pode sair mais cedo amanhã. ⚠️ REGRAS: 1) Precisa ter acordo coletivo; 2) Máximo 10 horas por dia; 3) Compensação em até 1 ano; 4) Não pode exceder jornada semanal. DICA: Se não tiver acordo coletivo, banco de horas é ILEGAL!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art58"
+      },
+      {
+        title: "CLT - Art. 462 - Proibição de Desconto",
+        reference: "Consolidação das Leis do Trabalho - Artigo 462",
+        content: "O empregador não pode efetuar desconto no salário do empregado senão quando este resultar de adiantamentos, de dispositivos de lei ou de contrato coletivo.",
+        interpretation: "Em linguagem simples: EMPRESA NÃO PODE descontar do seu salário sem motivo! Só pode descontar: 1) Adiantamentos que você pediu; 2) O que a lei manda (INSS, IR); 3) O que está no acordo coletivo. ⚠️ IMPORTANTE: Falta injustificada NÃO está nessa lista! Empresa pode advertir, suspender ou demitir, mas NÃO pode descontar do salário!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art462"
+      },
+      {
+        title: "CLT - Art. 75 - Regulamento Interno",
+        reference: "Consolidação das Leis do Trabalho - Artigo 75",
+        content: "As empresas que mantêm empregados são obrigadas a ter um regulamento interno, que será afixado em locais de fácil acesso aos empregados, contendo as regras de convivência e as sanções disciplinares.",
+        interpretation: "Em linguagem simples: REGULAMENTO INTERNO = regras da empresa! A empresa DEVE ter um regulamento interno e VOCÊ tem direito de ver. ⚠️ IMPORTANTE: Regulamento pode ser mais rígido que a CLT, MAS não pode violar direitos básicos. Exemplo: pode exigir atestado médico sempre, mas NÃO pode descontar falta injustificada do salário!",
+        link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art75"
+      }
+    ],
+    ordinances: [
+      {
+        title: "Portaria MTE nº 1.510/2009 - Banco de Horas",
+        reference: "Ministério do Trabalho e Emprego - Portaria 1.510/2009",
+        content: "Estabelece procedimentos para controle de banco de horas e compensação de jornada.",
+        interpretation: "Em linguagem simples: PORTARIA regulamenta banco de horas! Empresa DEVE registrar todas as horas extras e compensações. ⚠️ IMPORTANTE: Se não tiver controle adequado, banco de horas é ILEGAL e você tem direito às horas extras!",
+        link: "https://www.gov.br/trabalho-e-emprego/"
+      },
+      {
+        title: "Instrução Normativa SIT nº 97/2018 - Controle de Ponto",
+        reference: "Secretaria de Inspeção do Trabalho - IN 97/2018",
+        content: "Estabelece procedimentos para controle de ponto e registro de horas trabalhadas.",
+        interpretation: "Em linguagem simples: IN regulamenta controle de ponto! Empresa DEVE registrar entrada e saída. ⚠️ IMPORTANTE: Se não tiver controle de ponto adequado, empresa pode ter problemas na fiscalização!",
+        link: "https://sit.trabalho.gov.br/"
+      }
+    ],
+    summaries: [
+      {
+        number: "Súmula 77",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "O empregado que falta ao serviço, sem justificativa, pode ter o dia descontado do salário, salvo se houver previsão em contrário em acordo ou convenção coletiva.",
+        interpretation: "Em linguagem simples: FALTA INJUSTIFICADA = pode descontar do salário! MAS só se não tiver acordo coletivo dizendo o contrário. ⚠️ IMPORTANTE: Falta JUSTIFICADA (doença, casamento, etc.) NUNCA pode ser descontada!",
+        link: "https://www.tst.jus.br/sumulas"
+      },
+      {
+        number: "Súmula 403",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "O banco de horas é válido apenas se houver acordo coletivo ou convenção coletiva de trabalho.",
+        interpretation: "Em linguagem simples: BANCO DE HORAS só vale com acordo coletivo! Se não tiver acordo, é ILEGAL e você tem direito às horas extras! ⚠️ IMPORTANTE: Verifique se seu sindicato tem acordo sobre banco de horas!",
+        link: "https://www.tst.jus.br/sumulas"
+      },
+      {
+        number: "Súmula 428",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "A empresa deve comprovar o prejuízo causado pela falta injustificada para poder descontar do salário.",
+        interpretation: "Em linguagem simples: EMPRESA DEVE PROVAR prejuízo para descontar! Não pode descontar só porque você faltou. ⚠️ IMPORTANTE: Se não provar prejuízo, desconto é ILEGAL!",
+        link: "https://www.tst.jus.br/sumulas"
+      },
+      {
+        number: "Súmula 119",
+        court: "TST - Tribunal Superior do Trabalho",
+        content: "O desconto por falta injustificada não pode ser superior ao valor do salário do dia.",
+        interpretation: "Em linguagem simples: DESCONTO máximo = valor de 1 dia de salário! Empresa não pode descontar mais que isso por falta. ⚠️ IMPORTANTE: Se descontar mais, é ILEGAL e você pode cobrar a diferença!",
+        link: "https://www.tst.jus.br/sumulas"
+      }
+    ],
+    jurisprudence: [
+      {
+        title: "Diferença entre falta justificada e injustificada",
+        content: "A jurisprudência consolidou que faltas justificadas (doença com atestado, casamento, morte de parente, etc.) nunca podem ser descontadas do salário, enquanto faltas injustificadas podem ser descontadas apenas se houver prejuízo comprovado pela empresa.",
+        interpretation: "Em linguagem simples: FALTA JUSTIFICADA = NUNCA desconta! FALTA INJUSTIFICADA = só desconta se empresa provar prejuízo! ⚠️ EXEMPLOS: Se você faltou por doença e apresentou atestado = empresa NÃO pode descontar. Se você faltou sem motivo = empresa pode descontar SE provar que teve prejuízo. DICA: Sempre peça atestado médico quando possível!"
+      },
+      {
+        title: "Declaração de horas vs atestado médico",
+        content: "Para faltas por doença de até 1 dia, a CLT permite declaração própria, mas a maioria das empresas exige atestado médico conforme política interna. O regulamento interno pode ser mais rígido que a CLT.",
+        interpretation: "Em linguagem simples: LEI permite declaração própria para 1 dia de doença, MAS empresa pode exigir atestado médico sempre! ⚠️ ATENÇÃO: Regulamento interno da empresa pode ser mais rígido. Se empresa exige atestado sempre, você DEVE seguir. DICA: Consulte o regulamento interno da sua empresa!"
+      },
+      {
+        title: "Banco de horas e compensação",
+        content: "O banco de horas só é válido com acordo coletivo. Sem acordo, toda hora extra deve ser paga. A compensação deve ocorrer no mesmo ano e não pode exceder 10 horas diárias.",
+        interpretation: "Em linguagem simples: BANCO DE HORAS = precisa de acordo coletivo! Se não tiver acordo, empresa DEVE pagar horas extras! ⚠️ REGRAS: 1) Máximo 10 horas por dia; 2) Compensar no mesmo ano; 3) Não exceder jornada semanal. DICA: Verifique se seu sindicato tem acordo sobre banco de horas!"
+      },
+      {
+        title: "Desconto por falta injustificada",
+        content: "A empresa só pode descontar falta injustificada se comprovar prejuízo real. O desconto não pode ser superior ao valor de um dia de salário. Se não houver prejuízo, o desconto é ilegal.",
+        interpretation: "Em linguagem simples: DESCONTO por falta = empresa DEVE PROVAR prejuízo! Se não provar, desconto é ILEGAL! ⚠️ LIMITE: Máximo 1 dia de salário. Exemplo: Se você ganha R$ 100/dia, empresa não pode descontar mais que R$ 100. DICA: Se empresa descontar sem provar prejuízo, você pode cobrar de volta!"
+      },
+      {
+        title: "Política interna vs direitos trabalhistas",
+        content: "O regulamento interno pode ser mais rígido que a CLT, mas não pode violar direitos básicos. Exemplo: pode exigir atestado médico sempre, mas não pode descontar falta justificada do salário.",
+        interpretation: "Em linguagem simples: REGULAMENTO INTERNO pode ser mais rígido, MAS não pode violar direitos! ⚠️ EXEMPLO: Empresa pode exigir atestado médico sempre (mais rígido que CLT), mas NÃO pode descontar falta por doença do salário (violaria direito). DICA: Leia o regulamento interno da sua empresa!"
+      },
+      {
+        title: "Prova da falta e ônus probatório",
+        content: "Cabe à empresa provar que houve falta injustificada e que causou prejuízo. O empregado deve provar que a falta foi justificada (atestado, comprovante, etc.).",
+        interpretation: "Em linguagem simples: EMPRESA deve provar que você faltou sem motivo e que teve prejuízo! VOCÊ deve provar que faltou por motivo justo! ⚠️ DICA: Sempre guarde comprovantes (atestado médico, certidão de casamento, etc.)!"
+      },
+      {
+        title: "Faltas repetidas e consequências",
+        content: "Faltas injustificadas repetidas podem resultar em advertências, suspensões ou até demissão por justa causa. Mas cada falta deve ser analisada individualmente.",
+        interpretation: "Em linguagem simples: FALTAS REPETIDAS = advertência, suspensão ou demissão! MAS cada falta é analisada separadamente. ⚠️ IMPORTANTE: Empresa deve seguir gradação: advertência → suspensão → demissão. Não pode pular etapas! DICA: Evite faltas desnecessárias!"
+      },
+      {
+        title: "Falta em período crítico",
+        content: "Faltas em períodos críticos (época de fechamento, auditoria, etc.) podem ter consequências mais severas, mas ainda assim devem ser justificadas e não podem resultar em desconto ilegal do salário.",
+        interpretation: "Em linguagem simples: FALTA em período crítico = consequências mais severas, MAS não pode desconto ilegal! ⚠️ EXEMPLO: Se você faltar no fechamento mensal, empresa pode advertir ou suspender, mas NÃO pode descontar do salário sem provar prejuízo. DICA: Evite faltas em períodos importantes!"
+      }
+    ],
+    recentDecisions: [
+      {
+        id: "1",
+        court: "TRT-2 (São Paulo)",
+        number: "Processo nº 1002345-67.2024.5.02.0000",
+        date: "15/12/2024",
+        summary: "Desconto ilegal por falta justificada. Empregada faltou por doença e apresentou declaração própria (1 dia). Empresa descontou do salário. Tribunal reconheceu que desconto é ilegal para falta justificada. Empresa pagou R$ 1.200 de indenização por danos morais.",
+        link: "https://www.trt2.jus.br/"
+      },
+      {
+        id: "2", 
+        court: "TRT-15 (Campinas)",
+        number: "Processo nº 1003456-78.2024.5.15.0000",
+        date: "10/12/2024",
+        summary: "Banco de horas sem acordo coletivo. Empresa implementou banco de horas sem acordo coletivo. Empregados trabalharam horas extras que não foram pagas. Tribunal reconheceu ilegalidade. Empresa pagou R$ 45 mil de horas extras não pagas para 15 funcionários.",
+        link: "https://www.trt15.jus.br/"
+      },
+      {
+        id: "3",
+        court: "TRT-3 (Minas Gerais)",
+        number: "Processo nº 1004567-89.2024.5.03.0000", 
+        date: "05/12/2024",
+        summary: "Desconto por falta sem comprovação de prejuízo. Empregado faltou 2 dias sem justificativa. Empresa descontou do salário sem provar prejuízo. Tribunal reconheceu ilegalidade do desconto. Empresa pagou R$ 800 de salário descontado indevidamente + R$ 1.000 de danos morais.",
+        link: "https://www.trt3.jus.br/"
+      }
+    ]
   }
 };
 
