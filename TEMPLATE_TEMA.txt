@@ -343,6 +343,12 @@ TRIBUNAIS:
 
 REGRAS FUNDAMENTAIS:
 
+✅ VALIDE SEMPRE se a lei ainda é válida
+✅ CONFRONTE lei com jurisprudência atual
+✅ VERIFIQUE se há decisões recentes que mudaram entendimento
+✅ CONFIRME se a prática real coincide com a lei
+✅ ALERTE sobre diferenças entre lei e realidade
+
 ✅ FOQUE 100% NA PERGUNTA ESPECÍFICA
 ✅ NÃO traga conteúdo aleatório ou tangencial
 ✅ NÃO fale de outros temas "relacionados"
@@ -362,6 +368,12 @@ EXEMPLOS DO QUE NÃO FAZER:
 🎯 TESTE: Antes de incluir qualquer informação, pergunte:
 "Esta informação responde diretamente à pergunta feita?"
 Se NÃO = NÃO inclua!
+
+🎯 TESTE DE VALIDAÇÃO: Para cada lei/súmula/jurisprudência:
+"Esta lei ainda é válida e aplicada na prática?"
+"Existe jurisprudência recente que mudou este entendimento?"
+"A prática real das empresas coincide com esta lei?"
+Se NÃO = ALERTAR sobre a diferença entre lei e prática!
 
 ================================================================================
 🎯 REGRA DE OURO #2: BUSCAR PELO MENOS 10 SUBTEMAS PARA CADA TEMA
@@ -472,6 +484,15 @@ ETAPA 6 - VALIDAÇÃO CRUZADA:
 [ ] Ler comentários em artigos especializados
 [ ] Verificar se há atualizações recentes (reformas, novas leis)
 
+ETAPA 7 - VALIDAÇÃO CRÍTICA (OBRIGATÓRIO!):
+[ ] CONFRONTAR cada lei com jurisprudência recente
+[ ] VERIFICAR se há decisões que mudaram entendimento
+[ ] CONFIRMAR se a prática real coincide com a lei
+[ ] ALERTAR sobre diferenças entre lei e realidade
+[ ] VERIFICAR se empresas realmente seguem a lei
+[ ] BUSCAR casos reais onde a lei não foi aplicada
+[ ] VALIDAR se a interpretação está correta
+
 ⚠️ SÓ COMECE A CRIAR O TEMA DEPOIS DE COMPLETAR TODAS AS ETAPAS!
 
 ================================================================================
@@ -499,7 +520,17 @@ ETAPA 6 - VALIDAÇÃO CRUZADA:
 [ ] ✅ Verificar que TODOS os links estão funcionando
 [ ] ✅ Links levam DIRETO ao artigo/súmula (não página genérica)
 
+🔍 CHECKLIST DE VALIDAÇÃO CRÍTICA (OBRIGATÓRIO!):
+[ ] ✅ CADA lei foi confrontada com jurisprudência recente
+[ ] ✅ VERIFICADO se há decisões que mudaram entendimento
+[ ] ✅ CONFIRMADO se a prática real coincide com a lei
+[ ] ✅ ALERTADO sobre diferenças entre lei e realidade
+[ ] ✅ VERIFICADO se empresas realmente seguem a lei
+[ ] ✅ VALIDADO se a interpretação está correta
+[ ] ✅ NÃO há informações que podem gerar problemas legais
+
 ⚠️ SEM LINKS = NÃO PUBLICAR! Links são OBRIGATÓRIOS para credibilidade!
+⚠️ SEM VALIDAÇÃO = NÃO PUBLICAR! Pode gerar problemas graves!
 
 ================================================================================
 🎯 VALIDAÇÃO FINAL - FOCO NA PERGUNTA (OBRIGATÓRIO!)

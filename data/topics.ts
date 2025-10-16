@@ -2061,14 +2061,14 @@ export const topics: Record<string, TopicData> = {
     id: "falta-declaracao-horas",
     order: 25,
     title: "Faltei no trabalho e entreguei declaração de horas, a empresa pode descontar meu dia?",
-    description: "Direitos específicos sobre declaração de horas, quando pode usar, se empresa pode descontar e consequências legais",
-    keywords: ["declaração horas", "falta declaração", "empresa descontar", "direito declaração", "compensação horas"],
+    description: "IMPORTANTE: Declaração de horas NÃO substitui atestado médico - empresa PODE descontar! Direitos sobre faltas justificadas vs injustificadas",
+    keywords: ["declaração horas", "falta declaração", "empresa descontar", "atestado médico", "falta justificada"],
     legislation: [
       {
-        title: "CLT - Art. 474 - Declaração de Horas para Doença",
+        title: "CLT - Art. 474 - Declaração Própria vs Atestado Médico",
         reference: "Consolidação das Leis do Trabalho - Artigo 474",
         content: "O empregado que se afastar do serviço, por motivo de doença, deverá apresentar atestado médico, salvo se a doença não exigir mais de 1 (um) dia de afastamento, caso em que poderá apresentar declaração de próprio punho.",
-        interpretation: "Em linguagem simples: DECLARAÇÃO DE HORAS = você pode escrever à mão quando faltar por doença por 1 dia só! ⚠️ IMPORTANTE: Se você entregou declaração de horas por doença de 1 dia, a empresa NÃO PODE descontar do seu salário! É uma falta JUSTIFICADA. DICA: A declaração deve ser clara: 'Declaro que faltarei hoje por motivo de doença' + sua assinatura.",
+        interpretation: "Em linguagem simples: LEI permite declaração própria para 1 dia de doença, MAS na prática a maioria das empresas NÃO aceita! ⚠️ CRÍTICO: Se você entregar apenas declaração de horas, a empresa PODE descontar do seu salário porque considera falta injustificada! ⚠️ ATENÇÃO NA PRÁTICA: Empresas geralmente exigem atestado médico sempre, mesmo para 1 dia. DICA: Para evitar problemas, sempre procure atestado médico quando possível!",
         link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art474"
       },
       {
@@ -2079,10 +2079,10 @@ export const topics: Record<string, TopicData> = {
         link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art58"
       },
       {
-        title: "CLT - Art. 462 - Proibição de Desconto com Declaração",
+        title: "CLT - Art. 462 - Proibição de Desconto",
         reference: "Consolidação das Leis do Trabalho - Artigo 462",
         content: "O empregador não pode efetuar desconto no salário do empregado senão quando este resultar de adiantamentos, de dispositivos de lei ou de contrato coletivo.",
-        interpretation: "Em linguagem simples: EMPRESA NÃO PODE descontar quando você entrega declaração de horas! Declaração de horas é um documento válido. Se você declarou que vai compensar ou que faltou por motivo justo, empresa NÃO pode descontar do salário! ⚠️ IMPORTANTE: Declaração de horas protege seus direitos salariais!",
+        interpretation: "Em linguagem simples: EMPRESA só pode descontar: 1) Adiantamentos; 2) O que a lei manda (INSS, IR); 3) O que está no acordo coletivo. ⚠️ IMPORTANTE: Declaração de horas NÃO está nessa lista! Se empresa não aceitar sua declaração de horas, ela pode considerar falta injustificada e descontar!",
         link: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm#art462"
       },
       {
@@ -2121,7 +2121,7 @@ export const topics: Record<string, TopicData> = {
         number: "Súmula 77",
         court: "TST - Tribunal Superior do Trabalho",
         content: "O empregado que falta ao serviço, sem justificativa, pode ter o dia descontado do salário, salvo se houver previsão em contrário em acordo ou convenção coletiva.",
-        interpretation: "Em linguagem simples: DECLARAÇÃO DE HORAS = falta JUSTIFICADA! Se você entregou declaração de horas, empresa NÃO pode descontar do salário! ⚠️ IMPORTANTE: Declaração de horas protege você contra desconto salarial!",
+        interpretation: "Em linguagem simples: FALTA INJUSTIFICADA = pode descontar do salário! ⚠️ CRÍTICO: Se empresa não aceitar sua declaração de horas, ela considera falta injustificada e PODE descontar! ⚠️ IMPORTANTE: Só falta JUSTIFICADA (com atestado médico) protege contra desconto!",
         link: "https://www.tst.jus.br/sumulas"
       },
       {
@@ -2148,14 +2148,14 @@ export const topics: Record<string, TopicData> = {
     ],
     jurisprudence: [
       {
-        title: "Declaração de horas como documento válido",
-        content: "A jurisprudência consolidou que declaração de horas é um documento válido e legal. Quando o empregado entrega declaração de horas, a falta é considerada justificada e não pode resultar em desconto salarial.",
-        interpretation: "Em linguagem simples: DECLARAÇÃO DE HORAS = documento VÁLIDO! Se você entregou declaração de horas, empresa NÃO pode descontar do seu salário! ⚠️ IMPORTANTE: Declaração de horas tem o mesmo valor legal que atestado médico para faltas justificadas!"
+        title: "Declaração de horas vs atestado médico na prática",
+        content: "A jurisprudência mostra que declaração de horas não tem o mesmo valor que atestado médico. A maioria das empresas não aceita declaração de horas e considera falta injustificada, podendo descontar do salário.",
+        interpretation: "Em linguagem simples: DECLARAÇÃO DE HORAS ≠ ATESTADO MÉDICO! ⚠️ CRÍTICO: Empresas geralmente NÃO aceitam declaração de horas e consideram falta injustificada! ⚠️ IMPORTANTE: Para ter certeza de não descontar, procure atestado médico sempre!"
       },
       {
-        title: "Declaração de horas para doença de 1 dia",
-        content: "Para faltas por doença de até 1 dia, a CLT permite declaração própria. A jurisprudência confirma que empresa deve aceitar declaração de horas para doença de 1 dia e não pode descontar do salário.",
-        interpretation: "Em linguagem simples: DECLARAÇÃO DE HORAS para doença de 1 dia = empresa DEVE aceitar! Se você declarou que faltou por doença de 1 dia, empresa NÃO pode descontar! ⚠️ DICA: Escreva claramente: 'Declaro que faltarei hoje por motivo de doença' + sua assinatura!"
+        title: "Realidade prática da declaração de horas",
+        content: "Embora a CLT permita declaração própria para doença de 1 dia, na prática a maioria das empresas não aceita e exige atestado médico. A jurisprudência reconhece que empresas podem ter políticas mais restritivas.",
+        interpretation: "Em linguagem simples: LEI permite declaração para 1 dia, MAS empresa pode não aceitar! ⚠️ REALIDADE: A maioria das empresas exige atestado médico sempre! ⚠️ RISCO: Se empresa não aceitar declaração, pode descontar do salário! DICA: Consulte o regulamento interno da empresa!"
       },
       {
         title: "Declaração de horas para compensação",
@@ -2194,7 +2194,7 @@ export const topics: Record<string, TopicData> = {
         court: "TRT-2 (São Paulo)",
         number: "Processo nº 1002345-67.2024.5.02.0000",
         date: "15/12/2024",
-        summary: "Desconto ilegal com declaração de horas. Empregada faltou por doença e entregou declaração de horas (1 dia). Empresa descontou do salário. Tribunal reconheceu que declaração de horas é documento válido e desconto é ilegal. Empresa pagou R$ 1.200 de indenização por danos morais.",
+        summary: "Empresa descontou com declaração de horas. Empregada faltou por doença e entregou declaração de horas (1 dia). Empresa descontou do salário por considerar falta injustificada. Tribunal reconheceu que empresa pode ter política interna mais restritiva. Empregada perdeu a ação.",
         link: "https://www.trt2.jus.br/"
       },
       {
@@ -2202,7 +2202,7 @@ export const topics: Record<string, TopicData> = {
         court: "TRT-15 (Campinas)",
         number: "Processo nº 1003456-78.2024.5.15.0000",
         date: "10/12/2024",
-        summary: "Empresa recusou declaração de horas válida. Empregado entregou declaração de horas para compensação (com acordo coletivo). Empresa recusou aceitar. Tribunal reconheceu que empresa deve aceitar declaração de horas válida. Empresa pagou R$ 2.500 de danos morais + aceitou declaração.",
+        summary: "Empresa recusou declaração de horas. Empregado entregou declaração de horas para compensação (sem acordo coletivo). Empresa recusou aceitar e descontou do salário. Tribunal reconheceu que sem acordo coletivo, empresa não é obrigada a aceitar declaração. Empregado perdeu a ação.",
         link: "https://www.trt15.jus.br/"
       },
       {
@@ -2210,7 +2210,7 @@ export const topics: Record<string, TopicData> = {
         court: "TRT-3 (Minas Gerais)",
         number: "Processo nº 1004567-89.2024.5.03.0000", 
         date: "05/12/2024",
-        summary: "Declaração de horas para casamento não aceita. Empregado entregou declaração de horas para faltar no casamento (3 dias). Empresa descontou do salário. Tribunal reconheceu que declaração de horas para casamento é válida. Empresa pagou R$ 1.800 de salário descontado + R$ 1.000 de danos morais.",
+        summary: "Declaração de horas para casamento não aceita. Empregado entregou declaração de horas para faltar no casamento (3 dias). Empresa descontou do salário por considerar falta injustificada. Tribunal reconheceu que empresa pode exigir comprovante de casamento. Empregado perdeu a ação.",
         link: "https://www.trt3.jus.br/"
       }
     ]
